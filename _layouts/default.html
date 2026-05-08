@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description | strip_html | strip_newlines }}">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  </head>
+  <body class="layout-{{ page.layout | default: 'default' }}{% if page.section %} section-{{ page.section }}{% endif %}">
+    {% include header.html %}
+    <main id="main" class="site-shell {% if page.show_sidebar %}has-sidebar{% endif %}">
+      {% if page.show_sidebar %}
+        {% include sidebar.html section=page.section %}
+      {% endif %}
+      <article class="content-panel">
+        {% include breadcrumbs.html %}
+        {{ content }}
+      </article>
+    </main>
+    {% include footer.html %}
+    <script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
+  </body>
+</html>
