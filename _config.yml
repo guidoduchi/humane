@@ -1,0 +1,23 @@
+title: Humane
+subtitle: Official Wiki
+email: ""
+description: >-
+  Official protected wiki and lore repository for Humane, a scientifically realistic mythic novel project by Guido Duchi.
+baseurl: "/humane"
+url: "https://guidoduchi.github.io"
+lang: en
+
+markdown: kramdown
+theme: null
+permalink: pretty
+
+collections: {}
+
+exclude:
+  - README.md
+
+copyright:
+  owner: Guido Duchi
+  year: 2026
+  license_name: Humane Repository Viewing License
+  license_url: /LICENSE.md
