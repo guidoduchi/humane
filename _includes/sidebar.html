@@ -1,0 +1,21 @@
+{% assign current_section = include.section | default: page.section %}
+{% assign sidebar = site.data.navigation.sections[current_section] %}
+{% if sidebar %}
+  <aside class="sidebar" aria-label="{{ sidebar.title }} navigation">
+    <div class="sidebar-card">
+      <a class="sidebar-title" href="{{ sidebar.url | relative_url }}">{{ sidebar.title }}</a>
+      {% for group in sidebar.groups %}
+        <section class="sidebar-group">
+          <h2>{{ group.title }}</h2>
+          <ul>
+            {% for link in group.links %}
+              <li>
+                <a href="{{ link.url | relative_url }}" {% if page.url == link.url %}aria-current="page"{% endif %}>{{ link.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        </section>
+      {% endfor %}
+    </div>
+  </aside>
+{% endif %}
