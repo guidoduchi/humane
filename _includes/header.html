@@ -1,0 +1,28 @@
+<header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="Humane home">
+      <span class="brand-mark">H</span>
+      <span class="brand-text">Humane</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+      Menu
+    </button>
+
+    <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+      {% for item in site.data.navigation.main %}
+        <div class="nav-item{% if item.children %} has-dropdown{% endif %}">
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% if item.children %}
+            <div class="nav-dropdown" aria-label="{{ item.title }} submenu">
+              {% for child in item.children %}
+                <a href="{{ child.url | relative_url }}">{{ child.title }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
