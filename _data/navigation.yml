@@ -1,0 +1,192 @@
+main:
+  - title: Home
+    url: /
+  - title: History
+    url: /history/
+    key: history
+    children:
+      - title: Bronze Age Collapse
+        url: /history/bronze-age-collapse/
+  - title: Characters
+    url: /characters/
+    key: characters
+    children:
+      - title: Main Crew
+        url: /characters/main-crew/
+      - title: Adults
+        url: /characters/adults/
+      - title: Antagonists
+        url: /characters/antagonists/
+  - title: Research
+    url: /research/
+    key: research
+    children:
+      - title: Physics
+        url: /research/physics/
+      - title: Chemistry
+        url: /research/chemistry/
+      - title: Biology Research
+        url: /research/biology/
+  - title: World
+    url: /world/
+    key: world
+    children:
+      - title: Civilizations
+        url: /world/civilizations/
+      - title: Locations
+        url: /world/locations/
+      - title: Rituals & Culture
+        url: /world/rituals-culture/
+  - title: Biology
+    url: /biology/
+    key: biology
+    children:
+      - title: Flora
+        url: /biology/flora/
+      - title: Fauna
+        url: /biology/fauna/
+      - title: Fungi
+        url: /biology/fungi/
+  - title: Technology
+    url: /technology/
+    key: technology
+    children:
+      - title: Singularity
+        url: /technology/singularity/
+      - title: Weapons
+        url: /technology/weapons/
+      - title: Tools & Equipment
+        url: /technology/tools/
+  - title: Glossary
+    url: /glossary/
+    key: glossary
+
+sections:
+  history:
+    title: History
+    url: /history/
+    groups:
+      - title: Historical Context
+        links:
+          - title: Bronze Age Collapse
+            url: /history/bronze-age-collapse/
+  characters:
+    title: Characters
+    url: /characters/
+    groups:
+      - title: Main Crew
+        links:
+          - title: Erlen Dhalmurr
+            url: /characters/main-crew/erlen-dhalmurr/
+          - title: Wyll
+            url: /characters/main-crew/wyll/
+          - title: Alessia Odrinlyr
+            url: /characters/main-crew/alessia-odrinlyr/
+          - title: Muyu Rumi
+            url: /characters/main-crew/muyu-rumi/
+      - title: Adults
+        links:
+          - title: Katlas Vhormirr
+            url: /characters/adults/katlas-vhormirr/
+          - title: Maedra Dhalmurr
+            url: /characters/adults/maedra-dhalmurr/
+          - title: Senara Dhalmurr
+            url: /characters/adults/senara-dhalmurr/
+      - title: Antagonists
+        links:
+          - title: Parka
+            url: /characters/antagonists/parka/
+  research:
+    title: Research
+    url: /research/
+    groups:
+      - title: Physics
+        links:
+          - title: Singularity Physics
+            url: /research/physics/singularity/
+          - title: Time Dilation
+            url: /research/physics/time-dilation/
+          - title: Aurora Borealis
+            url: /research/physics/aurora-borealis/
+      - title: Chemistry
+        links:
+          - title: Ash, Resin, and Pigments
+            url: /research/chemistry/ash-resin-pigments/
+      - title: Biological Systems
+        links:
+          - title: Bioelectric Compatibility
+            url: /research/biology/bioelectric-compatibility/
+  world:
+    title: World
+    url: /world/
+    groups:
+      - title: Civilizations
+        links:
+          - title: Pritana
+            url: /world/civilizations/pritana/
+          - title: Kelta
+            url: /world/civilizations/kelta/
+          - title: Northics
+            url: /world/civilizations/northics/
+          - title: Machalilla
+            url: /world/civilizations/machalilla/
+      - title: Locations
+        links:
+          - title: Vahllalhag
+            url: /world/locations/vahllalhag/
+          - title: Sharrah Pool
+            url: /world/locations/sharrah-pool/
+      - title: Rituals & Culture
+        links:
+          - title: Ash and Resin Marks
+            url: /world/rituals-culture/ash-resin-marks/
+  biology:
+    title: Biology
+    url: /biology/
+    groups:
+      - title: Flora
+        links:
+          - title: Flora Index
+            url: /biology/flora/
+      - title: Fauna
+        links:
+          - title: Ollie
+            url: /biology/fauna/ollie/
+          - title: Pigloo
+            url: /biology/fauna/pigloo/
+      - title: Fungi
+        links:
+          - title: Fungi Index
+            url: /biology/fungi/
+  technology:
+    title: Technology
+    url: /technology/
+    groups:
+      - title: Singularity
+        links:
+          - title: Star Piece
+            url: /technology/singularity/star-piece/
+          - title: The Entity and iMaedra
+            url: /technology/singularity/the-entity-imaedra/
+          - title: The Threshold
+            url: /technology/singularity/the-threshold/
+          - title: Seven Fragments
+            url: /technology/singularity/seven-fragments/
+      - title: Weapons
+        links:
+          - title: Gungnir
+            url: /technology/weapons/gungnir/
+      - title: Tools & Equipment
+        links:
+          - title: Bronze Axe
+            url: /technology/tools/bronze-axe/
+          - title: Pottery
+            url: /technology/tools/pottery/
+  glossary:
+    title: Glossary
+    url: /glossary/
+    groups:
+      - title: Terms
+        links:
+          - title: Terms Index
+            url: /glossary/terms/
