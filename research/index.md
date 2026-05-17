@@ -11,10 +11,11 @@ breadcrumbs:
 
 # Research
 
-Research pages explain the real physical, chemical, biological, astronomical, and technological phenomena that _Humane_ transforms into story.
+Research pages explain the real historical, physical, chemical, biological, astronomical, and technological phenomena that _Humane_ transforms into story.
 
 <div class="grid-cards">
+  <a class="card" href="{{ '/research/history/' | relative_url }}"><h2>History</h2><p>Bronze Age collapse, Bell Beakers, migrations, naming, trade evidence, and cultural origins.</p></a>
   <a class="card" href="{{ '/research/physics/' | relative_url }}"><h2>Physics</h2><p>Gravity, time dilation, auroras, field effects, and Singularity mechanics.</p></a>
-  <a class="card" href="{{ '/research/chemistry/' | relative_url }}"><h2>Chemistry</h2><p>Materials, pigments, ash, resin, bronze, ceramics, and reactions.</p></a>
-  <a class="card" href="{{ '/research/biology/' | relative_url }}"><h2>Biology Research</h2><p>Bioelectricity, adaptation, ecology, healing, and living systems.</p></a>
+  <a class="card" href="{{ '/research/chemistry/' | relative_url }}"><h2>Chemistry</h2><p>Elements, compounds, forms, phases, alloys, pigments, ash, resin, bronze, ceramics, and reactions.</p></a>
+  <a class="card" href="{{ '/research/biology/' | relative_url }}"><h2>Biology</h2><p>Flora, fauna, fungi, bioelectricity, adaptation, ecology, healing, and living systems.</p></a>
 </div>
