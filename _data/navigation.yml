@@ -1,12 +1,6 @@
 main:
   - title: Home
     url: /
-  - title: History
-    url: /history/
-    key: history
-    children:
-      - title: Bronze Age Collapse
-        url: /history/bronze-age-collapse/
   - title: Characters
     url: /characters/
     key: characters
@@ -21,11 +15,13 @@ main:
     url: /research/
     key: research
     children:
+      - title: History
+        url: /research/history/
       - title: Physics
         url: /research/physics/
       - title: Chemistry
         url: /research/chemistry/
-      - title: Biology Research
+      - title: Biology
         url: /research/biology/
   - title: World
     url: /world/
@@ -37,16 +33,6 @@ main:
         url: /world/locations/
       - title: Rituals & Culture
         url: /world/rituals-culture/
-  - title: Biology
-    url: /biology/
-    key: biology
-    children:
-      - title: Flora
-        url: /biology/flora/
-      - title: Fauna
-        url: /biology/fauna/
-      - title: Fungi
-        url: /biology/fungi/
   - title: Technology
     url: /technology/
     key: technology
@@ -62,14 +48,6 @@ main:
     key: glossary
 
 sections:
-  history:
-    title: History
-    url: /history/
-    groups:
-      - title: Historical Context
-        links:
-          - title: Bronze Age Collapse
-            url: /history/bronze-age-collapse/
   characters:
     title: Characters
     url: /characters/
@@ -100,6 +78,18 @@ sections:
     title: Research
     url: /research/
     groups:
+      - title: History
+        links:
+          - title: Bronze Age Collapse
+            url: /research/history/bronze-age-collapse/
+          - title: Bell Beakers
+            url: /research/history/bell-beakers/
+          - title: Migration
+            url: /research/history/migration/
+          - title: Pritana Greek Origin Name
+            url: /research/history/pritana-greek-origin-name/
+          - title: Pritani Tin Trade Evidence
+            url: /research/history/pritani-tin-trade-evidence/
       - title: Physics
         links:
           - title: Singularity Physics
@@ -110,10 +100,24 @@ sections:
             url: /research/physics/aurora-borealis/
       - title: Chemistry
         links:
+          - title: Elements
+            url: /research/chemistry/elements/
+          - title: Compounds
+            url: /research/chemistry/compounds/
+          - title: Forms & Phases
+            url: /research/chemistry/forms-phases/
+          - title: Alloys
+            url: /research/chemistry/alloys/
           - title: Ash, Resin, and Pigments
             url: /research/chemistry/ash-resin-pigments/
-      - title: Biological Systems
+      - title: Biology
         links:
+          - title: Flora
+            url: /research/biology/flora/
+          - title: Fauna
+            url: /research/biology/fauna/
+          - title: Fungi
+            url: /research/biology/fungi/
           - title: Bioelectric Compatibility
             url: /research/biology/bioelectric-compatibility/
   world:
@@ -140,24 +144,6 @@ sections:
         links:
           - title: Ash and Resin Marks
             url: /world/rituals-culture/ash-resin-marks/
-  biology:
-    title: Biology
-    url: /biology/
-    groups:
-      - title: Flora
-        links:
-          - title: Flora Index
-            url: /biology/flora/
-      - title: Fauna
-        links:
-          - title: Ollie
-            url: /biology/fauna/ollie/
-          - title: Pigloo
-            url: /biology/fauna/pigloo/
-      - title: Fungi
-        links:
-          - title: Fungi Index
-            url: /biology/fungi/
   technology:
     title: Technology
     url: /technology/
