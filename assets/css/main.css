@@ -25,6 +25,24 @@ body {
   line-height: 1.65;
 }
 
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: .65rem;
+}
+
 a { color: var(--link); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
@@ -34,7 +52,8 @@ a:hover { text-decoration: underline; }
   top: 0;
 }
 
-.skip-link:focus {
+.skip-link:focus,
+.skip-link:focus-visible {
   left: 1rem;
   top: 1rem;
   z-index: 1000;
@@ -42,6 +61,7 @@ a:hover { text-decoration: underline; }
   color: #101010;
   padding: .5rem .75rem;
   border-radius: .5rem;
+  outline: none;
 }
 
 .site-header {
