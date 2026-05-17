@@ -1,0 +1,41 @@
+/*
+  Dropdown stability fixes
+  ------------------------
+  Keeps desktop dropdowns inside the viewport and removes the fragile hover gap
+  between top-level navigation items and their dropdown panels.
+*/
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+@supports (overflow: clip) {
+  html,
+  body {
+    overflow-x: clip;
+  }
+}
+
+@media (min-width: 901px) {
+  .nav-dropdown {
+    top: 100%;
+    z-index: 200;
+    max-width: min(18rem, calc(100vw - 2rem));
+    padding-top: .65rem;
+  }
+
+  .nav-dropdown::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -.55rem;
+    height: .55rem;
+  }
+
+  .primary-nav > .nav-item:nth-last-child(-n + 4) .nav-dropdown {
+    left: auto;
+    right: 0;
+  }
+}
