@@ -12,25 +12,17 @@ breadcrumbs:
 </section>
 
 <section class="grid-cards" aria-label="Main wiki sections">
-  <a class="card" href="{{ '/history/' | relative_url }}">
-    <h2>History</h2>
-    <p>Timelines, Bronze Age collapse context, migrations, climate pressure, and historical anchors.</p>
-  </a>
   <a class="card" href="{{ '/characters/' | relative_url }}">
     <h2>Characters</h2>
     <p>Profiles, arcs, relationships, Hyper Abilities, and major emotional roles.</p>
   </a>
   <a class="card" href="{{ '/research/' | relative_url }}">
     <h2>Research</h2>
-    <p>Physics, chemistry, biology, astronomy, and the real phenomena beneath the wonder.</p>
+    <p>History, physics, chemistry, biology, astronomy, and the real phenomena beneath the wonder.</p>
   </a>
   <a class="card" href="{{ '/world/' | relative_url }}">
     <h2>World</h2>
-    <p>Civilizations, locations, rituals, trade, politics, and daily life.</p>
-  </a>
-  <a class="card" href="{{ '/biology/' | relative_url }}">
-    <h2>Biology</h2>
-    <p>Flora, fauna, fungi, ecology, ancient dogs, forests, and living systems.</p>
+    <p>In-universe civilizations, locations, rituals, trade, politics, and daily life.</p>
   </a>
   <a class="card" href="{{ '/technology/' | relative_url }}">
     <h2>Technology</h2>
