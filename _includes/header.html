@@ -13,7 +13,14 @@
     <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
       {% for item in site.data.navigation.main %}
         <div class="nav-item{% if item.children %} has-dropdown{% endif %}">
-          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          <div class="nav-item-topline">
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+            {% if item.children %}
+              <button class="submenu-toggle" type="button" aria-expanded="false" aria-label="Toggle {{ item.title }} submenu">
+                <span aria-hidden="true">⌄</span>
+              </button>
+            {% endif %}
+          </div>
           {% if item.children %}
             <div class="nav-dropdown" aria-label="{{ item.title }} submenu">
               {% for child in item.children %}
