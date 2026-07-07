@@ -1,0 +1,113 @@
+{
+  "id": "NAR-HUMANE-CORE-001",
+  "name": "Humane Core Narrator",
+  "version": "0.1.1",
+  "status": "draft_canon_calibrated_after_chapter_0_review",
+  "scope": "Book 1 narrator design, with emphasis on Chapter 0, Katlas-focused deadpan, and the pre-Star Piece state.",
+  "core_answer": "Humane uses a close third-person, modern-cinematic narrative interface observing an ancient world. Its modern quality is a readability layer, not a worldbuilding layer.",
+  "calibration_update": "Chapter 0 confirms that Humane should not use a purely ancient narrator. Katlas-focused narration may be deadpan because Katlas is deadpan. Keep the modern cinematic deadpan, but make sure it feels borrowed from Katlas rather than imposed over the whole world.",
+  "core_identity": {
+    "narration_mode": "third_person_close_with_selective_widening",
+    "reader_facing_style": "modern_cinematic_accessibility",
+    "world_facing_imagery": "bronze_age_material_grounding",
+    "knowledge_access": "human_limited_before_star_piece_expanded_but_restrained_after",
+    "emotional_posture": [
+      "warm",
+      "grave",
+      "curious",
+      "tactful",
+      "adaptive_to_focal_character"
+    ],
+    "reader_relationship": "implicit_companionship_no_direct_address",
+    "forbidden_default_modes": [
+      "lore_lecture",
+      "cosmic_exposition",
+      "detached_narrator_comedy",
+      "broken_focal_lens"
+    ]
+  },
+  "focal_lens_profiles": [
+    {
+      "character": "Katlas",
+      "texture": "dry_practical_suspicious_protective_emotionally_evasive",
+      "humor_rule": "Deadpan is allowed when it feels like Katlas's practical pessimism leaking into narration."
+    },
+    {
+      "character": "Erlen",
+      "texture": "quick_curious_defensive_wonder_prone_hungry_for_respect",
+      "humor_rule": "Humor may come from overconfidence meeting reality."
+    },
+    {
+      "character": "Ayka",
+      "texture": "sharp_analytic_self_forging_socially_precise",
+      "humor_rule": "Humor can feel precise or cutting, but the narrator should not mock her."
+    },
+    {
+      "character": "Arceis",
+      "texture": "muscular_proud_status_aware_physically_confident",
+      "humor_rule": "Reveal insecurity through detail rather than accusation."
+    },
+    {
+      "character": "Wyll",
+      "texture": "sensorily_alert_pressured_watchful_easily_overloaded_but_perceptive",
+      "humor_rule": "Avoid reducing him to fragility; show perception as strength."
+    },
+    {
+      "character": "Idris",
+      "texture": "tactile_symbolic_inward_object_centered",
+      "humor_rule": "Let mystery gather around what she carries and touches."
+    },
+    {
+      "character": "Alessia",
+      "texture": "self_possessed_socially_aware_controlled_polished_but_not_cold",
+      "humor_rule": "Respect her self-making; avoid reducing her to defiance."
+    }
+  ],
+  "material_grounding": [
+    "ash",
+    "wool",
+    "stone",
+    "wood",
+    "water",
+    "fire",
+    "bone",
+    "mud",
+    "blood",
+    "smoke",
+    "breath",
+    "resin"
+  ],
+  "rhythm_rule": {
+    "short": "pain_shock_threat_shame_recognition",
+    "medium": "movement_work_dialogue_pressure_practical_action",
+    "long": "wonder_ritual_landscape_complex_social_observation",
+    "principle": "Short is pain. Medium is motion. Long is wonder."
+  },
+  "humor_boundaries": {
+    "allowed": [
+      "Katlas_filtered_deadpan",
+      "dry_timing",
+      "suspicious_observations",
+      "practical_contradiction",
+      "underplayed_emotional_weight"
+    ],
+    "risky": [
+      "every_paragraph_ending_in_a_joke",
+      "humor_that_ignores_danger_ritual_or_grief",
+      "modern_jokes_external_to_the_focal_lens",
+      "cleverness_that_makes_the_narrator_sound_like_a_comedian_outside_the_scene"
+    ]
+  },
+  "disclosure_rule": "Before the Star Piece, the narrator must not explain the machinery beneath reality. It may show symptoms, patterns, pressure, and consequences. After the Star Piece, precision is allowed only when earned by the scene and focal character.",
+  "chapter_0_confirmation": {
+    "consistent_elements": [
+      "Katlas_as_focal_deadpan_lens",
+      "cinematic_opening_movement",
+      "Bronze_Age_textures",
+      "ritual_shown_through_action",
+      "emotional_pressure_around_orphans_and_family_markings"
+    ],
+    "main_refinement_risk": "If every beat becomes witty, the narrator may detach from Katlas and become an external comic voice."
+  },
+  "canon_decision_summary": "The narrator of Humane is not a lecturer, hidden god, or detached comedian. It is an adaptive, disciplined witness with a modern cinematic interface."
+}
