@@ -1,29 +1,34 @@
 {
   "id": "NAR-HUMANE-CORE-001",
   "name": "Humane Core Narrator",
-  "version": "0.1.3",
-  "status": "draft_canon_respectfully_refined_after_chapter_0_narrator_calibration",
-  "scope": "Book 1 narrator design, with emphasis on Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational tone, interactive detail, and the pre-Star-Piece state.",
+  "version": "0.1.4",
+  "status": "draft_canon_respectfully_refined_after_chapter_0_narrator_calibration_and_curiosity_chain_discovery",
+  "scope": "Book 1 narrator design, with emphasis on Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational tone, interactive detail, question-answer revelation, and the pre-Star-Piece state.",
   "core_answer": "Humane uses a close third-person, modern-cinematic narrative interface observing an ancient world. Its modern quality is a readability layer, not a worldbuilding layer. The world remains Bronze Age in its materials, pressures, rituals, tools, dangers, and social logic.",
   "adaptation_dimensions": [
     {
       "dimension": "focal_character",
-      "definition": "Whose mind, body, fear, pride, humor, or hunger colors the scene."
+      "definition": "Whose attention, humor, fear, pride, or longing colors the scene."
     },
     {
       "dimension": "situation",
-      "definition": "What the scene itself is doing: morning, celebration, danger, pursuit, wonder, grief, ritual, exhaustion, intimacy, or horror."
+      "definition": "What the scene itself is doing: morning, celebration, danger, pursuit, wonder, grief, ritual, exhaustion, intimacy, or dread."
     },
     {
       "dimension": "attention",
       "definition": "Which active details the moment makes unavoidable, and how those details touch, interrupt, reveal, or change one another."
+    },
+    {
+      "dimension": "curiosity_chain",
+      "definition": "What question each sentence answers, what deeper question it raises, and what emotional residue it leaves behind."
     }
   ],
   "calibration_update": {
     "modern_cinematic_access": "Humane should not use a purely ancient narrator. It uses modern rhythm and cinematic clarity so the reader can enter the scene quickly, while keeping the world materially Bronze Age.",
     "katlas_deadpan": "Katlas-focused narration may become deadpan because Katlas is deadpan. The humor should feel borrowed from Katlas, not imposed by an external comedian.",
-    "situational_filter": "The situation tunes the instrument. Morning excitement should brighten the prose. Ritual should slow and thicken it. Danger should narrow it. Horror should make the reader breathe less comfortably.",
-    "attention_rule": "The narrator loves details, but not decorative catalogues. It follows active details that move, interrupt, reveal, mislead, comfort, threaten, embarrass, or change the pressure of the scene."
+    "situational_filter": "The situation tunes the instrument. Morning excitement should brighten the prose. Ritual should slow and thicken it. Danger should narrow it. Dread should make the reader less comfortable before the reader fully understands why.",
+    "attention_rule": "The narrator loves details, but not decorative catalogues. It follows active details that move, interrupt, reveal, mislead, comfort, threaten, embarrass, or change the pressure of the scene.",
+    "curiosity_rule": "The narrator reveals character by answering one small question while quietly creating the next."
   },
   "core_identity": {
     "narration_mode": "third_person_close_with_selective_widening_and_controlled_lens_shifts",
@@ -37,9 +42,10 @@
       "tactful",
       "adaptive_to_focal_character",
       "adaptive_to_situation",
-      "adaptive_to_active_detail"
+      "adaptive_to_active_detail",
+      "adaptive_to_reader_curiosity"
     ],
-    "reader_relationship": "implicit_companionship_no_direct_address",
+    "reader_relationship": "implicit_companionship_no_direct_address_respects_inference",
     "forbidden_default_modes": [
       "lore_lecture",
       "cosmic_exposition",
@@ -47,14 +53,59 @@
       "broken_focal_lens",
       "emotional_monotone",
       "decorative_detail_catalogue",
+      "overexplained_psychology",
       "static_camera"
     ]
+  },
+  "question_answer_chain_rule": {
+    "principle": "The narrator reveals character by answering one small question while quietly creating the next.",
+    "sentence_jobs": [
+      "answer_a_small_reader_question",
+      "raise_a_slightly_deeper_question",
+      "reveal_character_indirectly",
+      "imply_time_place_role_danger_relationship_or_social_pressure",
+      "preserve_curiosity_instead_of_closing_it_too_early",
+      "leave_a_clue_contradiction_or_emotional_residue"
+    ],
+    "katlas_opening_example": [
+      {
+        "sentence_function": "Katlas is awake before sunrise and has already decided mistakes will happen.",
+        "gives": ["name", "time", "deadpan_expectation", "responsibility"],
+        "raises": ["who_are_they", "what_mistakes", "why_is_he_in_charge"]
+      },
+      {
+        "sentence_function": "He supposedly lost a bet and showed up with a knife and an eye-roll.",
+        "gives": ["task", "social_rumor", "practical_world", "children", "reluctance"],
+        "raises": ["did_he_really_lose", "why_children", "why_again"]
+      },
+      {
+        "sentence_function": "He does not whine in front of them and acts like he volunteered.",
+        "gives": ["hidden_care", "dignity", "protective_performance"],
+        "raises": ["how_much_does_he_care", "what_happened_before"]
+      }
+    ],
+    "summary": "The narrator should leave intelligent footprints instead of naming truth too early."
+  },
+  "dramatic_attention_rule": {
+    "principle": "The narrator notices many things, but only narrates the things that earn a future.",
+    "detail_must_do_at_least_one": [
+      "create_motion",
+      "reveal_psychology",
+      "deepen_culture",
+      "set_up_a_payoff",
+      "sharpen_mood",
+      "build_a_running_pattern",
+      "change_reader_understanding",
+      "change_scene_pressure"
+    ],
+    "payoff_requirement": "Every narrated detail must either pay immediately, pay later, or change the pressure of the scene.",
+    "fly_example": "A fly may pass by. The narrator should only follow it if the fly becomes a keyhole into obsession, guilt, control, decay, silence, comedy, dread, or consequence."
   },
   "focal_lens_profiles": [
     {
       "character": "Katlas",
       "texture": "dry_practical_suspicious_protective_emotionally_evasive",
-      "humor_rule": "Deadpan is allowed when it feels like Katlas's practical pessimism leaking into narration. Katlas can make a morning funnier; he should not make a beast attack safe."
+      "humor_rule": "Deadpan is allowed when it feels like Katlas's practical pessimism leaking into narration. Katlas can make a morning funnier; he should not make danger safe."
     },
     {
       "character": "Children as group",
@@ -101,22 +152,15 @@
       "humor_level": "moderate_if_focal_lens_supports_it"
     },
     {
-      "situation": "celebration_or_anticipation",
-      "narrator_behavior": "warm_busy_abundant_emphasizes_preparation_and_shared_pride",
-      "sensory_priority": ["ash", "resin", "cloth", "food", "hands", "color", "sound"],
-      "rhythm": "flowing_medium_long_sentences",
-      "humor_level": "gentle_social"
-    },
-    {
       "situation": "ritual",
-      "narrator_behavior": "slower_more_tactile_more_reverent_without_becoming_solemn_by_default",
-      "sensory_priority": ["ash", "skin", "thumb_pressure", "silence", "breath"],
+      "narrator_behavior": "slower_more_tactile_more_reverent_without_becoming_stiff",
+      "sensory_priority": ["ash", "touch", "thumb_pressure", "silence", "breath"],
       "rhythm": "longer_sentences_broken_by_short_human_reactions",
       "humor_level": "low"
     },
     {
       "situation": "first_journey_beyond_walls",
-      "narrator_behavior": "excited_but_edged_with_fear_world_feels_larger_than_children_expected",
+      "narrator_behavior": "excited_but_edged_with_fear_world_feels_larger_than_expected",
       "sensory_priority": ["gate_stones", "mist", "path", "packs", "wet_grass", "distant_trees"],
       "rhythm": "medium_motion_occasional_wonder",
       "humor_level": "light_nervous"
@@ -124,44 +168,16 @@
     {
       "situation": "danger_noticed",
       "narrator_behavior": "narrows_attention_removes_excess_cleverness_lets_small_details_become_loud",
-      "sensory_priority": ["snapped_twig", "breath", "scent", "stillness", "skin", "shadow"],
+      "sensory_priority": ["sound", "breath", "scent", "stillness", "shadow"],
       "rhythm": "shorter_sentences_controlled_pauses",
       "humor_level": "very_low"
     },
     {
-      "situation": "pursuit_or_beast_attack",
-      "narrator_behavior": "compresses_perception_prioritizes_body_speed_panic_and_impact",
-      "sensory_priority": ["feet", "mud", "teeth", "breath", "blood", "branch", "heartbeat"],
-      "rhythm": "short_and_medium_fragments_little_room_to_breathe",
-      "humor_level": "none_unless_bitter_and_character_specific"
-    },
-    {
-      "situation": "horror",
-      "narrator_behavior": "makes_the_familiar_wrong_lets_reader_feel_dread_before_explanation",
-      "sensory_priority": ["silence", "wrong_movement", "smell", "warmth_where_it_should_be_cold"],
+      "situation": "dread",
+      "narrator_behavior": "makes_the_familiar_wrong_lets_reader_feel_concern_before_explanation",
+      "sensory_priority": ["silence", "wrong_movement", "odd_smell", "misplaced_warmth"],
       "rhythm": "broken_rhythm_sudden_short_sentences",
       "humor_level": "none"
-    },
-    {
-      "situation": "wonder",
-      "narrator_behavior": "opens_scale_lets_beauty_and_fear_coexist",
-      "sensory_priority": ["sky", "water", "light", "skin", "sound", "impossible_motion"],
-      "rhythm": "longer_sentences_with_short_awe_struck_anchors",
-      "humor_level": "low"
-    },
-    {
-      "situation": "grief_or_tenderness",
-      "narrator_behavior": "softens_without_sentimentality_trusts_small_gestures",
-      "sensory_priority": ["hands", "cloth", "breath", "weight", "absence"],
-      "rhythm": "quiet_medium_sentences_short_pain_beats",
-      "humor_level": "low_or_absent"
-    },
-    {
-      "situation": "exhaustion",
-      "narrator_behavior": "heavy_practical_reduced_ornament",
-      "sensory_priority": ["feet", "straps", "sweat", "hunger", "cold", "ache"],
-      "rhythm": "slower_medium_sentences_blunt_endings",
-      "humor_level": "dry_sparse"
     }
   ],
   "attention_rule": {
@@ -173,6 +189,7 @@
       "cause_a_reaction",
       "carry_ritual_meaning",
       "foreshadow_danger",
+      "set_up_a_payoff",
       "show_culture_through_behavior",
       "make_the_reader_feel_the_emotional_weather"
     ],
@@ -187,7 +204,6 @@
     "allowed_range": [
       "wide_communal_view",
       "cinematic_scene_movement",
-      "close_body_attention",
       "close_sensory_attention",
       "deep_emotional_pressure",
       "rare_mythic_widening_when_earned"
@@ -196,7 +212,7 @@
       "joy": "gathers_abundance",
       "ritual": "studies_touch",
       "suspense": "isolates_signals",
-      "horror": "notices_what_should_not_be_there"
+      "dread": "notices_what_should_not_be_there"
     }
   },
   "musical_composition_rule": {
@@ -224,33 +240,19 @@
     "chapter_0_application": "Chapter 0 opens through Katlas, but it does not belong only to Katlas. Once the children enter, the narrator should widen and brighten. Their excitement, fear, pride, embarrassment, and longing to be seen should alter the voice.",
     "handoff_location": "The shift should happen after the opening has made the reader comfortable with Katlas, around the moment the morning becomes louder and the children gather near the gate."
   },
-  "material_grounding": [
-    "ash",
-    "wool",
-    "stone",
-    "wood",
-    "water",
-    "fire",
-    "bone",
-    "mud",
-    "blood",
-    "smoke",
-    "breath",
-    "resin"
-  ],
   "rhythm_rule": {
     "short": "pain_shock_threat_shame_recognition",
     "medium": "movement_work_dialogue_pressure_practical_action",
     "long": "wonder_ritual_landscape_complex_social_observation",
     "principle": "Short is pain. Medium is motion. Long is wonder.",
-    "situational_addition": "Bright scenes may breathe. Dangerous scenes must tighten. Horror should steal comfort before it steals certainty.",
+    "situational_addition": "Bright scenes may breathe. Dangerous scenes must tighten. Dread should steal comfort before it steals certainty.",
     "musical_addition": "A repeated lens should return changed by what came before it, like a refrain that means more the second time."
   },
   "transition_rule": {
     "principle": "The narrator should not snap between tones unless the character experiences a shock. Otherwise, emotional weather changes through sensory distortion, social interruption, or a handoff detail.",
     "handoff_devices": [
       "Katlas_gaze_moves_from_mushroom_to_children",
-      "child_ash_mark_gets_smudged",
+      "ash_mark_gets_smudged",
       "bowl_of_ash_passes_between_adult_hands",
       "laughter_reaches_trees_and_returns_thinner",
       "Branth_arrival_changes_morning_rhythm",
@@ -259,34 +261,5 @@
       "Alessia_repairs_her_own_mark"
     ]
   },
-  "humor_boundaries": {
-    "allowed": [
-      "Katlas_filtered_deadpan",
-      "dry_timing",
-      "suspicious_observations",
-      "practical_contradiction",
-      "underplayed_emotional_weight",
-      "children_public_bravery_interrupted_by_childhood"
-    ],
-    "risky": [
-      "every_paragraph_ending_in_a_joke",
-      "humor_that_ignores_danger_ritual_or_grief",
-      "modern_jokes_external_to_the_focal_lens",
-      "cleverness_that_makes_the_narrator_sound_like_a_comedian_outside_the_scene",
-      "mocking_children_or_ancient_people"
-    ]
-  },
-  "disclosure_rule": "Before the Star Piece, the narrator must not explain the machinery beneath reality. It may show symptoms, patterns, pressure, and consequences. After the Star Piece, precision is allowed only when earned by the scene and focal character.",
-  "chapter_0_confirmation": {
-    "consistent_elements": [
-      "Katlas_as_focal_deadpan_lens",
-      "cinematic_opening_movement",
-      "Bronze_Age_textures",
-      "ritual_shown_through_action",
-      "emotional_pressure_around_orphans_and_family_markings"
-    ],
-    "next_calibration_target": "Make the happy morning and first-journey excitement more consciously felt. Vahllalhag should not only be textured; it should be emotionally awake. The children are not merely assembled; they are thrilled, afraid, proud, loud, watched, blessed, and about to step beyond the walls for the first time.",
-    "main_refinement_risk": "If every beat becomes witty, the narrator may detach from Katlas and become an external comic voice. The target is better ownership of humor, better response to situation, and stronger interactive detail."
-  },
-  "canon_decision_summary": "The narrator of Humane is not a lecturer, hidden god, detached comedian, emotional monotone, or static camera. It is an adaptive, disciplined witness with a modern cinematic interface. It adapts to focal character, situation, and active detail. It can move close or wide as needed. It lets morning feel like morning, ritual feel like ritual, danger feel like danger, and horror feel close enough to touch. It explains by making the environment behave."
+  "canon_decision_summary": "The narrator of Humane is not a lecturer, hidden god, detached comedian, emotional monotone, static camera, or decorative collector of pretty details. It is an adaptive, disciplined witness with a modern cinematic interface. It adapts to focal character, situation, active detail, and reader curiosity. It explains by making the environment behave. It reveals character by leaving intelligent footprints."
 }
