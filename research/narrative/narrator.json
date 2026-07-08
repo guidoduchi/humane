@@ -1,23 +1,32 @@
 {
   "id": "NAR-HUMANE-CORE-001",
   "name": "Humane Core Narrator",
-  "version": "0.1.2",
-  "status": "draft_canon_calibrated_after_chapter_0_review_and_situational_adaptation_pass",
-  "scope": "Book 1 narrator design, with emphasis on Chapter 0, Katlas-focused deadpan, situational tone, and the pre-Star Piece state.",
-  "core_answer": "Humane uses a close third-person, modern-cinematic narrative interface observing an ancient world. Its modern quality is a readability layer, not a worldbuilding layer.",
-  "adaptation_axes": [
+  "version": "0.1.3",
+  "status": "draft_canon_respectfully_refined_after_chapter_0_narrator_calibration",
+  "scope": "Book 1 narrator design, with emphasis on Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational tone, interactive detail, and the pre-Star-Piece state.",
+  "core_answer": "Humane uses a close third-person, modern-cinematic narrative interface observing an ancient world. Its modern quality is a readability layer, not a worldbuilding layer. The world remains Bronze Age in its materials, pressures, rituals, tools, dangers, and social logic.",
+  "adaptation_dimensions": [
     {
-      "axis": "focal_character",
+      "dimension": "focal_character",
       "definition": "Whose mind, body, fear, pride, humor, or hunger colors the scene."
     },
     {
-      "axis": "situation",
+      "dimension": "situation",
       "definition": "What the scene itself is doing: morning, celebration, danger, pursuit, wonder, grief, ritual, exhaustion, intimacy, or horror."
+    },
+    {
+      "dimension": "attention",
+      "definition": "Which active details the moment makes unavoidable, and how those details touch, interrupt, reveal, or change one another."
     }
   ],
-  "calibration_update": "Chapter 0 confirms that Humane should not use a purely ancient narrator. Katlas-focused narration may be deadpan because Katlas is deadpan. The narrator also adapts to the scene's emotional weather. Morning excitement should brighten the prose; ritual should slow and thicken it; danger should narrow it; horror should make the reader breathe less comfortably.",
+  "calibration_update": {
+    "modern_cinematic_access": "Humane should not use a purely ancient narrator. It uses modern rhythm and cinematic clarity so the reader can enter the scene quickly, while keeping the world materially Bronze Age.",
+    "katlas_deadpan": "Katlas-focused narration may become deadpan because Katlas is deadpan. The humor should feel borrowed from Katlas, not imposed by an external comedian.",
+    "situational_filter": "The situation tunes the instrument. Morning excitement should brighten the prose. Ritual should slow and thicken it. Danger should narrow it. Horror should make the reader breathe less comfortably.",
+    "attention_rule": "The narrator loves details, but not decorative catalogues. It follows active details that move, interrupt, reveal, mislead, comfort, threaten, embarrass, or change the pressure of the scene."
+  },
   "core_identity": {
-    "narration_mode": "third_person_close_with_selective_widening",
+    "narration_mode": "third_person_close_with_selective_widening_and_controlled_lens_shifts",
     "reader_facing_style": "modern_cinematic_accessibility",
     "world_facing_imagery": "bronze_age_material_grounding",
     "knowledge_access": "human_limited_before_star_piece_expanded_but_restrained_after",
@@ -27,7 +36,8 @@
       "curious",
       "tactful",
       "adaptive_to_focal_character",
-      "adaptive_to_situation"
+      "adaptive_to_situation",
+      "adaptive_to_active_detail"
     ],
     "reader_relationship": "implicit_companionship_no_direct_address",
     "forbidden_default_modes": [
@@ -35,7 +45,9 @@
       "cosmic_exposition",
       "detached_narrator_comedy",
       "broken_focal_lens",
-      "emotional_monotone"
+      "emotional_monotone",
+      "decorative_detail_catalogue",
+      "static_camera"
     ]
   },
   "focal_lens_profiles": [
@@ -43,6 +55,11 @@
       "character": "Katlas",
       "texture": "dry_practical_suspicious_protective_emotionally_evasive",
       "humor_rule": "Deadpan is allowed when it feels like Katlas's practical pessimism leaking into narration. Katlas can make a morning funnier; he should not make a beast attack safe."
+    },
+    {
+      "character": "Children as group",
+      "texture": "bright_nervous_proud_loud_easily_embarrassed_desperate_to_be_seen_as_older",
+      "humor_rule": "Humor comes from public bravery being interrupted by childhood, not from mocking the children."
     },
     {
       "character": "Erlen",
@@ -147,6 +164,66 @@
       "humor_level": "dry_sparse"
     }
   ],
+  "attention_rule": {
+    "principle": "The narrator does not describe the world as a painting. It describes the world as a chain of small causes happening in real time.",
+    "detail_must_do_at_least_one": [
+      "move_the_scene",
+      "reveal_character",
+      "change_social_pressure",
+      "cause_a_reaction",
+      "carry_ritual_meaning",
+      "foreshadow_danger",
+      "show_culture_through_behavior",
+      "make_the_reader_feel_the_emotional_weather"
+    ],
+    "avoid": "static sensory catalogues that merely list noise, clothing, objects, or movement without consequence"
+  },
+  "rowlinesque_explanation_rule": {
+    "principle": "The narrator may explain, but explanation should be braided into action, reaction, and consequence.",
+    "preferred_method": "Let the environment behave as if the meaning matters. Ritual, culture, social pressure, and emotion should be inferred through gesture, object handling, interruption, repair, silence, and reaction."
+  },
+  "distance_rule": {
+    "principle": "The narrator's distance is not fixed. Its attention is situational.",
+    "allowed_range": [
+      "wide_communal_view",
+      "cinematic_scene_movement",
+      "close_body_attention",
+      "close_sensory_attention",
+      "deep_emotional_pressure",
+      "rare_mythic_widening_when_earned"
+    ],
+    "situational_behavior": {
+      "joy": "gathers_abundance",
+      "ritual": "studies_touch",
+      "suspense": "isolates_signals",
+      "horror": "notices_what_should_not_be_there"
+    }
+  },
+  "musical_composition_rule": {
+    "principle": "The narrator may change lead instruments, but it must keep the same song.",
+    "mapping": {
+      "narrator": "the_song_or_arrangement",
+      "character_focus": "lead_instrument_or_voice",
+      "situation": "key_tempo_pressure_rhythm_and_emotional_weather",
+      "repeated_lens": "refrain_that_returns_changed_by_what_came_before"
+    },
+    "chapter_0_possible_pattern": [
+      "A_Katlas",
+      "B_children_as_group",
+      "B_ritual_children",
+      "A_Katlas_return",
+      "C_Erlen",
+      "D_Wyll",
+      "E_Alessia",
+      "A_D_E_blend"
+    ],
+    "handoff_requirement": "Each lens shift needs a handoff note: an object, sound, glance, mistake, ritual gesture, or social reaction that passes the melody from one lens to the next."
+  },
+  "children_and_ritual_rule": {
+    "principle": "Katlas opens the door. The children bring the heart. The ritual tells the reader what the world values before the journey tests whether those values survive.",
+    "chapter_0_application": "Chapter 0 opens through Katlas, but it does not belong only to Katlas. Once the children enter, the narrator should widen and brighten. Their excitement, fear, pride, embarrassment, and longing to be seen should alter the voice.",
+    "handoff_location": "The shift should happen after the opening has made the reader comfortable with Katlas, around the moment the morning becomes louder and the children gather near the gate."
+  },
   "material_grounding": [
     "ash",
     "wool",
@@ -166,7 +243,21 @@
     "medium": "movement_work_dialogue_pressure_practical_action",
     "long": "wonder_ritual_landscape_complex_social_observation",
     "principle": "Short is pain. Medium is motion. Long is wonder.",
-    "situational_addition": "Bright scenes may breathe. Dangerous scenes must tighten. Horror should steal comfort before it steals certainty."
+    "situational_addition": "Bright scenes may breathe. Dangerous scenes must tighten. Horror should steal comfort before it steals certainty.",
+    "musical_addition": "A repeated lens should return changed by what came before it, like a refrain that means more the second time."
+  },
+  "transition_rule": {
+    "principle": "The narrator should not snap between tones unless the character experiences a shock. Otherwise, emotional weather changes through sensory distortion, social interruption, or a handoff detail.",
+    "handoff_devices": [
+      "Katlas_gaze_moves_from_mushroom_to_children",
+      "child_ash_mark_gets_smudged",
+      "bowl_of_ash_passes_between_adult_hands",
+      "laughter_reaches_trees_and_returns_thinner",
+      "Branth_arrival_changes_morning_rhythm",
+      "bird_stops_calling",
+      "Wyll_hears_something_others_miss",
+      "Alessia_repairs_her_own_mark"
+    ]
   },
   "humor_boundaries": {
     "allowed": [
@@ -174,13 +265,15 @@
       "dry_timing",
       "suspicious_observations",
       "practical_contradiction",
-      "underplayed_emotional_weight"
+      "underplayed_emotional_weight",
+      "children_public_bravery_interrupted_by_childhood"
     ],
     "risky": [
       "every_paragraph_ending_in_a_joke",
       "humor_that_ignores_danger_ritual_or_grief",
       "modern_jokes_external_to_the_focal_lens",
-      "cleverness_that_makes_the_narrator_sound_like_a_comedian_outside_the_scene"
+      "cleverness_that_makes_the_narrator_sound_like_a_comedian_outside_the_scene",
+      "mocking_children_or_ancient_people"
     ]
   },
   "disclosure_rule": "Before the Star Piece, the narrator must not explain the machinery beneath reality. It may show symptoms, patterns, pressure, and consequences. After the Star Piece, precision is allowed only when earned by the scene and focal character.",
@@ -192,8 +285,8 @@
       "ritual_shown_through_action",
       "emotional_pressure_around_orphans_and_family_markings"
     ],
-    "next_calibration_target": "Make the happy morning and first-journey excitement more consciously felt. Vahllalhag should not only be textured; it should be emotionally awake.",
-    "main_refinement_risk": "If every beat becomes witty, the narrator may detach from Katlas and become an external comic voice."
+    "next_calibration_target": "Make the happy morning and first-journey excitement more consciously felt. Vahllalhag should not only be textured; it should be emotionally awake. The children are not merely assembled; they are thrilled, afraid, proud, loud, watched, blessed, and about to step beyond the walls for the first time.",
+    "main_refinement_risk": "If every beat becomes witty, the narrator may detach from Katlas and become an external comic voice. The target is better ownership of humor, better response to situation, and stronger interactive detail."
   },
-  "canon_decision_summary": "The narrator of Humane is not a lecturer, hidden god, detached comedian, or emotional monotone. It is an adaptive, disciplined witness with a modern cinematic interface. It adapts to focal character and situation."
+  "canon_decision_summary": "The narrator of Humane is not a lecturer, hidden god, detached comedian, emotional monotone, or static camera. It is an adaptive, disciplined witness with a modern cinematic interface. It adapts to focal character, situation, and active detail. It can move close or wide as needed. It lets morning feel like morning, ritual feel like ritual, danger feel like danger, and horror feel close enough to touch. It explains by making the environment behave."
 }
