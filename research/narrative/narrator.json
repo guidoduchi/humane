@@ -1,9 +1,9 @@
 {
   "id": "NAR-HUMANE-CORE-001",
   "name": "Humane Core Narrator",
-  "version": "0.1.4",
-  "status": "draft_canon_respectfully_refined_after_chapter_0_narrator_calibration_and_curiosity_chain_discovery",
-  "scope": "Book 1 narrator design, with emphasis on Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational tone, interactive detail, question-answer revelation, and the pre-Star-Piece state.",
+  "version": "0.1.5",
+  "status": "draft_canon_respectfully_refined_after_chapter_0_narrator_calibration_curiosity_chain_and_narrative_orchestrator_discovery",
+  "scope": "Book 1 narrator design, with emphasis on Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational tone, interactive detail, question-answer revelation, musical lens movement, and the permanent style identity that keeps Humane recognizable.",
   "core_answer": "Humane uses a close third-person, modern-cinematic narrative interface observing an ancient world. Its modern quality is a readability layer, not a worldbuilding layer. The world remains Bronze Age in its materials, pressures, rituals, tools, dangers, and social logic.",
   "adaptation_dimensions": [
     {
@@ -21,6 +21,10 @@
     {
       "dimension": "curiosity_chain",
       "definition": "What question each sentence answers, what deeper question it raises, and what emotional residue it leaves behind."
+    },
+    {
+      "dimension": "narrative_orchestrator",
+      "definition": "The permanent style-conductor that keeps the prose recognizably Humane even when focal lens, mood, detail, and curiosity pattern change."
     }
   ],
   "calibration_update": {
@@ -28,7 +32,8 @@
     "katlas_deadpan": "Katlas-focused narration may become deadpan because Katlas is deadpan. The humor should feel borrowed from Katlas, not imposed by an external comedian.",
     "situational_filter": "The situation tunes the instrument. Morning excitement should brighten the prose. Ritual should slow and thicken it. Danger should narrow it. Dread should make the reader less comfortable before the reader fully understands why.",
     "attention_rule": "The narrator loves details, but not decorative catalogues. It follows active details that move, interrupt, reveal, mislead, comfort, threaten, embarrass, or change the pressure of the scene.",
-    "curiosity_rule": "The narrator reveals character by answering one small question while quietly creating the next."
+    "curiosity_rule": "The narrator reveals character by answering one small question while quietly creating the next.",
+    "orchestrator_rule": "Character lens and situation may change the instrument. Attention may change the notes. Curiosity may change the order of revelation. The orchestrator keeps the song recognizably Humane."
   },
   "core_identity": {
     "narration_mode": "third_person_close_with_selective_widening_and_controlled_lens_shifts",
@@ -40,12 +45,17 @@
       "grave",
       "curious",
       "tactful",
-      "adaptive_to_focal_character",
-      "adaptive_to_situation",
-      "adaptive_to_active_detail",
-      "adaptive_to_reader_curiosity"
+      "adaptive",
+      "playful_without_becoming_detached"
     ],
     "reader_relationship": "implicit_companionship_no_direct_address_respects_inference",
+    "permanent_style_identity": [
+      "sideways_intelligence",
+      "comic_precision",
+      "emotional_warmth",
+      "curiosity_chain_rhythm",
+      "refusal_to_flatten_life_into_plain_exposition"
+    ],
     "forbidden_default_modes": [
       "lore_lecture",
       "cosmic_exposition",
@@ -54,7 +64,61 @@
       "emotional_monotone",
       "decorative_detail_catalogue",
       "overexplained_psychology",
-      "static_camera"
+      "static_camera",
+      "neutral_report_prose"
+    ]
+  },
+  "five_dimension_model": [
+    {
+      "dimension": "focal_character",
+      "question": "Who colors the lens?",
+      "failure_mode": "Everyone sounds the same."
+    },
+    {
+      "dimension": "situation",
+      "question": "What emotional weather filters the scene?",
+      "failure_mode": "A ritual sounds like banter or danger sounds safe."
+    },
+    {
+      "dimension": "attention",
+      "question": "Which details matter enough to narrate?",
+      "failure_mode": "Decorative catalogues."
+    },
+    {
+      "dimension": "curiosity_chain",
+      "question": "What does each sentence answer and raise?",
+      "failure_mode": "Pretty sentences with no pull."
+    },
+    {
+      "dimension": "narrative_orchestrator",
+      "question": "What keeps the whole thing recognizably Humane?",
+      "failure_mode": "Correct structure, wrong soul."
+    }
+  ],
+  "narrative_orchestrator_rule": {
+    "principle": "The first four dimensions tell the narrator where to look, how to feel, what to notice, and how to reveal. The orchestrator tells it: no matter what happens, still sound like Humane.",
+    "definition": "The orchestrator is the narrator's permanent musical identity. It preserves the story's recognizable behavior across every lens.",
+    "preserves": [
+      "sideways_implication",
+      "comic_precision_without_overexplaining_the_joke",
+      "reader_inference",
+      "active_details_that_behave_collide_and_pay_off",
+      "musical_prose_instead_of_merely_informative_prose",
+      "warmth_even_when_the_scene_becomes_dry_grave_or_frightening"
+    ],
+    "example_revisions": [
+      {
+        "too_flat": "A woman cursed because someone had not finished tying something.",
+        "more_humane": "Somewhere behind the nearest velth, a woman said a word usually reserved for bad weather, worse goats, and relatives who borrowed knives."
+      },
+      {
+        "too_flat": "A child shouted that he was ready, but he had not checked his boots.",
+        "more_humane": "A child shouted that he was ready with the confidence of someone who had not yet checked both feet."
+      },
+      {
+        "too_flat": "Then the children began to appear.",
+        "more_humane": "Then the village gave up pretending it had misplaced them and began sending children toward the gate."
+      }
     ]
   },
   "question_answer_chain_rule": {
@@ -66,23 +130,6 @@
       "imply_time_place_role_danger_relationship_or_social_pressure",
       "preserve_curiosity_instead_of_closing_it_too_early",
       "leave_a_clue_contradiction_or_emotional_residue"
-    ],
-    "katlas_opening_example": [
-      {
-        "sentence_function": "Katlas is awake before sunrise and has already decided mistakes will happen.",
-        "gives": ["name", "time", "deadpan_expectation", "responsibility"],
-        "raises": ["who_are_they", "what_mistakes", "why_is_he_in_charge"]
-      },
-      {
-        "sentence_function": "He supposedly lost a bet and showed up with a knife and an eye-roll.",
-        "gives": ["task", "social_rumor", "practical_world", "children", "reluctance"],
-        "raises": ["did_he_really_lose", "why_children", "why_again"]
-      },
-      {
-        "sentence_function": "He does not whine in front of them and acts like he volunteered.",
-        "gives": ["hidden_care", "dignity", "protective_performance"],
-        "raises": ["how_much_does_he_care", "what_happened_before"]
-      }
     ],
     "summary": "The narrator should leave intelligent footprints instead of naming truth too early."
   },
@@ -98,88 +145,8 @@
       "change_reader_understanding",
       "change_scene_pressure"
     ],
-    "payoff_requirement": "Every narrated detail must either pay immediately, pay later, or change the pressure of the scene.",
-    "fly_example": "A fly may pass by. The narrator should only follow it if the fly becomes a keyhole into obsession, guilt, control, decay, silence, comedy, dread, or consequence."
+    "payoff_requirement": "Every narrated detail must either pay immediately, pay later, or change the pressure of the scene."
   },
-  "focal_lens_profiles": [
-    {
-      "character": "Katlas",
-      "texture": "dry_practical_suspicious_protective_emotionally_evasive",
-      "humor_rule": "Deadpan is allowed when it feels like Katlas's practical pessimism leaking into narration. Katlas can make a morning funnier; he should not make danger safe."
-    },
-    {
-      "character": "Children as group",
-      "texture": "bright_nervous_proud_loud_easily_embarrassed_desperate_to_be_seen_as_older",
-      "humor_rule": "Humor comes from public bravery being interrupted by childhood, not from mocking the children."
-    },
-    {
-      "character": "Erlen",
-      "texture": "quick_curious_defensive_wonder_prone_hungry_for_respect",
-      "humor_rule": "Humor may come from overconfidence meeting reality."
-    },
-    {
-      "character": "Ayka",
-      "texture": "sharp_analytic_self_forging_socially_precise",
-      "humor_rule": "Humor can feel precise or cutting, but the narrator should not mock her."
-    },
-    {
-      "character": "Arceis",
-      "texture": "muscular_proud_status_aware_physically_confident",
-      "humor_rule": "Reveal insecurity through detail rather than accusation."
-    },
-    {
-      "character": "Wyll",
-      "texture": "sensorily_alert_pressured_watchful_easily_overloaded_but_perceptive",
-      "humor_rule": "Avoid reducing him to fragility; show perception as strength."
-    },
-    {
-      "character": "Idris",
-      "texture": "tactile_symbolic_inward_object_centered",
-      "humor_rule": "Let mystery gather around what she carries and touches."
-    },
-    {
-      "character": "Alessia",
-      "texture": "self_possessed_socially_aware_controlled_polished_but_not_cold",
-      "humor_rule": "Respect her self-making; avoid reducing her to defiance."
-    }
-  ],
-  "situational_lens_profiles": [
-    {
-      "situation": "morning_excitement",
-      "narrator_behavior": "brighter_quicker_more_communal_lets_voices_and_movement_fill_the_frame",
-      "sensory_priority": ["smoke", "breath", "grass", "food", "chatter", "light"],
-      "rhythm": "medium_sentences_with_light_short_beats",
-      "humor_level": "moderate_if_focal_lens_supports_it"
-    },
-    {
-      "situation": "ritual",
-      "narrator_behavior": "slower_more_tactile_more_reverent_without_becoming_stiff",
-      "sensory_priority": ["ash", "touch", "thumb_pressure", "silence", "breath"],
-      "rhythm": "longer_sentences_broken_by_short_human_reactions",
-      "humor_level": "low"
-    },
-    {
-      "situation": "first_journey_beyond_walls",
-      "narrator_behavior": "excited_but_edged_with_fear_world_feels_larger_than_expected",
-      "sensory_priority": ["gate_stones", "mist", "path", "packs", "wet_grass", "distant_trees"],
-      "rhythm": "medium_motion_occasional_wonder",
-      "humor_level": "light_nervous"
-    },
-    {
-      "situation": "danger_noticed",
-      "narrator_behavior": "narrows_attention_removes_excess_cleverness_lets_small_details_become_loud",
-      "sensory_priority": ["sound", "breath", "scent", "stillness", "shadow"],
-      "rhythm": "shorter_sentences_controlled_pauses",
-      "humor_level": "very_low"
-    },
-    {
-      "situation": "dread",
-      "narrator_behavior": "makes_the_familiar_wrong_lets_reader_feel_concern_before_explanation",
-      "sensory_priority": ["silence", "wrong_movement", "odd_smell", "misplaced_warmth"],
-      "rhythm": "broken_rhythm_sudden_short_sentences",
-      "humor_level": "none"
-    }
-  ],
   "attention_rule": {
     "principle": "The narrator does not describe the world as a painting. It describes the world as a chain of small causes happening in real time.",
     "detail_must_do_at_least_one": [
@@ -215,12 +182,70 @@
       "dread": "notices_what_should_not_be_there"
     }
   },
+  "focal_lens_profiles": [
+    {
+      "character": "Katlas",
+      "texture": "dry_practical_suspicious_protective_emotionally_evasive",
+      "humor_rule": "Deadpan is allowed when it feels like Katlas's practical pessimism leaking into narration. Katlas can make a morning funnier; he should not make danger safe."
+    },
+    {
+      "character": "Children as group",
+      "texture": "bright_nervous_proud_loud_easily_embarrassed_desperate_to_be_seen_as_older",
+      "humor_rule": "Humor comes from public bravery being interrupted by childhood, not from mocking the children."
+    },
+    {
+      "character": "Erlen",
+      "texture": "quick_curious_defensive_wonder_prone_hungry_for_respect",
+      "humor_rule": "Humor may come from overconfidence meeting reality."
+    },
+    {
+      "character": "Wyll",
+      "texture": "sensorily_alert_pressured_watchful_easily_overloaded_but_perceptive",
+      "humor_rule": "Avoid reducing him to fragility; show perception as strength."
+    },
+    {
+      "character": "Alessia",
+      "texture": "self_possessed_socially_aware_controlled_polished_but_not_cold",
+      "humor_rule": "Respect her self-making; avoid reducing her to defiance."
+    }
+  ],
+  "situational_lens_profiles": [
+    {
+      "situation": "morning_excitement",
+      "narrator_behavior": "brighter_quicker_more_communal_lets_voices_and_movement_fill_the_frame",
+      "sensory_priority": ["smoke", "breath", "grass", "food", "chatter", "light"],
+      "rhythm": "medium_sentences_with_light_short_beats",
+      "humor_level": "moderate_if_focal_lens_supports_it"
+    },
+    {
+      "situation": "ritual",
+      "narrator_behavior": "slower_more_tactile_more_reverent_without_becoming_stiff",
+      "sensory_priority": ["ash", "touch", "silence", "breath"],
+      "rhythm": "longer_sentences_broken_by_short_human_reactions",
+      "humor_level": "low"
+    },
+    {
+      "situation": "first_journey_beyond_walls",
+      "narrator_behavior": "excited_but_edged_with_fear_world_feels_larger_than_expected",
+      "sensory_priority": ["gate_stones", "mist", "path", "packs", "wet_grass", "distant_trees"],
+      "rhythm": "medium_motion_occasional_wonder",
+      "humor_level": "light_nervous"
+    },
+    {
+      "situation": "danger_noticed",
+      "narrator_behavior": "narrows_attention_removes_excess_cleverness_lets_small_details_become_loud",
+      "sensory_priority": ["sound", "breath", "scent", "stillness", "shadow"],
+      "rhythm": "shorter_sentences_controlled_pauses",
+      "humor_level": "very_low"
+    }
+  ],
   "musical_composition_rule": {
     "principle": "The narrator may change lead instruments, but it must keep the same song.",
     "mapping": {
       "narrator": "the_song_or_arrangement",
       "character_focus": "lead_instrument_or_voice",
       "situation": "key_tempo_pressure_rhythm_and_emotional_weather",
+      "orchestrator": "the_conductor_that_keeps_the_whole_arrangement_recognizably_humane",
       "repeated_lens": "refrain_that_returns_changed_by_what_came_before"
     },
     "chapter_0_possible_pattern": [
@@ -235,31 +260,44 @@
     ],
     "handoff_requirement": "Each lens shift needs a handoff note: an object, sound, glance, mistake, ritual gesture, or social reaction that passes the melody from one lens to the next."
   },
+  "transition_rule": {
+    "principle": "A lens transition should not happen because the narrator decides to change focus. It should happen because something in the scene pulls the narrator's attention.",
+    "three_parts": [
+      "anchor_current_lens",
+      "active_handoff_detail",
+      "new_lens_settles"
+    ],
+    "chapter_0_a_to_b": "Katlas gives up waiting for Branth and calls the children. Katlas opens the motion, but the children's arrival gradually steals the emotional center.",
+    "orchestrator_addition": "A transition can be structurally correct and still fail if it becomes neutral. The handoff must preserve the Humane manner of sideways implication, comic precision, active detail, and emotional warmth."
+  },
   "children_and_ritual_rule": {
     "principle": "Katlas opens the door. The children bring the heart. The ritual tells the reader what the world values before the journey tests whether those values survive.",
     "chapter_0_application": "Chapter 0 opens through Katlas, but it does not belong only to Katlas. Once the children enter, the narrator should widen and brighten. Their excitement, fear, pride, embarrassment, and longing to be seen should alter the voice.",
-    "handoff_location": "The shift should happen after the opening has made the reader comfortable with Katlas, around the moment the morning becomes louder and the children gather near the gate."
+    "handoff_location": "The shift should happen after the opening has made the reader comfortable with Katlas, around the moment Katlas stops waiting for Branth and calls the children to the gate."
+  },
+  "chapter_0_a_to_b_application": {
+    "a_section": "Katlas waits, scans, mistrusts good signs, mutters about Branth.",
+    "handoff": "Katlas decides not to wait and calls the children.",
+    "b_begins": "Vahllalhag starts producing children and responsible adults toward the gate.",
+    "b_deepens": "The bowls of ash and resin approach; excitement becomes quieter because the ritual is near.",
+    "next_section": "Ereenhaad marking.",
+    "key": "Katlas causes the transition, but the children must take emotional ownership of it."
   },
   "rhythm_rule": {
-    "short": "pain_shock_threat_shame_recognition",
-    "medium": "movement_work_dialogue_pressure_practical_action",
-    "long": "wonder_ritual_landscape_complex_social_observation",
     "principle": "Short is pain. Medium is motion. Long is wonder.",
     "situational_addition": "Bright scenes may breathe. Dangerous scenes must tighten. Dread should steal comfort before it steals certainty.",
     "musical_addition": "A repeated lens should return changed by what came before it, like a refrain that means more the second time."
   },
-  "transition_rule": {
-    "principle": "The narrator should not snap between tones unless the character experiences a shock. Otherwise, emotional weather changes through sensory distortion, social interruption, or a handoff detail.",
-    "handoff_devices": [
-      "Katlas_gaze_moves_from_mushroom_to_children",
-      "ash_mark_gets_smudged",
-      "bowl_of_ash_passes_between_adult_hands",
-      "laughter_reaches_trees_and_returns_thinner",
-      "Branth_arrival_changes_morning_rhythm",
-      "bird_stops_calling",
-      "Wyll_hears_something_others_miss",
-      "Alessia_repairs_her_own_mark"
-    ]
-  },
-  "canon_decision_summary": "The narrator of Humane is not a lecturer, hidden god, detached comedian, emotional monotone, static camera, or decorative collector of pretty details. It is an adaptive, disciplined witness with a modern cinematic interface. It adapts to focal character, situation, active detail, and reader curiosity. It explains by making the environment behave. It reveals character by leaving intelligent footprints."
+  "working_aphorisms": [
+    "Katlas opens the door. The children bring the heart.",
+    "The narrator changes instruments, not songs.",
+    "Detail is not decoration. Detail is evidence.",
+    "The narrator notices many things, but only narrates the things that earn a future.",
+    "A sentence should answer one question and raise a better one.",
+    "The world should explain itself by behaving.",
+    "Humor belongs to pressure.",
+    "The narrator may be modern in rhythm, but ancient in texture.",
+    "The orchestrator keeps the soul when the lens changes.",
+    "No matter what happens, still sound like Humane."
+  ]
 }
