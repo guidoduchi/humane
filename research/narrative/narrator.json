@@ -1,10 +1,10 @@
 {
   "id": "NAR-HUMANE-CORE-001",
   "name": "Humane Core Narrator",
-  "version": "0.1.5",
-  "status": "draft_canon_respectfully_refined_after_chapter_0_narrator_calibration_curiosity_chain_and_narrative_orchestrator_discovery",
-  "scope": "Book 1 narrator design, with emphasis on Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational tone, interactive detail, question-answer revelation, musical lens movement, and the permanent style identity that keeps Humane recognizable.",
-  "core_answer": "Humane uses a close third-person, modern-cinematic narrative interface observing an ancient world. Its modern quality is a readability layer, not a worldbuilding layer. The world remains Bronze Age in its materials, pressures, rituals, tools, dangers, and social logic.",
+  "version": "0.1.6",
+  "status": "draft_canon_respectfully_refined_after_chapter_0_narrator_calibration_curiosity_chain_narrative_orchestrator_and_simple_language_discovery",
+  "scope": "Book 1 narrator design, with emphasis on Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational tone, interactive detail, question-answer revelation, musical lens movement, simple language, and the permanent style identity that keeps Humane recognizable.",
+  "core_answer": "Humane uses a close third-person, modern-cinematic narrative interface observing an ancient world. Its modern quality is a readability layer, not a worldbuilding layer. The world remains Bronze Age in its materials, pressures, rituals, tools, dangers, and social logic. The language should stay simple whenever possible: simple words, layered meaning.",
   "adaptation_dimensions": [
     {
       "dimension": "focal_character",
@@ -27,18 +27,51 @@
       "definition": "The permanent style-conductor that keeps the prose recognizably Humane even when focal lens, mood, detail, and curiosity pattern change."
     }
   ],
+  "authorial_architect": {
+    "definition": "The authorial judge above the system. The narrator performs the song. The orchestrator keeps the song sounding like Humane. The architect decides which song becomes canon.",
+    "canon_principle": "Canon is not the version that obeys every rule. Canon is the version that best serves the soul, direction, and memory of the story.",
+    "permission": "The architect may break any rule when the living passage demands it."
+  },
+  "simple_language_law": {
+    "principle": "Use the simplest language that can still carry the full emotional, rhythmic, and symbolic weight of the moment.",
+    "summary": "Humane should be simple in language, smart in structure, and rich in implication.",
+    "simple_language_means": [
+      "clean_words",
+      "clear_movement",
+      "readable_rhythm",
+      "images_the_reader_can_hold_quickly",
+      "layered_meaning_beneath_accessible_phrasing",
+      "emotional_intelligence_without_overexplaining",
+      "jokes_that_land_because_the_sentence_is_not_fighting_itself"
+    ],
+    "simple_language_does_not_mean": [
+      "flat_prose",
+      "shallow_thought",
+      "generic_description",
+      "loss_of_style",
+      "loss_of_music",
+      "loss_of_mystery"
+    ],
+    "aphorisms": [
+      "The prose should be easy to enter and hard to empty.",
+      "Simple words can carry deep water.",
+      "Never use difficulty as a costume. If a simple word carries the scene, use it. If a richer word earns its place, let it stay."
+    ]
+  },
   "calibration_update": {
     "modern_cinematic_access": "Humane should not use a purely ancient narrator. It uses modern rhythm and cinematic clarity so the reader can enter the scene quickly, while keeping the world materially Bronze Age.",
     "katlas_deadpan": "Katlas-focused narration may become deadpan because Katlas is deadpan. The humor should feel borrowed from Katlas, not imposed by an external comedian.",
     "situational_filter": "The situation tunes the instrument. Morning excitement should brighten the prose. Ritual should slow and thicken it. Danger should narrow it. Dread should make the reader less comfortable before the reader fully understands why.",
     "attention_rule": "The narrator loves details, but not decorative catalogues. It follows active details that move, interrupt, reveal, mislead, comfort, threaten, embarrass, or change the pressure of the scene.",
     "curiosity_rule": "The narrator reveals character by answering one small question while quietly creating the next.",
-    "orchestrator_rule": "Character lens and situation may change the instrument. Attention may change the notes. Curiosity may change the order of revelation. The orchestrator keeps the song recognizably Humane."
+    "orchestrator_rule": "Character lens and situation may change the instrument. Attention may change the notes. Curiosity may change the order of revelation. The orchestrator keeps the song recognizably Humane.",
+    "simple_language_rule": "The narrator should use the simplest language that still carries the full emotional, rhythmic, and symbolic weight of the moment."
   },
   "core_identity": {
     "narration_mode": "third_person_close_with_selective_widening_and_controlled_lens_shifts",
     "reader_facing_style": "modern_cinematic_accessibility",
     "world_facing_imagery": "bronze_age_material_grounding",
+    "language_law": "simple_words_layered_meaning",
     "knowledge_access": "human_limited_before_star_piece_expanded_but_restrained_after",
     "emotional_posture": [
       "warm",
@@ -54,6 +87,7 @@
       "comic_precision",
       "emotional_warmth",
       "curiosity_chain_rhythm",
+      "simple_language",
       "refusal_to_flatten_life_into_plain_exposition"
     ],
     "forbidden_default_modes": [
@@ -65,7 +99,8 @@
       "decorative_detail_catalogue",
       "overexplained_psychology",
       "static_camera",
-      "neutral_report_prose"
+      "neutral_report_prose",
+      "difficult_language_used_only_to_sound_literary"
     ]
   },
   "five_dimension_model": [
@@ -98,13 +133,15 @@
   "narrative_orchestrator_rule": {
     "principle": "The first four dimensions tell the narrator where to look, how to feel, what to notice, and how to reveal. The orchestrator tells it: no matter what happens, still sound like Humane.",
     "definition": "The orchestrator is the narrator's permanent musical identity. It preserves the story's recognizable behavior across every lens.",
+    "rhetorical_discipline": "The orchestrator decides when to use rhetorical structures, metaphors, similes, repetition, sentence fragments, punchlines, poetic turns, and plain directness. It avoids overuse, stale comparisons, and cleverness that draws attention away from the living scene.",
     "preserves": [
       "sideways_implication",
       "comic_precision_without_overexplaining_the_joke",
       "reader_inference",
       "active_details_that_behave_collide_and_pay_off",
       "musical_prose_instead_of_merely_informative_prose",
-      "warmth_even_when_the_scene_becomes_dry_grave_or_frightening"
+      "warmth_even_when_the_scene_becomes_dry_grave_or_frightening",
+      "language_as_simple_as_the_moment_allows"
     ],
     "example_revisions": [
       {
@@ -268,7 +305,7 @@
       "new_lens_settles"
     ],
     "chapter_0_a_to_b": "Katlas gives up waiting for Branth and calls the children. Katlas opens the motion, but the children's arrival gradually steals the emotional center.",
-    "orchestrator_addition": "A transition can be structurally correct and still fail if it becomes neutral. The handoff must preserve the Humane manner of sideways implication, comic precision, active detail, and emotional warmth."
+    "orchestrator_addition": "A transition can be structurally correct and still fail if it becomes neutral. The handoff must preserve the Humane manner of sideways implication, comic precision, active detail, emotional warmth, and simple clarity."
   },
   "children_and_ritual_rule": {
     "principle": "Katlas opens the door. The children bring the heart. The ritual tells the reader what the world values before the journey tests whether those values survive.",
@@ -286,7 +323,8 @@
   "rhythm_rule": {
     "principle": "Short is pain. Medium is motion. Long is wonder.",
     "situational_addition": "Bright scenes may breathe. Dangerous scenes must tighten. Dread should steal comfort before it steals certainty.",
-    "musical_addition": "A repeated lens should return changed by what came before it, like a refrain that means more the second time."
+    "musical_addition": "A repeated lens should return changed by what came before it, like a refrain that means more the second time.",
+    "simple_language_addition": "A sentence should be as clear as it can be without losing its weight."
   },
   "working_aphorisms": [
     "Katlas opens the door. The children bring the heart.",
@@ -298,6 +336,8 @@
     "Humor belongs to pressure.",
     "The narrator may be modern in rhythm, but ancient in texture.",
     "The orchestrator keeps the soul when the lens changes.",
+    "Simple words can carry deep water.",
+    "The prose should be easy to enter and hard to empty.",
     "No matter what happens, still sound like Humane."
   ]
 }
