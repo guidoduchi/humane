@@ -15,9 +15,9 @@ breadcrumbs:
 
 # Narrator Canon
 
-Version: 0.1.4  
-Status: Draft canon, respectfully refined after Chapter 0 narrator calibration and curiosity-chain discovery  
-Scope: Book 1 narrator design, with special attention to Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational tone, interactive detail, question-answer revelation, and the pre-Star Piece state.
+Version: 0.1.5  
+Status: Draft canon, respectfully refined after Chapter 0 narrator calibration, curiosity-chain discovery, and narrative-orchestrator discovery  
+Scope: Book 1 narrator design, with special attention to Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational tone, interactive detail, question-answer revelation, musical lens movement, and the permanent style identity that keeps *Humane* recognizable.
 
 ## Core Question
 
@@ -29,14 +29,15 @@ The narrator of *Humane* is a close third-person, modern-cinematic narrative int
 
 The world remains Bronze Age in its materials, pressures, rituals, tools, dangers, and social logic. The narrator may sound modern in rhythm and accessibility, but the scene itself should remain materially grounded in ash, wool, smoke, mud, resin, breath, bark, water, stone, and fire.
 
-The narrator is adaptive along four working dimensions:
+The narrator is adaptive along five working dimensions:
 
 1. **Focal character** — whose attention, humor, fear, pride, or longing colors the scene.
 2. **Situation** — what the scene itself is doing: morning, celebration, danger, pursuit, wonder, grief, ritual, exhaustion, intimacy, or dread.
 3. **Attention** — which active details the moment makes unavoidable, and how those details touch, interrupt, reveal, or change one another.
 4. **Curiosity chain** — what question each sentence answers, what deeper question it raises, and what emotional residue it leaves behind.
+5. **Narrative orchestrator** — the permanent style-conductor that keeps the prose recognizably *Humane* even when focal lens, mood, detail, and curiosity pattern change.
 
-A happy morning should not sound like a hunt. A dangerous moment should not sound like village banter. A ritual should not be skipped as background decoration. A sentence should not merely exist because it is beautiful; it should give the reader a footprint worth following.
+A happy morning should not sound like a hunt. A dangerous moment should not sound like village banter. A ritual should not be skipped as background decoration. A sentence should not merely exist because it is beautiful; it should give the reader a footprint worth following. And no matter which lens leads the melody, the narrator must still sound like *Humane*.
 
 ## Respectful Calibration Update
 
@@ -54,9 +55,13 @@ The attention rule remains:
 
 > The narrator loves details, but not decorative catalogues. It follows active details: details that move, interrupt, reveal, mislead, comfort, threaten, embarrass, or change the pressure of the scene.
 
-The new curiosity rule:
+The curiosity rule remains:
 
 > The narrator reveals character by answering one small question while quietly creating the next.
+
+The orchestrator rule:
+
+> Character lens and situation may change the instrument. Attention may change the notes. Curiosity may change the order of revelation. The orchestrator keeps the song recognizably *Humane*.
 
 ## Core Identity
 
@@ -66,9 +71,69 @@ The new curiosity rule:
 | Reader-facing style | Modern cinematic accessibility |
 | World-facing imagery | Bronze Age material grounding |
 | Knowledge access | Human-limited before the Star Piece; expanded but restrained after it |
-| Emotional posture | Warm, grave, curious, tactful, adaptive to focal character, situation, active detail, and reader curiosity |
+| Emotional posture | Warm, grave, curious, tactful, adaptive, playful without becoming detached |
 | Reader relationship | Implicit companionship; never direct address; respects inference |
-| Forbidden default mode | Lore lecture, cosmic exposition, detached narrator comedy, broken focal lens, emotional monotone, decorative detail catalogue, overexplained psychology |
+| Permanent style identity | Sideways intelligence, comic precision, emotional warmth, curiosity-chain rhythm, and refusal to flatten life into plain exposition |
+| Forbidden default mode | Lore lecture, cosmic exposition, detached narrator comedy, broken focal lens, emotional monotone, decorative detail catalogue, overexplained psychology, neutral report prose |
+
+## The Five-Dimension Model
+
+| Dimension | Question It Answers | Failure Mode |
+|---|---|---|
+| Focal character | Who colors the lens? | Everyone sounds the same |
+| Situation | What emotional weather filters the scene? | A ritual sounds like banter; danger sounds safe |
+| Attention | Which details matter enough to narrate? | Decorative catalogues |
+| Curiosity chain | What does each sentence answer and raise? | Pretty sentences with no pull |
+| Narrative orchestrator | What keeps the whole thing recognizably *Humane*? | Correct structure, wrong soul |
+
+## Narrative Orchestrator Rule
+
+The orchestrator is the narrator's permanent musical identity. It preserves the story's recognizable behavior across every lens.
+
+Even when the scene shifts from Katlas to the children, from joy to ritual, from ritual to danger, or from danger to wonder, the narrator should still:
+
+- explain through sideways implication;
+- avoid flat naming when a more flavorful route can carry the same information;
+- use comic precision without overexplaining the joke;
+- let sentences answer one question and raise another;
+- trust the reader to infer meaning;
+- make details behave, collide, and pay off;
+- keep the prose musical, not merely informative;
+- preserve warmth, even when it becomes dry, grave, or frightening.
+
+The orchestrator is not Katlas. Katlas can color the narrator, but the orchestrator is older and larger than him. It is the reason a Katlas paragraph, a children's ritual paragraph, an Erlen paragraph, and a danger paragraph can all feel different while still belonging to the same book.
+
+Canon principle:
+
+> The first four dimensions tell the narrator where to look, how to feel, what to notice, and how to reveal. The orchestrator tells it: no matter what happens, still sound like *Humane*.
+
+### Orchestrator Examples
+
+Too flat:
+
+> A woman cursed because someone had not finished tying something.
+
+More *Humane*:
+
+> Somewhere behind the nearest velth, a woman said a word usually reserved for bad weather, worse goats, and relatives who borrowed knives.
+
+Too flat:
+
+> A child shouted that he was ready, but he had not checked his boots.
+
+More *Humane*:
+
+> A child shouted that he was ready with the confidence of someone who had not yet checked both feet.
+
+Too flat:
+
+> Then the children began to appear.
+
+More *Humane*:
+
+> Then the village gave up pretending it had misplaced them and began sending children toward the gate.
+
+The better versions do not merely decorate. They keep the narrator's sideways wit, create motion, reward inference, and preserve the larger song.
 
 ## Focal Lens Rule
 
@@ -93,7 +158,7 @@ The narrator also adapts to the scene's emotional weather. This does not mean th
 |---|---|---|---|---|
 | Morning excitement | Brighter, quicker, more communal; lets voices and movement fill the frame | Smoke, breath, grass, food, chatter, light | Medium sentences with light short beats | Moderate if focal lens supports it |
 | Celebration or anticipation | Warm, busy, abundant; emphasizes preparation and shared pride | Ash, resin, cloth, food, hands, color, sound | Flowing medium-long sentences | Gentle, social |
-| Ritual | Slower, more tactile, more reverent without becoming stiff | Ash, touch, thumb pressure, silence, breath | Longer sentences broken by short human reactions | Low |
+| Ritual | Slower, more tactile, more reverent without becoming stiff | Ash, touch, silence, breath | Longer sentences broken by short human reactions | Low |
 | First journey beyond walls | Excited but edged with fear; the world feels larger than expected | Gate stones, mist, path, packs, wet grass, distant trees | Medium motion, occasional wonder | Light, nervous |
 | Danger noticed | Narrows attention; removes excess cleverness; lets small details become loud | Sound, breath, scent, stillness, shadow | Shorter sentences, controlled pauses | Very low |
 | Pursuit | Compresses perception; prioritizes movement, panic, impact, and choice | Feet, mud, breath, branch, heartbeat | Short and medium fragments; little room to breathe | None unless bitter and character-specific |
@@ -123,7 +188,7 @@ This is why Katlas's opening works.
 
 | Sentence Function | What It Gives | What It Raises |
 |---|---|---|
-| Katlas is awake before sunrise and has already decided mistakes will happen | Name, time, deadpan expectation, responsibility | Who are “they”? What mistakes? Why is he in charge? |
+| Katlas is awake before sunrise and has already decided mistakes will happen | Name, time, deadpan expectation, responsibility | Who are they? What mistakes? Why is he in charge? |
 | He supposedly lost a bet and showed up with a knife and an eye-roll | Task, social rumor, practical world, children, reluctance | Did he really lose? Why children? Why again? |
 | He does not whine in front of them and acts like he volunteered | Hidden care, dignity, protective performance | How much does he actually care? What happened before? |
 
@@ -139,7 +204,7 @@ It should leave intelligent footprints:
 
 The narrator of *Humane* loves details, but it does not narrate decorative accidents for their own sake.
 
-A detail must earn narrative existence by creating motion, revealing psychology, deepening culture, setting up a payoff, sharpening mood, building a running pattern, or changing the reader’s understanding of a character, place, ritual, or danger.
+A detail must earn narrative existence by creating motion, revealing psychology, deepening culture, setting up a payoff, sharpening mood, building a running pattern, or changing the reader's understanding of a character, place, ritual, or danger.
 
 Canon principle:
 
@@ -205,7 +270,7 @@ In joy, it gathers abundance. In ritual, it studies touch. In suspense, it isola
 
 The narrator can move through character lenses like a song moving through verses, refrains, and motifs.
 
-The narrator is the song. Character focus is the leading instrument. Situation is the filter: key, tempo, pressure, rhythm, and emotional weather.
+The narrator is the song. Character focus is the leading instrument. Situation is the filter: key, tempo, pressure, rhythm, and emotional weather. The orchestrator is the conductor that makes the whole arrangement still sound like the same story.
 
 A Chapter 0 pattern may work like:
 
@@ -236,6 +301,26 @@ The narrator may jump between lenses, but each jump needs a handoff note: an obj
 Canon principle:
 
 > The narrator may change lead instruments, but it must keep the same song.
+
+## Transition Rule
+
+A lens transition should not happen because the narrator decides to change focus. It should happen because something in the scene pulls the narrator's attention.
+
+Each transition has three parts:
+
+1. **Anchor** — something from the current lens: Katlas's gaze, mushroom, suspicion, mutter, or practical choice.
+2. **Handoff detail** — something active that pulls attention: whistle, bowl of ash, child mistake, laughter, missing boot, adult gesture, gate movement.
+3. **New lens settles** — the new mood begins controlling rhythm, detail, and emotional color.
+
+For Chapter 0, the A → B transition should be caused by Katlas giving up on waiting for Branth and calling the children. Katlas opens the motion, but the children's arrival should gradually steal the emotional center.
+
+Canon principle:
+
+> Lens shifts must be caused by active handoff details inside the scene; the narrator changes lead instruments only when the world gives it a note to follow.
+
+Orchestrator addition:
+
+> A transition can be structurally correct and still fail if it becomes neutral. The handoff must preserve the *Humane* manner of sideways implication, comic precision, active detail, and emotional warmth.
 
 ## Katlas Rule
 
@@ -270,7 +355,27 @@ Canon principle:
 
 > Katlas opens the door. The children bring the heart. The ritual tells the reader what the world values before the journey tests whether those values survive.
 
-The shift should happen after the opening has made the reader comfortable with Katlas, around the moment the morning becomes louder and the children gather near the gate.
+The shift should happen after the opening has made the reader comfortable with Katlas, around the moment Katlas stops waiting for Branth and calls the children to the gate.
+
+## Chapter 0 A → B Application
+
+The long A section introduces Katlas, his deadpan, his competence, his suspicion, and his hidden care. It should not be cut too early, because Katlas is the reader's first handhold.
+
+The B section begins when Katlas decides waiting for Branth has become pointless and calls the children.
+
+The children should gather with mothers, fathers, grandparents, aunties, uncles, older siblings, teachers, neighbours, or whatever responsible adult has claimed them for the morning. This should not yet complete the ritual. It should build toward it.
+
+The narration should make the transition feel like this:
+
+```text
+A: Katlas waits, scans, mistrusts good signs, mutters about Branth.
+Handoff: Katlas decides not to wait and calls the children.
+B begins: Vahllalhag starts producing children and responsible adults toward the gate.
+B deepens: the bowls of ash and resin approach; excitement becomes quieter because the ritual is near.
+Next section: Ereenhaad marking.
+```
+
+The key is that Katlas causes the transition, but the children must take emotional ownership of it.
 
 ## Material Grounding
 
@@ -282,25 +387,40 @@ Preferred image families:
 | Wool | warmth, dampness, domestic pressure |
 | Stone | endurance, coldness, stubbornness |
 | Wood | craft, fracture, tools, growth |
-| Water | danger, breath, reflection, crossing |
-| Fire | survival, hunger, knowledge, damage |
-| Bone | ancestry, structure, mortality |
-| Mud | labor, childhood, realism, humiliation |
-| Smoke | home, warning, concealment, morning life |
-| Resin | marking, binding, preservation, touch |
-| Breath | life, fear, cold, effort, silence |
+| Water | danger, cleansing, reflection, transformation |
+| Smoke | domestic life, ritual, concealment, breath |
+| Bark | growth, wound, memory, texture |
+| Mud | labor, travel, realism, childhood, humiliation |
+| Resin | binding, marking, smell, preservation |
+| Breath | fear, cold, life, silence, exertion |
 
-Modern phrasing is allowed when it improves accessibility, timing, and cinematic clarity. It should not import objects, institutions, or metaphors that break the Bronze Age illusion unless the phrase is clearly filtered through a character's practical attitude.
+Avoid image families that imply modern institutions, modern technology, or detached internet-like commentary unless deliberately used as reader-facing rhythm without breaking the ancient world.
+
+## Humor Rule
+
+Humor belongs to pressure.
+
+It should come from:
+
+- character contradiction;
+- social embarrassment;
+- practical inconvenience;
+- children overperforming courage;
+- adults pretending not to worry;
+- Katlas protecting tenderness with irritation;
+- ritual seriousness colliding with ordinary life.
+
+Humor should not make the narrator cruel. The narrator may smile at people, but it should not sneer at them.
 
 ## Rhythm Rule
 
-| Sentence Type | Use |
+| Sentence Length | Best Use |
 |---|---|
-| Short | pain, shock, threat, shame, recognition |
-| Medium | movement, work, dialogue pressure, practical action |
-| Long | wonder, ritual, landscape, complex social observation |
+| Short | Pain, shock, threat, shame, recognition |
+| Medium | Movement, work, dialogue, pressure, practical action |
+| Long | Wonder, ritual, landscape, complex social observation |
 
-Guiding principle:
+Canon principle:
 
 > Short is pain. Medium is motion. Long is wonder.
 
@@ -312,41 +432,36 @@ Musical addition:
 
 > A repeated lens should return changed by what came before it, like a refrain that means more the second time.
 
-## Transition Rule
+## Pre-Star-Piece Knowledge Rule
 
-The narrator should not snap between tones unless the character experiences a shock. Otherwise, emotional weather changes through sensory distortion, social interruption, or a handoff detail.
+Before the Star Piece, the narrator should remain human-limited. It may be perceptive, poetic, comic, and emotionally sharp, but it should not explain modern science, cosmic systems, or future mechanics in direct technical language.
 
-Examples of handoff devices:
+After the Star Piece, perception may become more precise and strange, but the narrator should not lose warmth or mystery.
 
-- Katlas's gaze moves from mushroom to children;
-- an ash mark gets smudged;
-- a bowl of ash passes from one adult hand to another;
-- laughter reaches the trees and comes back thinner;
-- Branth's arrival changes the morning's rhythm;
-- a bird stops calling;
-- Wyll hears something others miss;
-- Alessia repairs her own mark instead of waiting for someone else.
+## Practical Scene Calibration Rubric
 
-## Disclosure Rule
+Before writing or revising a scene, answer:
 
-Before the Star Piece, the narrator must not explain the machinery beneath reality. It may show symptoms, patterns, pressure, and consequences.
+| Calibration Question | Example for Chapter 0 A → B |
+|---|---|
+| Who colors the current lens? | Katlas, then children as group |
+| What is the situation? | Morning, anticipation, first journey, ritual build-up |
+| What distance is needed? | Katlas-close, then widening village movement, then ritual-near |
+| What details earn narration? | Branth's absence, Katlas's whistle/call, adults claiming children, bowls of ash/resin, children trying to look ready |
+| What does each sentence answer or raise? | Why stop waiting? Who answers the call? Why does the gathering matter? Why do the bowls change the mood? |
+| What preserves the orchestrator? | Sideways implication, active detail, comic precision, no neutral report prose |
+| What should the reader feel? | Katlas's impatience, children's excitement, adult tenderness, ritual anticipation, faint threat-shadow |
+| What must not happen? | A flat list of children, adults, and objects; neutral exposition; immediate Branth arrival before the children breathe |
 
-After the Star Piece, the narrator may become more precise, but it must keep warmth and mystery. Measurement is allowed only when earned by the scene and focal character.
+## Working Aphorisms
 
-## Chapter 0 Confirmation
-
-Chapter 0 is broadly consistent with this narrator model because it uses:
-
-- Katlas as the focal deadpan lens;
-- cinematic opening movement;
-- Bronze Age textures such as smoke, mist, ash, resin, harths, velths, grass, and hearths;
-- ritual shown through action rather than lecture;
-- emotional pressure around orphans and family markings.
-
-The next calibration pass should make the happy morning and first-journey excitement more consciously felt. Vahllalhag should not only be textured; it should be emotionally awake. The children are not merely assembled. They are thrilled, afraid, proud, loud, watched, blessed, and about to step beyond the walls for the first time.
-
-The main refinement risk is density: if every beat becomes witty, the narrator may detach from Katlas and become an external comic voice. The target is not less humor. The target is better ownership of humor, better response to situation, stronger interactive detail, and cleaner question-answer progression.
-
-## Canon Decision Summary
-
-The narrator of *Humane* is not a lecturer, hidden god, detached comedian, emotional monotone, static camera, or decorative collector of pretty details. It is an adaptive, disciplined witness with a modern cinematic interface. It adapts to focal character, situation, active detail, and reader curiosity. It can move close or wide as needed. It lets morning feel like morning, ritual feel like ritual, danger feel like danger, and dread feel close enough to touch. It explains by making the environment behave. It reveals character by leaving intelligent footprints. It respects the reader by giving them patterns, not answers too early. It respects the characters by staying close to their lived experience before claiming their souls.
+- Katlas opens the door. The children bring the heart.
+- The narrator changes instruments, not songs.
+- Detail is not decoration. Detail is evidence.
+- The narrator notices many things, but only narrates the things that earn a future.
+- A sentence should answer one question and raise a better one.
+- The world should explain itself by behaving.
+- Humor belongs to pressure.
+- The narrator may be modern in rhythm, but ancient in texture.
+- The orchestrator keeps the soul when the lens changes.
+- No matter what happens, still sound like *Humane*.
