@@ -15,9 +15,9 @@ breadcrumbs:
 
 # Narrator Canon
 
-Version: 0.1.5  
-Status: Draft canon, respectfully refined after Chapter 0 narrator calibration, curiosity-chain discovery, and narrative-orchestrator discovery  
-Scope: Book 1 narrator design, with special attention to Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational tone, interactive detail, question-answer revelation, musical lens movement, and the permanent style identity that keeps *Humane* recognizable.
+Version: 0.1.6  
+Status: Draft canon, respectfully refined after Chapter 0 narrator calibration, curiosity-chain discovery, narrative-orchestrator discovery, and simple-language calibration  
+Scope: Book 1 narrator design, with special attention to Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational tone, interactive detail, question-answer revelation, musical lens movement, simple language, and the permanent style identity that keeps *Humane* recognizable.
 
 ## Core Question
 
@@ -29,6 +29,8 @@ The narrator of *Humane* is a close third-person, modern-cinematic narrative int
 
 The world remains Bronze Age in its materials, pressures, rituals, tools, dangers, and social logic. The narrator may sound modern in rhythm and accessibility, but the scene itself should remain materially grounded in ash, wool, smoke, mud, resin, breath, bark, water, stone, and fire.
 
+The language should stay simple whenever possible. Simple does not mean thin. Simple means clear words carrying layered meaning.
+
 The narrator is adaptive along five working dimensions:
 
 1. **Focal character** — whose attention, humor, fear, pride, or longing colors the scene.
@@ -36,6 +38,8 @@ The narrator is adaptive along five working dimensions:
 3. **Attention** — which active details the moment makes unavoidable, and how those details touch, interrupt, reveal, or change one another.
 4. **Curiosity chain** — what question each sentence answers, what deeper question it raises, and what emotional residue it leaves behind.
 5. **Narrative orchestrator** — the permanent style-conductor that keeps the prose recognizably *Humane* even when focal lens, mood, detail, and curiosity pattern change.
+
+Above these sits the architect: the authorial judge who compares versions, breaks rules when needed, and chooses canon.
 
 A happy morning should not sound like a hunt. A dangerous moment should not sound like village banter. A ritual should not be skipped as background decoration. A sentence should not merely exist because it is beautiful; it should give the reader a footprint worth following. And no matter which lens leads the melody, the narrator must still sound like *Humane*.
 
@@ -59,9 +63,13 @@ The curiosity rule remains:
 
 > The narrator reveals character by answering one small question while quietly creating the next.
 
-The orchestrator rule:
+The orchestrator rule remains:
 
 > Character lens and situation may change the instrument. Attention may change the notes. Curiosity may change the order of revelation. The orchestrator keeps the song recognizably *Humane*.
+
+The simple-language law:
+
+> Use the simplest language that can still carry the full emotional, rhythmic, and symbolic weight of the moment.
 
 ## Core Identity
 
@@ -70,11 +78,12 @@ The orchestrator rule:
 | Narration mode | Third-person close with selective widening and controlled lens shifts |
 | Reader-facing style | Modern cinematic accessibility |
 | World-facing imagery | Bronze Age material grounding |
+| Language law | Simple words, layered meaning |
 | Knowledge access | Human-limited before the Star Piece; expanded but restrained after it |
 | Emotional posture | Warm, grave, curious, tactful, adaptive, playful without becoming detached |
 | Reader relationship | Implicit companionship; never direct address; respects inference |
-| Permanent style identity | Sideways intelligence, comic precision, emotional warmth, curiosity-chain rhythm, and refusal to flatten life into plain exposition |
-| Forbidden default mode | Lore lecture, cosmic exposition, detached narrator comedy, broken focal lens, emotional monotone, decorative detail catalogue, overexplained psychology, neutral report prose |
+| Permanent style identity | Sideways intelligence, comic precision, emotional warmth, curiosity-chain rhythm, simple language, and refusal to flatten life into plain exposition |
+| Forbidden default mode | Lore lecture, cosmic exposition, detached narrator comedy, broken focal lens, emotional monotone, decorative detail catalogue, overexplained psychology, neutral report prose, difficult language used only to sound literary |
 
 ## The Five-Dimension Model
 
@@ -85,6 +94,51 @@ The orchestrator rule:
 | Attention | Which details matter enough to narrate? | Decorative catalogues |
 | Curiosity chain | What does each sentence answer and raise? | Pretty sentences with no pull |
 | Narrative orchestrator | What keeps the whole thing recognizably *Humane*? | Correct structure, wrong soul |
+
+## Simple Language Law
+
+The narrator should not confuse difficult language with deep thought.
+
+*Humane* should be simple in language, smart in structure, and rich in implication.
+
+Simple language means:
+
+- clean words;
+- clear movement;
+- readable rhythm;
+- images the reader can hold quickly;
+- layered meaning beneath accessible phrasing;
+- emotional intelligence without overexplaining;
+- jokes that land because the sentence is not fighting itself.
+
+Simple language does not mean:
+
+- flat prose;
+- shallow thought;
+- generic description;
+- loss of style;
+- loss of music;
+- loss of mystery.
+
+Canon principle:
+
+> The prose should be easy to enter and hard to empty.
+
+A good *Humane* sentence can use simple words and still carry pressure:
+
+> The laughter did not stop. Not exactly. It tucked itself behind teeth.
+
+This works because the words are simple, but the meaning is layered: the children are still excited, but ritual has changed the room.
+
+Another example:
+
+> Then Vahllalhag opened.
+
+The language is simple. The implication is not. The village becomes a living body without needing a lecture about community.
+
+Orwell-adjacent principle:
+
+> Never use difficulty as a costume. If a simple word carries the scene, use it. If a richer word earns its place, let it stay.
 
 ## Narrative Orchestrator Rule
 
@@ -99,9 +153,12 @@ Even when the scene shifts from Katlas to the children, from joy to ritual, from
 - trust the reader to infer meaning;
 - make details behave, collide, and pay off;
 - keep the prose musical, not merely informative;
-- preserve warmth, even when it becomes dry, grave, or frightening.
+- preserve warmth, even when it becomes dry, grave, or frightening;
+- keep language as simple as the moment allows.
 
 The orchestrator is not Katlas. Katlas can color the narrator, but the orchestrator is older and larger than him. It is the reason a Katlas paragraph, a children's ritual paragraph, an Erlen paragraph, and a danger paragraph can all feel different while still belonging to the same book.
+
+The orchestrator also governs rhetorical discipline. It decides when to use rhetorical structures, metaphors, similes, repetition, sentence fragments, punchlines, poetic turns, and plain directness. It avoids overuse, stale comparisons, and cleverness that draws attention away from the living scene.
 
 Canon principle:
 
@@ -320,7 +377,7 @@ Canon principle:
 
 Orchestrator addition:
 
-> A transition can be structurally correct and still fail if it becomes neutral. The handoff must preserve the *Humane* manner of sideways implication, comic precision, active detail, and emotional warmth.
+> A transition can be structurally correct and still fail if it becomes neutral. The handoff must preserve the *Humane* manner of sideways implication, comic precision, active detail, emotional warmth, and simple clarity.
 
 ## Katlas Rule
 
@@ -432,11 +489,25 @@ Musical addition:
 
 > A repeated lens should return changed by what came before it, like a refrain that means more the second time.
 
+Simple-language addition:
+
+> A sentence should be as clear as it can be without losing its weight.
+
 ## Pre-Star-Piece Knowledge Rule
 
 Before the Star Piece, the narrator should remain human-limited. It may be perceptive, poetic, comic, and emotionally sharp, but it should not explain modern science, cosmic systems, or future mechanics in direct technical language.
 
 After the Star Piece, perception may become more precise and strange, but the narrator should not lose warmth or mystery.
+
+## Architect Rule
+
+The architect is not another narrator mechanism inside the prose. The architect is the authorial judge above the system.
+
+The narrator performs the song. The orchestrator keeps the song sounding like *Humane*. The architect decides which song becomes canon.
+
+Canon is not the version that obeys every rule. Canon is the version that best serves the soul, direction, and memory of the story.
+
+The architect may break any rule when the living passage demands it.
 
 ## Practical Scene Calibration Rubric
 
@@ -450,8 +521,9 @@ Before writing or revising a scene, answer:
 | What details earn narration? | Branth's absence, Katlas's whistle/call, adults claiming children, bowls of ash/resin, children trying to look ready |
 | What does each sentence answer or raise? | Why stop waiting? Who answers the call? Why does the gathering matter? Why do the bowls change the mood? |
 | What preserves the orchestrator? | Sideways implication, active detail, comic precision, no neutral report prose |
+| How simple should the language be? | As simple as possible while keeping the sentence alive |
 | What should the reader feel? | Katlas's impatience, children's excitement, adult tenderness, ritual anticipation, faint threat-shadow |
-| What must not happen? | A flat list of children, adults, and objects; neutral exposition; immediate Branth arrival before the children breathe |
+| What must not happen? | A flat list of children, adults, and objects; neutral exposition; immediate Branth arrival before the children breathe; difficult language used as decoration |
 
 ## Working Aphorisms
 
@@ -464,4 +536,6 @@ Before writing or revising a scene, answer:
 - Humor belongs to pressure.
 - The narrator may be modern in rhythm, but ancient in texture.
 - The orchestrator keeps the soul when the lens changes.
+- Simple words can carry deep water.
+- The prose should be easy to enter and hard to empty.
 - No matter what happens, still sound like *Humane*.
