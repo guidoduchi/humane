@@ -1,31 +1,309 @@
 {
   "id": "NAR-HUMANE-CORE-001",
   "name": "Humane Core Narrator",
-  "version": "1.1.0",
-  "status": "stable_narrator_engine_after_chapter_0_calibration_peer_review_adoption_and_nebby_correction_pass",
-  "scope": "Compact repository marker for narrator canon v1.1.0. Full peer-reviewed source remains in the uploaded v1.1 candidate and the Nebby-approved corrections.",
-  "change_notes": {
-    "label": "peer_reviewed_plus_nebby_correction_pass",
-    "peer_reviewed_part": ["sentence_compounding", "rhetorical_insistence", "question_answer_chain", "children_and_ritual_rule", "material_grounding", "practical_scene_calibration", "working_aphorisms"],
-    "nebby_part": ["version_alignment_to_1_1_0", "clarity_outranks_clever_density", "overloaded_sentence_failure_mode", "character_availability_gate"]
+  "version": "1.0.1",
+  "status": "stable_narrator_engine_after_chapter_0_calibration_curiosity_chain_orchestrator_simple_words_dynamic_paragraph_composition_performed_action_and_lens_filter_clarification",
+  "scope": "Book 1 narrator design, with emphasis on Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational filters, earned detail, performed action, question-answer revelation, musical paragraph rhythm, simple words, character lens calibration, and the permanent style identity that keeps Humane recognizable.",
+  "core_answer": "Humane uses a close third-person, modern-cinematic narrative interface observing an ancient world. Its modern quality is a readability layer, not a worldbuilding layer. The world remains Bronze Age in its materials, pressures, rituals, tools, dangers, and social logic. The narrator uses simple words whenever possible, but simple does not mean plain. The goal is not to report that something happened; the goal is to make the way it happened matter.",
+  "core_identity": {
+    "narration_mode": "third_person_close_with_selective_widening_and_controlled_lens_shifts",
+    "reader_facing_style": "modern_cinematic_accessibility",
+    "world_facing_imagery": "bronze_age_material_grounding",
+    "language_law": "simple_words_deep_work",
+    "knowledge_access": "human_limited_before_star_piece_expanded_but_restrained_after",
+    "emotional_posture": ["warm", "grave", "curious", "tactful", "adaptive", "playful_without_becoming_detached"],
+    "reader_relationship": "implicit_companionship_no_direct_address_respects_inference",
+    "permanent_style_identity": ["sideways_intelligence", "comic_precision", "emotional_warmth", "curiosity_chain_rhythm", "simple_words", "performed_detail", "refusal_to_flatten_life_into_plain_exposition"],
+    "forbidden_default_modes": ["lore_lecture", "cosmic_exposition", "detached_narrator_comedy", "broken_focal_lens", "emotional_monotone", "decorative_detail_catalogue", "overexplained_psychology", "neutral_report_prose", "difficult_language_used_only_to_sound_literary", "cleverness_that_steals_attention_from_the_living_scene"]
   },
-  "core_model": {
+  "architecture": {
     "hierarchy": ["architect", "five_dimensions", "execution_sub_engines", "prose"],
-    "five_dimensions": ["focal_character", "situation", "attention", "curiosity_chain", "narrative_orchestrator"],
-    "execution_sub_engines": ["simple_words_deep_work", "performed_action", "dynamic_paragraph_composition", "taste_control", "world_made_wink", "short_line_pressure", "sentence_compounding", "rhetorical_insistence"]
+    "architect": {
+      "definition": "The authorial judge above the system. The narrator performs the song. The orchestrator keeps the song sounding like Humane. The architect decides which song becomes canon.",
+      "canon_principle": "Canon is not the version that obeys every rule. Canon is the version that best serves the soul, direction, and memory of the story.",
+      "permission": "The architect may break any rule when the living passage demands it."
+    }
   },
-  "canon_principles": [
+  "lens_filter_calibration": {
+    "definition": "The narrator works like a single story-camera passing through different character lenses and situational filters.",
+    "canon_principles": [
+      "Character is the lens. Situation is the filter. The orchestrator is the camera that remembers the whole film.",
+      "The goal is not to label emotion. The goal is to let the prose behave as if the emotion has changed the light."
+    ],
+    "lens_function": "A character lens changes attention: what the prose notices, mistrusts, jokes about, fears, hides, misreads, or refuses to say plainly.",
+    "filter_function": "A situational filter changes emotional weather: rhythm, distance, image density, sensory focus, humor level, paragraph shape, and performed action.",
+    "execution_function": "Execution sub-engines decide how attention and weather become prose.",
+    "examples": [
+      "Katlas under morning pressure may make care sound like inconvenience.",
+      "Katlas under danger should become quieter, sharper, and less willing to waste a joke.",
+      "Muyu under danger may triage the scene before anyone else understands the wound.",
+      "Muyu under tenderness may still notice breath, balance, and hidden pain, but the rhythm should soften around what she chooses to protect."
+    ]
+  },
+  "five_dimension_model": [
+    {"dimension": "focal_character", "question": "Who colors the lens?", "failure_mode": "Everyone sounds the same."},
+    {"dimension": "situation", "question": "What emotional weather filters the scene?", "failure_mode": "A ritual sounds like banter; danger sounds safe."},
+    {"dimension": "attention", "question": "Which details matter enough to narrate?", "failure_mode": "Decorative catalogues or dead objects."},
+    {"dimension": "curiosity_chain", "question": "What does each sentence answer, raise, and leave behind?", "failure_mode": "Pretty sentences with no pull."},
+    {"dimension": "narrative_orchestrator", "question": "What keeps the whole thing recognizably Humane?", "failure_mode": "Correct structure, wrong soul."}
+  ],
+  "execution_sub_engines": {
+    "simple_words_deep_work": "Uses clear words that still carry layered meaning.",
+    "performed_action": "Makes charged actions reveal character, pressure, humor, ritual, danger, or emotion.",
+    "dynamic_paragraph_composition": "Uses paragraph length as music: swell, cut, breath, snap, silence.",
+    "taste_control": "Decides whether a joke, metaphor, detail, or wink belongs.",
+    "world_made_wink": "Allows reader-facing humor only when built from the world's own materials.",
+    "short_line_pressure": "Ensures short paragraphs strike, turn, deepen, or land instead of merely reporting.",
+    "diagnostic": "If a paragraph feels correct but flat, the dimensions may be present, but the sub-engines are probably asleep."
+  },
+  "simple_words_deep_work": {
+    "principles": [
+      "Use the simplest words that can still do the full work.",
+      "Never use difficulty as a costume. If a simple word carries the scene, use it. If a richer word earns its place, let it stay.",
+      "Simple words can carry deep water."
+    ],
+    "means": ["clean_language", "clear_movement", "readable_rhythm", "quickly_holdable_images", "jokes_that_land_without_sentence_fighting_itself", "emotion_carried_through_action", "layered_meaning_beneath_accessible_phrasing"],
+    "does_not_mean": ["flat_action_reports", "shallow_thought", "generic_description", "loss_of_style", "loss_of_music", "loss_of_mystery", "fear_of_metaphor_humor_or_poetic_turns"],
+    "examples": {
+      "alive_simple_sentence": "The laughter did not stop. Not exactly. It tucked itself behind teeth.",
+      "failed_simple_sentence": "He ate the mushroom.",
+      "better_action": "He chewed it like it owed him rent.",
+      "canon_mushroom_line": "He put it in his mouth with the grim patience of a man ending a debate no one else knew had started. Then he chewed. Slowly. Bitterly. Like the mushroom had paid him in low-quality copper."
+    }
+  },
+  "performed_action_rule": {
+    "definition": "Important actions should behave like gestures, not stage directions.",
+    "canon_principle": "Do not say the thing happened if the way it happened is the point.",
+    "examples": [
+      {"flat": "He looked at the path.", "performed": "He gave the path one last chance to produce Branth."},
+      {"flat": "The children arrived.", "performed": "The village began sending children toward the gate in knots and bursts."},
+      {"flat": "He waited.", "performed": "He waited three breaths. Four would have been hope."}
+    ]
+  },
+  "narrative_orchestrator_rule": {
+    "definition": "The orchestrator is the narrator's permanent musical identity and taste governor.",
+    "principle": "Character lens may change the instrument. Situation may change the key. Attention may change the notes. Curiosity may change the order of revelation. Paragraph rhythm may change the tempo. The orchestrator keeps the whole arrangement recognizably Humane.",
+    "preserves": ["sideways_implication", "comic_precision_without_overexplaining_the_joke", "reader_inference", "active_details_that_behave_collide_and_pay_off", "charged_actions_performing_character_pressure_humor_danger_ritual_or_emotion", "musical_prose_instead_of_merely_informative_prose", "warmth_even_when_dry_grave_or_frightening", "language_as_simple_as_the_moment_allows"],
+    "not_katlas": "Katlas can color the narrator, but the orchestrator is older and larger than him.",
+    "taste_rule": "A sentence may be funny, poetic, strange, sharp, or sideways, but it must still belong to the scene.",
+    "world_made_wink_rule": {
+      "definition": "The narrator may sometimes wink toward the reader, but the wink must be made out of the world.",
+      "materials": ["copper", "wool", "smoke", "mud", "rope", "teeth", "wet_dogs", "bad_weather", "dull_knives", "borrowed_tools", "green_flakes", "bad_trades", "family_shame", "bitter_roots", "unreliable_paths"],
+      "good": ["Like the mushroom had borrowed copper and returned advice.", "Like the mushroom had paid him in low-quality copper."],
+      "too_far": "Like the mushroom had participated in the collapse of Bronze Age trade networks."
+    },
+    "short_line_pressure_rule": "A short paragraph must strike, turn, deepen, embarrass, reveal, silence, or land a joke. If a short line only reports movement, absorb it into a stronger sentence."
+  },
+  "focal_lens_rule": {
+    "principle": "The character colors the instrument. The orchestrator keeps the song.",
+    "definition": "Focal lens is not impersonation. The narrator does not become a different book each time focus changes.",
+    "profiles": [
+      {"character": "Katlas", "texture": "dry_practical_suspicious_protective_emotionally_evasive", "changes": ["usefulness", "danger", "inconvenience", "hidden_care", "bad_signs", "people_pretending_not_to_worry"], "failure_mode": "Every paragraph becomes a joke; danger becomes safe; tenderness gets erased."},
+      {"character": "Children as group", "texture": "bright_nervous_proud_loud_easily_embarrassed_desperate_to_be_seen_as_older", "changes": ["noise", "imitation", "pride", "small_status_battles", "embarrassment", "adult_attention", "ritual_seriousness_arriving_too_early"], "failure_mode": "Children become cute background texture; chaos becomes a list."},
+      {"character": "Erlen", "texture": "quick_curious_defensive_wonder_prone_hungry_for_respect", "changes": ["possibility", "unfairness", "skill", "weakness", "discovery", "how_others_measure_him"], "failure_mode": "Curiosity becomes exposition delivery; defensiveness becomes whining."},
+      {"character": "Ayka", "texture": "sharp_analytic_self_forging_socially_precise", "changes": ["patterns", "flaws", "leverage", "logic", "contradictions", "how_people_can_be_moved"], "failure_mode": "Intelligence becomes coldness; analysis replaces emotion."},
+      {"character": "Arceis", "texture": "muscular_proud_status_aware_physically_confident", "changes": ["strength", "posture", "challenge", "rank", "skill", "visible_failure"], "failure_mode": "Confidence becomes empty arrogance; physicality becomes bluntness."},
+      {"character": "Wyll", "texture": "sensorily_alert_pressured_watchful_easily_overloaded_but_perceptive", "changes": ["sound", "texture", "small_wrongness", "crowd_pressure", "breath", "rhythm", "too_many_things_at_once"], "failure_mode": "Sensory detail becomes clutter; overload becomes unreadable."},
+      {"character": "Idris", "texture": "tactile_symbolic_inward_object_centered", "changes": ["weight", "shape", "texture", "charm", "pattern", "private_meaning", "objects_as_emotional_anchors"], "failure_mode": "Symbolism becomes opaque; inwardness becomes absence."},
+      {"character": "Alessia", "texture": "self_possessed_socially_aware_controlled_polished_but_not_cold", "changes": ["presentation", "restraint", "status", "gesture", "timing", "who_is_watching_whom"], "failure_mode": "Polish becomes emotional distance; control becomes stiffness."}
+    ],
+    "examples": [
+      {"flat": "Katlas waited for Branth.", "lens": "Katlas gave the path one last chance to produce Branth."},
+      {"flat": "The children walked to the gate.", "lens": "The children came in knots and bursts, each trying to look as if the gate had been waiting for them personally."},
+      {"flat": "Erlen looked at the bow.", "lens": "Erlen looked at the bow and tried not to count all the ways it could embarrass him."},
+      {"flat": "Wyll heard the crowd.", "lens": "Wyll heard the crowd in layers: sandals, breath, straps, laughter, one cough too close, one word too sharp."},
+      {"flat": "Alessia stood still.", "lens": "Alessia stood still in the careful way some people shouted."}
+    ]
+  },
+  "situational_filter_rule": {
+    "principles": ["The character is the lens. The situation is the filter.", "The situation decides how much cleverness the moment can survive."],
+    "profiles": [
+      {"situation": "morning_excitement", "behavior": "brighter_quicker_more_communal", "details_that_perform": ["smoke", "dogs", "straps", "food", "missing_belts", "horses", "chatter", "packed_bags"], "rhythm": "medium_motion_with_short_comic_cuts_controlled_bustle", "humor": "moderate_if_lens_supports_it", "failure_mode": "generic_happy_village_noise"},
+      {"situation": "celebration_or_anticipation", "behavior": "warm_abundant_socially_textured", "details_that_perform": ["food", "cloth", "ash", "resin", "hands", "gifts", "color", "carried_things"], "rhythm": "flowing_medium_long_with_small_human_interruptions", "humor": "gentle_social", "failure_mode": "decorative_festival_catalogue"},
+      {"situation": "ritual", "behavior": "slower_tactile_weighted_reverent_without_stiffness", "details_that_perform": ["ash", "oil", "skin", "breath", "stillness", "uneven_marks", "watching_adults"], "rhythm": "long_buildups_broken_by_short_human_reactions", "humor": "low_soft_ordinary_life_intrusion_only", "failure_mode": "solemn_exposition_or_fake_sacredness"},
+      {"situation": "first_journey_beyond_walls", "behavior": "excited_but_edged_with_fear_world_feels_larger", "details_that_perform": ["gate_stones", "wet_grass", "packs", "path", "mist", "distant_trees", "adult_hands_letting_go"], "rhythm": "medium_forward_motion_with_short_wonder_fear_beats", "humor": "light_nervous", "failure_mode": "simple_travel_logistics"},
+      {"situation": "danger_noticed", "behavior": "narrows_attention_removes_excess_cleverness_makes_small_details_loud", "details_that_perform": ["breath", "scent", "snapped_twig", "silence", "wrong_birdcall", "still_grass", "hand_on_weapon"], "rhythm": "shorter_sentences_controlled_pauses_fewer_ornaments", "humor": "very_low_character_specific_dry_edge_only", "failure_mode": "danger_feels_safe_or_too_clever"},
+      {"situation": "pursuit", "behavior": "compresses_perception_prioritizes_movement_impact_choice_and_failing_breath", "details_that_perform": ["feet", "mud", "branches", "lungs", "blood", "straps", "slipping_grip"], "rhythm": "short_and_medium_fragments_little_room_to_breathe", "humor": "almost_none", "failure_mode": "action_choreography_without_fear"},
+      {"situation": "dread", "behavior": "makes_familiar_wrong_before_explaining_why", "details_that_perform": ["too_much_silence", "wrong_warmth", "missing_sound", "odd_smell", "animals_refusing_a_place"], "rhythm": "broken_rhythm_sudden_short_lines_delayed_explanation", "humor": "none", "failure_mode": "vague_darkness"},
+      {"situation": "wonder", "behavior": "opens_scale_lets_beauty_and_fear_coexist", "details_that_perform": ["sky", "water", "light", "impossible_motion", "reflections", "trembling_hands", "breath_stopping"], "rhythm": "longer_sentences_with_short_awe_anchors", "humor": "low_unless_filtered_through_katlas_or_children", "failure_mode": "purple_prose"},
+      {"situation": "grief_or_tenderness", "behavior": "softens_without_sentimentality_trusts_small_gestures", "details_that_perform": ["hands", "cloth", "breath", "weight", "absence", "someone_fixing_what_no_longer_matters"], "rhythm": "quiet_medium_sentences_short_pain_beats", "humor": "low_or_absent", "failure_mode": "melodrama_or_explanation_of_feelings"},
+      {"situation": "exhaustion", "behavior": "heavy_practical_reduced_ornament_body_edits_world", "details_that_perform": ["feet", "straps", "sweat", "hunger", "cold", "ache", "rubbing_skin", "dull_tools"], "rhythm": "slower_medium_sentences_blunt_endings", "humor": "dry_sparse", "failure_mode": "boring_fatigue_report"},
+      {"situation": "comic_pressure", "behavior": "inconvenience_reveals_care_social_order_fear_or_pride", "details_that_perform": ["bad_straps", "wet_dogs", "borrowed_knives", "rude_mushrooms", "stubborn_sacks", "children_overacting_adulthood"], "rhythm": "long_setup_to_short_cut_or_short_joke_to_larger_consequence", "humor": "high_but_controlled", "failure_mode": "detached_standup_comedy"},
+      {"situation": "discovery_or_invention", "behavior": "quickens_curiosity_lets_cause_and_effect_feel_magical_without_becoming_magic", "details_that_perform": ["hands_testing", "stone", "water", "fire", "failed_attempts", "sudden_pattern", "someone_watching"], "rhythm": "short_observations_expanding_into_longer_realization", "humor": "bright_surprised", "failure_mode": "science_lecture"},
+      {"situation": "threshold_or_uncanny", "behavior": "reality_feels_slightly_misaligned_perception_sharpens_without_overexplaining", "details_that_perform": ["repeated_sounds", "impossible_stillness", "light_behaving_wrong", "delayed_pain", "mismatched_memory"], "rhythm": "uneven_beautiful_line_cut_by_wrong_detail", "humor": "very_low", "failure_mode": "abstract_cosmic_exposition"}
+    ],
+    "filtering_examples": [
+      {"flat": "He looked at the path.", "morning": "He gave the path one last chance to produce Branth.", "danger": "He looked at the path because the birds had stopped using it.", "dread": "He looked at the path and realized it had become too quiet to be empty.", "wonder": "He looked at the path, and for a moment it seemed less like a way forward than a question the earth had forgotten to close.", "exhaustion": "He looked at the path. It was still there. Rude of it."}
+    ]
+  },
+  "detail_engine": {
+    "principles": ["The narrator notices many things, but only narrates the things that earn a future.", "The narrator does not describe the world as a painting. It describes the world as a chain of small causes happening in real time.", "The reader should understand importance because the environment behaves as if it matters."],
+    "definition": "A detail must earn narrative existence by doing work, and it should also perform in the present.",
+    "detail_functions": ["move_the_scene", "reveal_character", "change_social_pressure", "cause_a_reaction", "carry_ritual_meaning", "foreshadow_danger", "set_up_a_payoff", "show_culture_through_behavior", "make_reader_feel_emotional_weather", "stimulate_imagination_without_forcing_explanation"],
+    "mushroom_example": {"flat": "There was a mushroom in the grass.", "earned_but_plain": "Katlas found a mushroom in the grass and ate it.", "more_humane": "The mushroom did not help.", "best": "He put it in his mouth with the grim patience of a man ending a debate no one else knew had started. Then he chewed. Slowly. Bitterly. Like the mushroom had paid him in low-quality copper."},
+    "detail_test": ["Does it move, reveal, pressure, disturb, comfort, mislead, or pay off?", "Does it interact with another detail, person, sound, object, or expectation?", "Does it make the world explain itself by behaving?", "Does it stimulate imagination instead of closing it?", "Would the scene lose pressure, rhythm, humor, meaning, or memory if the detail disappeared?"]
+  },
+  "distance_and_lens_movement": {
+    "principle": "The narrator's distance is not fixed. Its attention is situational.",
+    "warning": "Distance changes must not feel like neutral camera jumps. The scene must pull the narrator's attention.",
+    "flat_transition": "Katlas looked at the village. The village was busy.",
+    "better_transition": "Katlas looked toward the lower path, found no Branth, and found almost everything else.",
+    "chapter_0_pattern": [
+      {"pattern": "A", "meaning": "Katlas lens: deadpan, practical, suspicious, protective"},
+      {"pattern": "B", "meaning": "Children as group: excitement, pride, fear, ritual heart"},
+      {"pattern": "C", "meaning": "Erlen: quick curiosity, defensive pride, hunger to be seen"},
+      {"pattern": "D", "meaning": "Wyll: sensory pressure, watchfulness, fragile courage"},
+      {"pattern": "E", "meaning": "Alessia: control, polish, self-possession, social precision"}
+    ],
+    "transition_model": ["anchor", "pressure", "handoff_detail", "new_lens_settles"],
+    "transition_principle": "Lens shifts must be caused by active handoff details inside the scene; the narrator changes lead instruments only when the world gives it a note to follow.",
+    "chapter_0_a_to_b": "Katlas gives up waiting for Branth and calls the children. Katlas opens the motion, but the children's arrival gradually steals the emotional center."
+  },
+  "dynamic_paragraph_composition": {
+    "principles": ["Paragraphs are musical units.", "Paragraph length is composition. Pressure chooses the shape.", "Controlled dissonance is allowed when every strange beat belongs."],
+    "paragraph_shapes": {
+      "long": "village_bustle_ritual_build_up_wonder_social_complexity_layered_emotion_sweeping_motion_abundance",
+      "medium": "action_movement_work_observation_dialogue_setup_practical_scene_progression",
+      "short": "punchline_dread_shame_danger_realization_emotional_cut_katlas_deadpan_silence",
+      "one_line": "impact_beat_reversal_hard_joke_fear_grief_revelation_refusal_breath",
+      "repeated_short_beats": "tracking_counting_danger_panic_ritual_steps_narrowing_attention",
+      "long_to_short_collapse": "big_thought_cut_down_by_reality",
+      "short_to_long_expansion": "tiny_detail_opening_into_meaning",
+      "alternating_long_short": "comedy_panic_emotional_instability_child_chaos_controlled_dissonance",
+      "return_changed": "repeated_image_joke_phrase_or_lens_returning_with_new_meaning"
+    },
+    "short_line_pressure": "A short paragraph must strike, turn, deepen, embarrass, reveal, silence, or land a joke.",
+    "sentence_length_guide": {
+      "short": "pain_shock_threat_shame_recognition_punchline",
+      "medium": "movement_work_dialogue_pressure_practical_action",
+      "long": "wonder_ritual_landscape_complex_social_observation_abundance"
+    }
+  },
+  "humor_rule": {
+    "principles": ["Humor belongs to pressure.", "The narrator may smile at people, but it should not sneer at them.", "Katlas can make care sound like inconvenience. The reader should still feel the care."],
+    "sources": ["character_contradiction", "social_embarrassment", "practical_inconvenience", "children_overperforming_courage", "adults_pretending_not_to_worry", "katlas_protecting_tenderness_with_irritation", "ritual_seriousness_colliding_with_ordinary_life", "objects_behaving_as_if_they_have_opinions", "world_refusing_to_be_as_noble_as_people_want"],
+    "world_made_humor": "Humor should be made out of the world's own materials.",
+    "good_world_joke": "Like the mushroom had paid him in low-quality copper.",
+    "too_far_world_joke": "Like the mushroom had committed a trade violation known across Mesopotamia.",
+    "joke_discipline": "A scene should not become a row of punchlines. Humor should vary placement: setup, interruption, aftertaste, or withheld.",
+    "failure_modes": ["detached_standup_comedy", "cruelty_toward_vulnerable_characters", "modern_internet_snark_that_breaks_the_world", "jokes_that_explain_themselves", "jokes_that_only_prove_the_author_knows_a_fact", "punchlines_that_make_danger_safe", "humor_that_flattens_ritual", "cleverness_that_steals_attention_from_the_living_scene"]
+  },
+  "character_lens_calibration": {
+    "principle": "A character lens is a pressure pattern, not a personality prison.",
+    "stable_lens_vs_candidate_arc": {
+      "stable_lens": "Current guiding texture for how the narrator notices through this character.",
+      "candidate_arc": "Possible development path awaiting architect approval.",
+      "failure_mode": "The predictable version the character must avoid becoming."
+    },
+    "expandable_slots": "Add character lens detail only when the story needs the narrator to behave differently around that character.",
+    "slot_fields": ["stable_lens", "narrative_pressure", "what_this_lens_notices", "performed_action_tendency", "candidate_arc", "failure_mode", "canon_status"],
+    "characters": {
+      "katlas": {
+        "stable_lens": ["dry", "practical", "suspicious", "protective", "emotionally_evasive", "more_useful_than_he_wants_people_to_notice", "treats_tenderness_like_logistical_inconvenience"],
+        "canon_principle": "Katlas can make care sound like inconvenience. The reader should still feel the care.",
+        "risky": ["every_paragraph_ending_in_a_joke", "humor_that_makes_danger_safe", "making_katlas_the_narrator_instead_of_a_lens", "modern_jokes_external_to_his_morning", "grumpy_mentor_reduction", "tenderness_invisible_too_long"],
+        "drinking_candidate": {
+          "canon_status": "candidate_do_not_hard_code_until_approved",
+          "possible_arc": "Katlas drinks early in the story as part of avoidance, grief, habit, pain, social role, or self-punishment, then gradually stops as responsibility, attachment, and purpose become harder to dodge.",
+          "failure_mode": "drunk_funny_mentor_instead_of_wounded_useful_evasive_man_with_possible_drinking_problem"
+        }
+      },
+      "arceis": {
+        "direction": "Use Haaland vibes as energy, not imitation. Avoid predictable brooding rival.",
+        "stable_lens": ["physically_gifted", "direct", "proud", "competitive", "status_aware", "socially_loud_without_many_words", "built_for_the_task", "not_mysterious_for_mysterys_sake"],
+        "narrative_texture": ["not_i_am_lonely_and_superior", "more_i_am_obviously_good_at_this_why_is_everyone_making_it_complicated"],
+        "canon_principle": "Arceis should feel physically inevitable before he feels emotionally complicated.",
+        "failure_modes": ["sasuke_shaped_brooding_rival", "generic_bully", "empty_arrogance_without_competence", "beautiful_danger_with_no_social_texture", "rivalry_only_to_make_erlen_insecure"]
+      },
+      "muyu": {
+        "direction": "Use Ajay Che / Lifeline vibes as energy, not imitation.",
+        "canon_status": "draft_calibration_awaiting_architect_approval",
+        "stable_lens": ["fast_under_pressure", "caring_with_teeth", "funny_when_fear_needs_somewhere_to_go", "practical_before_poetic", "allergic_to_useless_panic", "drawn_toward_injury_weakness_and_urgent_need", "morally_aware_of_violence_without_becoming_helpless", "body_moves_toward_right_priority_before_others_understand_problem"],
+        "narrative_pressure": "Muyu enters chaos and immediately begins sorting it: who is hurt, who is lying, who is pretending to be fine, who is about to make things worse, and what can still be saved.",
+        "notices": ["breath_changing", "blood_hidden_badly", "shaking_hands", "uneven_steps", "bad_bandages", "empty_water_skins", "people_pretending_not_to_hurt", "pride_getting_in_way_of_survival", "one_person_nobody_is_watching", "shortest_path_between_danger_and_need"],
+        "performed_action_tendency": "Muyu does not simply react to danger. She triages it.",
+        "examples": [
+          {"flat": "Muyu helped him stand.", "more_humane": "Muyu got under his arm before his pride finished objecting."},
+          {"flat": "Muyu noticed he was hurt.", "more_humane": "Muyu saw the lie in his breathing before she saw the blood."},
+          {"flat": "Muyu ran toward the injured child.", "more_humane": "Muyu was moving before anyone had decided whether screaming counted as a plan."}
+        ],
+        "canon_principle": "Muyu should feel like care under fire: bright enough to keep people moving, sharp enough to cut through panic, and human enough to hate that this is necessary.",
+        "failure_modes": ["generic_healer_girl", "saint_with_no_bite", "quip_machine", "support_character_who_only_exists_to_help_others_develop", "combat_medic_who_treats_violence_as_clean", "cheerful_character_whose_cheer_erases_moral_pressure"]
+      }
+    }
+  },
+  "question_answer_chain_rule": {
+    "principle": "The narrator reveals character by answering one small question while quietly creating the next.",
+    "sentence_jobs": ["answer_small_reader_question", "raise_deeper_question", "reveal_character_indirectly", "imply_time_place_role_danger_relationship_or_social_pressure", "preserve_curiosity", "leave_clue_contradiction_or_emotional_residue"],
+    "summary": "Leave intelligent footprints instead of naming truth too early."
+  },
+  "children_and_ritual_rule": {
+    "principle": "Katlas opens the door. The children bring the heart. The ritual tells the reader what the world values before the journey tests whether those values survive.",
+    "chapter_0_role": "Chapter 0 opens through Katlas, but it does not belong only to Katlas. Katlas is the handhold; the children are the heart; the Ereenhaad ritual is the first major emotional transfer.",
+    "transition_timing": "The shift should happen after the opening has made the reader comfortable with Katlas, around the moment Katlas stops waiting for Branth and calls the children to the gate."
+  },
+  "chapter_0_a_to_b_application": {
+    "a_section": "Katlas waits, scans, mistrusts good signs, mutters about Branth.",
+    "handoff": "Katlas decides not to wait and calls the children.",
+    "b_begins": "Vahllalhag starts producing children and responsible adults toward the gate.",
+    "b_deepens": "The bowls of ash and resin approach; excitement becomes quieter because the ritual is near.",
+    "next_section": "Ereenhaad marking.",
+    "key": "Katlas causes the transition, but the children must take emotional ownership of it."
+  },
+  "material_grounding": {
+    "preferred_image_families": {
+      "ash": "ritual_death_memory_aftermath",
+      "wool": "warmth_dampness_domestic_pressure",
+      "stone": "endurance_coldness_stubbornness",
+      "wood": "craft_fracture_tools_growth",
+      "water": "danger_cleansing_reflection_transformation",
+      "smoke": "domestic_life_ritual_concealment_breath",
+      "bark": "growth_wound_memory_texture",
+      "mud": "labor_travel_realism_childhood_humiliation",
+      "resin": "binding_marking_smell_preservation",
+      "breath": "fear_cold_life_silence_exertion",
+      "copper": "trade_tools_debt_bad_bargains_material_jokes_social_value",
+      "rope": "binding_preparation_control_travel_failed_attempts_to_organize_children",
+      "teeth": "hunger_threat_stubbornness_animal_life_comic_finality"
+    },
+    "avoid": "image families that imply modern institutions, modern technology, or detached internet-like commentary unless deliberately used as reader-facing rhythm without breaking the ancient world"
+  },
+  "pre_star_piece_knowledge_rule": {
+    "before": "Human-limited. Perceptive, poetic, comic, emotionally sharp, but no direct modern science, cosmic systems, or future mechanics in technical language.",
+    "after": "Perception may become more precise and strange, but narrator should not lose warmth or mystery."
+  },
+  "practical_scene_calibration_rubric": [
+    "Who colors the current lens?",
+    "What is the situation?",
+    "What distance is needed?",
+    "What details earn narration?",
+    "Which actions need to perform?",
+    "What does each sentence answer or raise?",
+    "What preserves the orchestrator?",
+    "How simple should the language be?",
+    "What should the reader feel?",
+    "What must not happen?"
+  ],
+  "working_aphorisms": [
     "Character is the lens. Situation is the filter. The orchestrator is the camera that remembers the whole film.",
     "The goal is not to label emotion. The goal is to let the prose behave as if the emotion has changed the light.",
-    "Use the simplest words that can still do the full work.",
+    "Katlas opens the door. The children bring the heart.",
+    "The narrator changes instruments, not songs.",
+    "Detail is not decoration. Detail is evidence.",
+    "Details do not merely earn narration. Details perform.",
+    "The narrator notices many things, but only narrates the things that earn a future.",
+    "A sentence should answer one question and raise a better one.",
     "Do not say the thing happened if the way it happened is the point.",
-    "A load-bearing sentence rarely has just one reason to exist, but clarity outranks clever density.",
-    "If the character is protesting, let the sentence protest with them.",
-    "A lens may exist in the engine before it exists in the reader's world.",
-    "Canon is the version that best serves the soul, direction, and memory of the story."
-  ],
-  "character_availability_gate": {
-    "definition": "A character may have a calibrated lens before entering the story, but the narrator should not use that lens inside scene prose until the character is actually present, remembered, expected, or meaningfully implied by the scene.",
-    "failure_mode": "The narrator borrows a future character flavor too early and makes the world feel wider in the wrong direction."
-  }
+    "The world should explain itself by behaving.",
+    "Humor belongs to pressure.",
+    "A joke may wink at the reader, but it must still be made out of the world.",
+    "Paragraph length is composition. Pressure chooses the shape.",
+    "Controlled dissonance is allowed when every strange beat belongs.",
+    "A character lens is a pressure pattern, not a personality prison.",
+    "The narrator may be modern in rhythm, but ancient in texture.",
+    "The orchestrator keeps the soul when the lens changes.",
+    "Simple words can carry deep water.",
+    "The prose should be easy to enter and hard to empty.",
+    "No matter what happens, still sound like Humane."
+  ]
 }
