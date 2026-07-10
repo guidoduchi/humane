@@ -768,6 +768,26 @@
       "failure_mode": "The narrator borrows a future character's flavor too early and makes the world feel wider in the wrong direction.",
       "example": "Muyu's care-under-fire lens may exist in canon, but Chapter 0 should not use Muyu-like triage attention before Muyu enters or becomes relevant. If a scene needs care, injury, or urgency before Muyu appears, those details must be filtered through the present character lens instead: Katlas, Erlen, Wyll, Alessia, Arceis, or the children as a group."
     },
+    "character_lens_interface_rule": {
+      "definition": "Each major character file may contain a Narrative Lens Interface. This section defines how the narrator behaves when the prose scopes close to that character.",
+      "canon_principle": "The character colors the instrument. The orchestrator keeps the song.",
+      "function": "The Narrative Lens Interface does not replace the narrator. It colors the narrator.",
+      "consult_when": "When writing close to a character, consult that character's Narrative Lens Interface before generating prose.",
+      "interface_fields": [
+        "lens_activation",
+        "dominant_lens_energy",
+        "what_this_lens_notices_first",
+        "prose_behavior_when_scoped_in",
+        "syntax_and_rhythm",
+        "humor_and_rhetorical_energy",
+        "emotional_defense",
+        "stress_mode",
+        "dialogue_prose_boundary",
+        "sample_lens_lines",
+        "failure_modes"
+      ],
+      "failure_mode": "The narrator either ignores the character lens completely, making everyone sound the same, or becomes the character too fully and loses the orchestrator."
+    },
     "characters": {
       "katlas": {
         "stable_lens": [

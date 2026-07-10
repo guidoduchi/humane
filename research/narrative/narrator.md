@@ -1005,6 +1005,65 @@ Example:
 
 Muyu's "care under fire" lens may exist in canon, but Chapter 0 should not use Muyu-like triage attention before Muyu enters or becomes relevant. If a scene needs care, injury, or urgency before Muyu appears, those details must be filtered through the present character lens instead: Katlas, Erlen, Wyll, Alessia, Arceis, or the children as a group.
 
+### Character Availability Gate
+
+A character may have a calibrated lens before entering the story, but the narrator should not use that lens inside scene prose until the character is physically present, remembered, expected, or meaningfully implied by the scene.
+
+Canon principle:
+
+> A lens may exist in the engine before it exists in the reader's world.
+
+Use a character lens when:
+
+- the character is physically present;
+- the scene is close to that character's perception;
+- another character is actively thinking about them;
+- the character's absence is dramatically meaningful;
+- the story has introduced enough context for the reader to understand the lens.
+
+Do not use a character lens when:
+
+- the character has not been introduced;
+- the scene does not need them;
+- the lens would spoil future emotional territory;
+- the narrator is borrowing a useful texture from the wrong person.
+
+Failure mode:
+
+> The narrator borrows a future character's flavor too early and makes the world feel wider in the wrong direction.
+
+### Character Lens Interface Rule
+
+Each major character file may contain a **Narrative Lens Interface**. This section defines how the narrator behaves when the prose scopes close to that character.
+
+The Narrative Lens Interface does not replace the narrator. It colors the narrator.
+
+Canon principle:
+
+> The character colors the instrument. The orchestrator keeps the song.
+
+When writing close to a character, consult that character's Narrative Lens Interface before generating prose.
+
+A Narrative Lens Interface may define:
+
+- lens activation;
+- dominant lens energy;
+- what the lens notices first;
+- prose behavior when scoped in;
+- syntax and rhythm;
+- humor and rhetorical energy;
+- emotional defense;
+- stress mode;
+- dialogue-prose boundary;
+- sample lens lines;
+- failure modes.
+
+The narrator should remain recognizably *Humane*, but the character should change the pressure of the sentence.
+
+Failure mode:
+
+> The narrator either ignores the character lens completely, making everyone sound the same, or becomes the character too fully and loses the orchestrator.
+
 ### Katlas Calibration
 
 Katlas may color the narration with deadpan, but he should not take over the narrator.
