@@ -17,4 +17,4 @@ breadcrumbs:
 
 Version: 1.1.0  
 Status: Stable narrator engine after Chapter 0 calibration, curiosity-chain discovery, narrative-orchestrator discovery, simple-words calibration, dynamic paragraph composition, performed-action discovery, lens/filter clarification, sentence-compounding / rhetorical-insistence calibration, peer-review adoption, and Nebby correction pass  
-Scope: Book 1 narrator design, with special attention to Chapter 0, Katlas-focused deadpan, the
+Scope: Book 1 narrator design, with special attention to Chapter 0, Katlas-focused deadpan, the children's
