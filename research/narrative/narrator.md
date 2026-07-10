@@ -15,8 +15,8 @@ breadcrumbs:
 
 # Narrator Canon
 
-Version: 1.0.1  
-Status: Stable narrator engine after Chapter 0 calibration, curiosity-chain discovery, narrative-orchestrator discovery, simple-words calibration, dynamic paragraph composition, performed-action discovery, and lens/filter clarification  
+Version: 1.1.0  
+Status: Stable narrator engine after Chapter 0 calibration, curiosity-chain discovery, narrative-orchestrator discovery, simple-words calibration, dynamic paragraph composition, performed-action discovery, lens/filter clarification, and sentence-compounding / rhetorical-insistence calibration
 Scope: Book 1 narrator design, with special attention to Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational filters, earned detail, performed action, question-answer revelation, musical paragraph rhythm, simple words, character lens calibration, and the permanent style identity that keeps *Humane* recognizable.
 
 ## Core Question
@@ -121,6 +121,8 @@ Below the five dimensions sit the execution sub-engines. These are not extra dim
 | **Taste Control** | Decides whether a joke, metaphor, detail, or wink belongs |
 | **World-Made Wink** | Allows reader-facing humor only when built from the world's own materials |
 | **Short-Line Pressure** | Ensures short paragraphs strike, turn, deepen, or land instead of merely reporting |
+| **Sentence Compounding** | Ensures load-bearing sentences carry more than one job at once |
+| **Rhetorical Insistence** | Lets sentence structure perform a character's denial, defensiveness, or overcompensation |
 
 The five dimensions decide what the narrator is attending to.
 
@@ -190,6 +192,51 @@ Orwell-adjacent principle:
 
 > Simple words can carry deep water.
 
+## Sentence Compounding Rule
+
+A load-bearing sentence — one that opens a scene, introduces a character, carries a turn, or sets emotional pressure — should usually do more than one job: characterize, raise a question, ground the world materially, advance the beat, sharpen rhythm, or leave emotional residue.
+
+This does not mean every sentence must be dense.
+
+Some sentences should be clean. Some should breathe. Some should strike once and stop. Short-Line Pressure still has authority when a single hit is the point.
+
+Canon principle:
+
+> A load-bearing sentence rarely has just one reason to exist, but clarity outranks clever density.
+
+Flat:
+
+> Ayka arrived early.
+
+Compounded:
+
+> Ayka arrived before the gate opened, the way people arrive when they would rather choose a seat than be given one.
+
+Flat:
+
+> Wyll did not like crowds.
+
+Compounded:
+
+> Wyll had already counted every voice in the yard before the yard had finished deciding it was a crowd.
+
+Failure mode:
+
+> Correct but thin. The sentence says one true thing and stops, when the beat had room to also ground, foreshadow, characterize, or turn.
+
+Opposite failure mode:
+
+> Overloaded. The sentence tries to characterize, foreshadow, joke, explain, and sing at once, until the reader can feel the machinery.
+
+### Compounding Test
+
+1. Is this a load-bearing sentence, or should it stay clean?
+2. What jobs is it doing: character, question, world, motion, rhythm, emotion, setup, payoff?
+3. Would compounding make it richer, or only heavier?
+4. Would splitting it improve breath, timing, or clarity?
+5. Is this a Short-Line Pressure beat where one job is correct on purpose?
+6. Does the added weight feel effortless, or does it show the seams?
+
 ## Performed Action Rule
 
 Important actions should behave like gestures, not stage directions.
@@ -223,6 +270,41 @@ Performed action:
 Canon principle:
 
 > Do not say the thing happened if the way it happened is the point.
+
+## Rhetorical Insistence Rule
+
+When a character is evasive, defensive, or overcompensating, the narrator's sentence structure may mirror that psychology — through repetition or stacked negation — instead of only naming the state. The form performs the defense.
+
+This is Performed Action applied to syntax rather than gesture: the sentence acts out the denial instead of reporting it.
+
+Canon principle:
+
+> If the character is protesting, let the sentence protest with them.
+
+Named state (forbidden — overexplained psychology):
+
+> Katlas didn't want to admit he was worried.
+
+Rhetorical insistence:
+
+> Katlas wasn't worried. He definitely wasn't worried. He checked the path four more times to prove it.
+
+Named state (forbidden):
+
+> Erlen pretended not to care that he'd been picked last.
+
+Rhetorical insistence:
+
+> Erlen did not care. He especially did not care in the specific, rehearsed way of someone who has practiced not caring.
+
+Failure mode: insistence as verbal tic. The device gets reached for out of habit rather than earned by a genuine defensive beat, and repeats often enough per character to become a stylistic crutch instead of a performed moment.
+
+### Rhetorical Insistence Test
+
+1. Is the character genuinely defensive or evasive here, or is this a rhythm trick reaching for a character?
+2. Does the repetition reveal something the character would not say directly? If the narrator ends up naming the emotion anyway, the device failed.
+3. Would cutting the repetition flatten the psychology, or only shorten the paragraph?
+4. Has this device already been used for this character recently?
 
 ## Narrative Orchestrator Rule
 
