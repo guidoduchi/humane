@@ -3,12 +3,29 @@
   "name": "Humane Core Narrator",
   "version": "1.1.0",
   "status": "stable_narrator_engine_after_chapter_0_calibration_peer_review_adoption_and_nebby_correction_pass",
-  "scope": "Book 1 narrator design: one narrator, character lenses, situational filters, earned detail, performed action, simple words, dynamic paragraph rhythm, sentence compounding, rhetorical insistence, and architect judgment.",
+  "scope": "Compact repository marker for narrator canon v1.1.0. Full peer-reviewed source remains in the uploaded v1.1 candidate and the Nebby-approved corrections.",
   "change_notes": {
     "label": "peer_reviewed_plus_nebby_correction_pass",
-    "peer_reviewed_part": [
-      "adopted_peer_reviewed_narrator_upgrade_as_baseline",
-      "added_sentence_compounding",
-      "added_rhetorical_insistence",
-      "strengthened_question_answer_chain_handling",
-      "strengthened
+    "peer_reviewed_part": ["sentence_compounding", "rhetorical_insistence", "question_answer_chain", "children_and_ritual_rule", "material_grounding", "practical_scene_calibration", "working_aphorisms"],
+    "nebby_part": ["version_alignment_to_1_1_0", "clarity_outranks_clever_density", "overloaded_sentence_failure_mode", "character_availability_gate"]
+  },
+  "core_model": {
+    "hierarchy": ["architect", "five_dimensions", "execution_sub_engines", "prose"],
+    "five_dimensions": ["focal_character", "situation", "attention", "curiosity_chain", "narrative_orchestrator"],
+    "execution_sub_engines": ["simple_words_deep_work", "performed_action", "dynamic_paragraph_composition", "taste_control", "world_made_wink", "short_line_pressure", "sentence_compounding", "rhetorical_insistence"]
+  },
+  "canon_principles": [
+    "Character is the lens. Situation is the filter. The orchestrator is the camera that remembers the whole film.",
+    "The goal is not to label emotion. The goal is to let the prose behave as if the emotion has changed the light.",
+    "Use the simplest words that can still do the full work.",
+    "Do not say the thing happened if the way it happened is the point.",
+    "A load-bearing sentence rarely has just one reason to exist, but clarity outranks clever density.",
+    "If the character is protesting, let the sentence protest with them.",
+    "A lens may exist in the engine before it exists in the reader's world.",
+    "Canon is the version that best serves the soul, direction, and memory of the story."
+  ],
+  "character_availability_gate": {
+    "definition": "A character may have a calibrated lens before entering the story, but the narrator should not use that lens inside scene prose until the character is actually present, remembered, expected, or meaningfully implied by the scene.",
+    "failure_mode": "The narrator borrows a future character flavor too early and makes the world feel wider in the wrong direction."
+  }
+}
