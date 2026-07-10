@@ -1,7 +1,7 @@
 {
   "id": "NAR-HUMANE-CORE-001",
   "name": "Humane Core Narrator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "status": "stable_narrator_engine_after_chapter_0_calibration_curiosity_chain_orchestrator_simple_words_dynamic_paragraph_composition_performed_action_lens_filter_clarification_and_sentence_compounding_rhetorical_insistence_calibration",
   "scope": "Book 1 narrator design, with emphasis on Chapter 0, Katlas-focused deadpan, the children's ritual heart, situational filters, earned detail, performed action, question-answer revelation, musical paragraph rhythm, simple words, character lens calibration, and the permanent style identity that keeps Humane recognizable.",
   "core_answer": "Humane uses a close third-person, modern-cinematic narrative interface observing an ancient world. Its modern quality is a readability layer, not a worldbuilding layer. The world remains Bronze Age in its materials, pressures, rituals, tools, dangers, and social logic. The narrator uses simple words whenever possible, but simple does not mean plain. The goal is not to report that something happened; the goal is to make the way it happened matter.",
@@ -749,6 +749,25 @@
       "failure_mode",
       "canon_status"
     ],
+    "character_availability_gate": {
+      "definition": "A character may have a calibrated lens before entering the story, but the narrator should not use that lens inside scene prose until the character is physically present, remembered, expected, or meaningfully implied by the scene.",
+      "canon_principle": "A lens may exist in the engine before it exists in the reader's world.",
+      "use_lens_when": [
+        "character_is_physically_present",
+        "scene_is_close_to_character_perception",
+        "another_character_is_actively_thinking_about_them",
+        "character_absence_is_dramatically_meaningful",
+        "story_has_introduced_enough_context_for_reader_to_understand_lens"
+      ],
+      "do_not_use_lens_when": [
+        "character_has_not_been_introduced",
+        "scene_does_not_need_them",
+        "lens_would_spoil_future_emotional_territory",
+        "narrator_is_borrowing_useful_texture_from_wrong_person"
+      ],
+      "failure_mode": "The narrator borrows a future character's flavor too early and makes the world feel wider in the wrong direction.",
+      "example": "Muyu's care-under-fire lens may exist in canon, but Chapter 0 should not use Muyu-like triage attention before Muyu enters or becomes relevant. If a scene needs care, injury, or urgency before Muyu appears, those details must be filtered through the present character lens instead: Katlas, Erlen, Wyll, Alessia, Arceis, or the children as a group."
+    },
     "characters": {
       "katlas": {
         "stable_lens": [

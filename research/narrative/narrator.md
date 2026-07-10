@@ -974,6 +974,37 @@ Each expandable character slot may use:
 | **Failure mode** | The predictable version to avoid |
 | **Canon status** | Locked, draft, candidate, or watchlist |
 
+### Character Availability Gate
+
+A character may have a calibrated lens before entering the story, but the narrator should not use that lens inside scene prose until the character is physically present, remembered, expected, or meaningfully implied by the scene.
+
+Canon principle:
+
+> A lens may exist in the engine before it exists in the reader's world.
+
+Use a character lens when:
+
+- the character is physically present;
+- the scene is close to that character's perception;
+- another character is actively thinking about them;
+- the character's absence is dramatically meaningful;
+- the story has introduced enough context for the reader to understand the lens.
+
+Do not use a character lens when:
+
+- the character has not been introduced;
+- the scene does not need them;
+- the lens would spoil future emotional territory;
+- the narrator is borrowing a useful texture from the wrong person.
+
+Failure mode:
+
+> The narrator borrows a future character's flavor too early and makes the world feel wider in the wrong direction.
+
+Example:
+
+Muyu's "care under fire" lens may exist in canon, but Chapter 0 should not use Muyu-like triage attention before Muyu enters or becomes relevant. If a scene needs care, injury, or urgency before Muyu appears, those details must be filtered through the present character lens instead: Katlas, Erlen, Wyll, Alessia, Arceis, or the children as a group.
+
 ### Katlas Calibration
 
 Katlas may color the narration with deadpan, but he should not take over the narrator.
