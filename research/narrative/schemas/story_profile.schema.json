@@ -1,0 +1,173 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://humane.local/schemas/story_profile.schema.json",
+  "title": "Story Profile Module",
+  "description": "Defines a project-specific narrator identity compatible with Story Engine 2.x.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "module_schema",
+    "module_id",
+    "module_type",
+    "canon_version",
+    "status",
+    "compatible_story_engine_schema",
+    "last_reviewed",
+    "voice_kernel"
+  ],
+  "properties": {
+    "module_schema": {
+      "const": "1.1.0"
+    },
+    "module_id": {
+      "type": "string",
+      "pattern": "^story-profile\\.[a-z0-9][a-z0-9._-]*$"
+    },
+    "module_type": {
+      "const": "story_profile"
+    },
+    "canon_version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "compatible_story_engine_schema": {
+      "type": "string"
+    },
+    "last_reviewed": {
+      "type": "string",
+      "format": "date"
+    },
+    "scope_boundary": {
+      "type": "string"
+    },
+    "voice_kernel": {
+      "type": "object",
+      "required": [
+        "identity",
+        "temperament",
+        "intelligence_style",
+        "interpretive_posture",
+        "ethical_posture",
+        "reader_relationship",
+        "narrative_authority",
+        "knowledge_behavior",
+        "humor_nature",
+        "rhetorical_behavior",
+        "material_imagination",
+        "diction_and_register",
+        "syntax_and_cadence",
+        "silence_behavior",
+        "lens_permeability",
+        "forbidden_personalities"
+      ],
+      "properties": {
+        "identity": {
+          "type": "string"
+        },
+        "temperament": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "intelligence_style": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "interpretive_posture": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "ethical_posture": {
+          "type": [
+            "object",
+            "array",
+            "string"
+          ]
+        },
+        "reader_relationship": {
+          "type": "string"
+        },
+        "narrative_authority": {
+          "type": "string"
+        },
+        "knowledge_behavior": {
+          "type": "string"
+        },
+        "humor_nature": {
+          "type": [
+            "object",
+            "array",
+            "string"
+          ]
+        },
+        "rhetorical_behavior": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "material_imagination": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "diction_and_register": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "syntax_and_cadence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "silence_behavior": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "lens_permeability": {
+          "type": [
+            "object",
+            "string"
+          ]
+        },
+        "forbidden_personalities": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "amplitude_defaults": {
+      "type": "object"
+    },
+    "failure_scenarios": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "acceptance_tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
