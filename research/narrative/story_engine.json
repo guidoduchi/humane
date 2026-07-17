@@ -1,0 +1,258 @@
+{
+  "metadata": {
+    "id": "STORY-ENGINE-CORE-002",
+    "name": "Story Engine",
+    "version": "2.0.0-rc.3",
+    "engine_schema": "2.0.0",
+    "canon_module_schema": "1.0.0",
+    "story_profile_schema": "1.1.0",
+    "status": "release_candidate_voice_runtime_and_reverse_close_reading_upgrade",
+    "date": "2026-07-17",
+    "separation_law": "The Story Engine governs how a story is told. Canon modules govern what is true. The Story Profile governs who is telling."
+  },
+  "architecture": {
+    "pipeline": [
+      "load_story_profile_and_compatible_canon",
+      "establish_scene_contract_and_ledger",
+      "resolve_voice_kernel",
+      "run_reverse_close_reading_compiler",
+      "build_narrative_possibility_map",
+      "resolve_lens_filter_distance",
+      "plan_tone_and_mood_trajectory",
+      "set_voice_amplitude_curve",
+      "apply_selective_realization_gate",
+      "render_in_narrator_or_scripter_mode",
+      "update_ledger",
+      "run_verification_pipeline",
+      "return_render_or_diagnostic"
+    ],
+    "layers": {
+      "story_engine": "Reusable behavior, transformation, rendering, diagnostics, and verification.",
+      "story_profile": "Stable narrator identity and voice kernel.",
+      "canon_registry": "Binding project truth.",
+      "scene_contract": "Current objective, locked facts, pressure, focal access, and intended experience.",
+      "scene_state_ledger": "Temporary scene truth and inherited mood residue."
+    }
+  },
+  "voice_runtime": {
+    "voice_kernel_required_fields": [
+      "identity",
+      "temperament",
+      "intelligence_style",
+      "interpretive_posture",
+      "ethical_posture",
+      "reader_relationship",
+      "narrative_authority",
+      "knowledge_behavior",
+      "humor_nature",
+      "rhetorical_behavior",
+      "material_imagination",
+      "diction_and_register",
+      "syntax_and_cadence",
+      "silence_behavior",
+      "lens_permeability",
+      "forbidden_personalities"
+    ],
+    "principles": [
+      "Voice is identity, not constant performance.",
+      "Character lenses color attention without replacing the narrator.",
+      "Narrator visibility should normally fall as immediate pressure rises."
+    ],
+    "amplitude": {
+      "symbol": "alpha(t)",
+      "failure_low": "voice_dropout",
+      "failure_high": "voice_overamplitude",
+      "default_pressure_curve": {
+        "low_pressure": "medium_to_high",
+        "rising_concern": "falling",
+        "immediate_danger": "low",
+        "tenderness_or_grief": "low_to_medium",
+        "wonder": "medium"
+      }
+    }
+  },
+  "mood_dynamics": {
+    "conceptual_model": "M(t)=M0+integral(F(alpha(t)V,T(t),C(t),E(t)))dt",
+    "variables": {
+      "M(t)": "reader mood at narrative time t",
+      "M0": "inherited emotional residue",
+      "V": "stable voice kernel",
+      "T(t)": "local tone",
+      "C(t)": "piecewise scene configuration",
+      "E(t)": "execution choices",
+      "alpha(t)": "narrator amplitude"
+    },
+    "principles": [
+      "Mood is accumulated rather than independently selected.",
+      "The same tone can create different moods under different contexts.",
+      "Mood may change gradually or through justified event-driven jumps.",
+      "Contrast prevents saturation.",
+      "The engine configures causes of feeling rather than merely naming emotion."
+    ]
+  },
+  "reverse_close_reading": {
+    "definition": "A transformation stage that excavates latent narrative meaning from a factual baseline without changing what is true.",
+    "principle": "Do not decorate the baseline. Discover what the baseline has not yet learned to say.",
+    "input_fields": [
+      "factual_baseline",
+      "locked_facts",
+      "forbidden_inventions",
+      "story_profile",
+      "canon_modules",
+      "scene_contract",
+      "scene_state_ledger",
+      "target_reader_trajectory",
+      "golden_reference_behaviors"
+    ],
+    "analysis_passes": [
+      "truth_preservation",
+      "causal_skeleton",
+      "latent_contradiction",
+      "hidden_human_truth",
+      "expected_pattern",
+      "reader_questions",
+      "information_order",
+      "behavioral_conversion",
+      "rhetorical_opportunity",
+      "material_grounding",
+      "mood_trajectory",
+      "risk_analysis"
+    ],
+    "possibility_map_fields": [
+      "id",
+      "source",
+      "confidence",
+      "function",
+      "risk",
+      "recommended_status"
+    ]
+  },
+  "selective_realization": {
+    "principle": "The analysis should be exhaustive. The prose should be selective.",
+    "statuses": [
+      "realize_now",
+      "imply_only",
+      "reserve_for_later",
+      "discard"
+    ],
+    "reject_when": [
+      "repeats_an_existing_implication",
+      "turns_device_into_tic",
+      "competes_with_stronger_image",
+      "invents_unsupported_evidence",
+      "causes_attention_theft",
+      "stalls_causal_motion",
+      "belongs_to_later_revelation"
+    ]
+  },
+  "interpretive_rhetoric": {
+    "principle": "The narrator may interpret without explaining and comment without leaving the world.",
+    "operations": [
+      "qualification",
+      "correction",
+      "contradiction",
+      "proleptic_framing",
+      "imagined_alternative",
+      "rhetorical_insistence",
+      "escalation",
+      "anticlimax",
+      "isolated_afterbeat",
+      "socially_mediated_characterization",
+      "serious_framing_of_absurd_material",
+      "strategic_silence"
+    ],
+    "failures": [
+      "detached_commentary",
+      "metafictional_leakage",
+      "explanation_after_implication",
+      "uniform_irony",
+      "character_takeover",
+      "commentary_without_consequence",
+      "aphorism_addiction",
+      "rhetorical_saturation"
+    ]
+  },
+  "preserved_systems": [
+    "canon_registry",
+    "narrator_mode",
+    "scripter_mode",
+    "causal_motion",
+    "human_causality",
+    "dialogue_engine",
+    "detail_engine",
+    "performed_action",
+    "dynamic_paragraph_composition",
+    "taste_control",
+    "scene_state_ledger",
+    "rule_precedence",
+    "override_protocol",
+    "compatibility_handshake"
+  ],
+  "failure_taxonomy_additions": {
+    "voice": [
+      "voice_dropout",
+      "voice_overamplitude",
+      "voice_replacement",
+      "lens_takeover",
+      "wrong_book_beauty"
+    ],
+    "mood": [
+      "tone_mood_confusion",
+      "mood_command",
+      "mood_discontinuity",
+      "mood_saturation",
+      "pressure_fabrication"
+    ],
+    "rcr": [
+      "rcr_decoration",
+      "rcr_under_extraction",
+      "rcr_canon_drift",
+      "rcr_analysis_leakage",
+      "rcr_over_realization",
+      "rcr_false_inference",
+      "rcr_path_flattening"
+    ]
+  },
+  "verification_pipeline": [
+    "compatibility_gate",
+    "truth_gate",
+    "rcr_gate",
+    "causal_gate",
+    "human_gate",
+    "voice_gate",
+    "tone_and_mood_gate",
+    "amplitude_gate",
+    "selective_realization_gate",
+    "taste_gate",
+    "continuity_gate",
+    "architect_gate"
+  ],
+  "required_test_families": [
+    "identity_persistence",
+    "tone_mood_inversion",
+    "lens_permeability",
+    "voice_amplitude",
+    "rcr_fidelity",
+    "pressure_fabrication_adversarial",
+    "exhaustive_analysis_selective_prose",
+    "mood_path_dependence",
+    "inherited_mood",
+    "canon_compatibility",
+    "dialogue_human_causality",
+    "legacy_profile_migration"
+  ],
+  "release_notes": {
+    "added": [
+      "voice_kernel_runtime",
+      "narrator_amplitude_control",
+      "reverse_close_reading_compiler",
+      "narrative_possibility_map",
+      "selective_realization_gate",
+      "interpretive_rhetoric_layer",
+      "accumulated_mood_model",
+      "voice_and_rcr_failures",
+      "formal_test_fixture_contract"
+    ],
+    "legacy_status": "Legacy narrator files remain historical sources until Architect approval."
+  }
+}
