@@ -1,7 +1,7 @@
 {
   "suite_id": "story-engine-regression",
-  "version": "1.1.0",
-  "compatible_engine": "2.0.0-rc.4",
+  "version": "1.2.0",
+  "compatible_engine": "2.0.0-rc.5",
   "last_reviewed": "2026-07-20",
   "fixtures": [
     {
@@ -33,8 +33,46 @@
       "governing_question": "What is happening here?",
       "required": ["shared_sensory_evidence", "provisional_scene_state_only", "narrator_voice_persistence", "mutual_embarrassment"],
       "forbidden": ["invented_backstory", "borrowed_character_traits", "generic_report_prose"]
+    },
+    {
+      "id": "dialogue-contrastive-focus",
+      "purpose": "Verify that typographic emphasis changes semantic focus rather than merely adding emotional intensity.",
+      "baseline": "I didn't say she stole my money.",
+      "focus_readings": {
+        "I": "another_speaker",
+        "didn't": "statement_denied",
+        "say": "possibly_implied",
+        "she": "another_actor",
+        "stole": "another_transfer",
+        "my": "ownership_disputed",
+        "money": "another_object"
+      },
+      "required": [
+        "speaker_objective_before_typography",
+        "speaker_defense",
+        "listener_interpretation",
+        "semantic_italic_stress",
+        "character_specific_rhythm",
+        "subtext_without_explanation"
+      ],
+      "forbidden": [
+        "italic_inflation",
+        "emotional_underlining_without_contrast",
+        "transcript_literalism",
+        "parenthetical_clutter",
+        "punctuation_acting",
+        "universal_dialogue_rhythm",
+        "perfect_emotion_eloquence"
+      ]
     }
   ],
   "cross_fixture_assertions": ["same_canon_facts", "different_perception_order", "different_governing_question", "different_emotional_center", "different_metaphor_availability", "different_risk_interpretation", "same_narrator_ethics", "same_reader_trust", "same_omniscient_restraint", "same_accessible_language"],
+  "dialogue_assertions": [
+    "emphasis_changes_meaning_or_social_pressure",
+    "parentheses_add_secondary_pressure",
+    "speaker_intention_may_differ_from_listener_interpretation",
+    "typography_follows_character_and_mood",
+    "silence_may_complete_dialogue"
+  ],
   "future_stability_battery": ["ordinary_communal_warmth", "multi_character_comedy", "immediate_violence", "intimate_grief", "transcendent_wonder"]
 }
