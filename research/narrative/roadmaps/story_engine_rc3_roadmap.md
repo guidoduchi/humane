@@ -1,94 +1,71 @@
 ---
 layout: entry
-title: Story Engine rc.3 Roadmap
+title: Story Engine rc.4 Roadmap
 section: research
 ---
 
-# Story Engine 2.0.0-rc.3 Roadmap
+# Story Engine rc.4 Roadmap
 
-Date: **2026-07-17**  
-Branch target: **agent/story-engine-voice-kernel-rcr**  
-Status: **Implementation draft**
+Last updated: **2026-07-20**
 
-## Goal
+## Completed
 
-Upgrade the project-independent Story Engine so it can perform Reverse Close Reading, preserve a loaded narrator identity under lensing and tonal change, generate mood through accumulated conditions, and restrain its own discoveries before rendering prose.
+- [x] Extract project-independent Story Engine.
+- [x] Extract Humane Story Profile.
+- [x] Formalize Reverse Close Reading.
+- [x] Add Narrative Possibility Map and Selective Realization.
+- [x] Add narrator-amplitude and mood-path models.
+- [x] Complete six Voice Kernel calibration rounds.
+- [x] Define affection, dialectical worldview, judgment, and intelligence order.
+- [x] Define ethical humor and mood-responsive humor amplitude.
+- [x] Define suffering, consolation, absence, and development laws.
+- [x] Define full omniscience under close-third restraint.
+- [x] Define implicit foreshadowing and reader-question management.
+- [x] Define companionable omniscience and indirect reader interaction.
+- [x] Define resting rhythm, lyrical ceiling, metaphor ecology, and prohibitions.
+- [x] Encode spoiler-safe narrator soul.
+- [x] Define narrator silence and preservation counter-law.
+- [x] Run Erlen, Katlas, Muyu, and Luigi future-dream lens tests.
+- [x] Diagnose and correct Erlen baseline adhesion.
+- [x] Add Lens Recompilation Gate and Baseline Adhesion verification.
+- [x] Extend Story Profile schema to 1.2.0.
+- [x] Expand regression suite to 1.1.0.
 
-## Deliverables
+## Current Validation Target
 
-1. `research/narrative/story_engine.md`
-2. `research/narrative/story_engine.json`
-3. `research/narrative/schemas/story_profile.schema.json`
-4. `research/narrative/profiles/humane_story_profile.md`
-5. `research/narrative/profiles/humane_story_profile.json`
-6. `research/narrative/tests/story_engine_regression.md`
-7. `research/narrative/tests/story_engine_regression.json`
+Validate that:
 
-## Phase 1 — Structural Foundation
+1. all JSON files parse;
+2. the Humane profile validates against the Story Profile schema;
+3. Markdown and JSON express the same laws;
+4. no narrator-identity spoilers appear;
+5. legacy narrator files remain untouched;
+6. the four future-dream fixtures preserve canon while changing lens meaning.
 
-- preserve engine/canon/profile separation;
-- add Voice Kernel runtime;
-- add narrator-amplitude control;
-- add Reverse Close Reading Compiler;
-- add Narrative Possibility Map;
-- add Selective Realization Gate;
-- add Interpretive Rhetoric Layer;
-- formalize mood accumulation and path dependence;
-- expand failure taxonomy and verification gates.
+## Stability Battery — Next
 
-**Exit condition:** Markdown and JSON agree, JSON validates, and no Humane-specific canon is embedded in the generic engine.
+- [ ] Ordinary communal warmth.
+- [ ] Multi-character comedy.
+- [ ] Immediate violence.
+- [ ] Intimate grief.
+- [ ] Transcendent wonder.
 
-## Phase 2 — Humane Profile Extraction
+Each test must confirm stable narrator identity, distinct situational amplitude, ethical humor behavior, appropriate silence, strong lens transformation, no repeated rhetorical dependency, and no canon invention.
 
-- migrate stable narrator identity from legacy narrator files;
-- define temperament, intelligence style, ethical posture, humor nature, rhetoric, material imagination, diction, cadence, and silence behavior;
-- define amplitude defaults by situation;
-- add good examples, bad examples, and failure scenarios;
-- identify what belongs in character modules rather than the story profile.
+## Canonization Gate
 
-**Exit condition:** The profile can render distinct moods and lenses while remaining recognizably Humane.
+The calibrated profile becomes stable canon only after:
 
-## Phase 3 — Regression Harness
+- [ ] five-scene stability battery passes;
+- [ ] Architect reviews failures and exceptions;
+- [ ] profile and engine contradictions are resolved;
+- [ ] regression suite receives canonical examples;
+- [ ] draft PR is approved for merge.
 
-- identity persistence;
-- tone–mood inversion;
-- lens permeability;
-- voice amplitude;
-- RCR fidelity;
-- pressure-fabrication rejection;
-- exhaustive-analysis/selective-prose;
-- mood path dependence;
-- inherited mood;
-- legacy migration compatibility.
+## Deferred
 
-**Exit condition:** Seeded failures are correctly detected and the dog/minwick fixture passes without invented evidence.
-
-## Phase 4 — Repository Migration
-
-After Architect approval:
-
-- mark legacy `narrator.md` and `.json` as superseded historical sources;
-- link them to the new Story Profile;
-- migrate character-specific lens content into character modules;
-- migrate situational defaults that belong to the Story Profile;
-- update research navigation and README links;
-- promote rc.3 to the next release candidate or stable 2.0.0.
-
-## Phase 5 — Chapter 0 Acceptance
-
-Use Chapter 0 as the first project-level acceptance corpus:
-
-- opening three paragraphs;
-- mushroom debate;
-- children and marking sequence;
-- dogs/minwick/empty-velths transition;
-- ritual passage;
-- first danger transition;
-- one tender Katlas beat;
-- one multi-character dialogue scene.
-
-The engine passes only if it improves causality and reader experience without erasing the narrator’s soul or crowding the prose with every discovery.
-
-## Merge Strategy
-
-Use a draft PR. Do not replace legacy narrator files in the first commit. Review architecture, profile identity, and regression fixtures separately. Merge only after the Architect approves both the generic engine and the Humane profile.
+- migrate or deprecate legacy `narrator.md` and `narrator.json`;
+- build full character-profile schema;
+- assign metaphor fields to every major character;
+- add scene-state ledger persistence tests;
+- add automated JSON Schema validation in CI.
