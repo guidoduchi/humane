@@ -6,159 +6,105 @@ section: research
 
 # Story Engine Regression Suite
 
-Version: **1.1.0**  
-Compatible engine: **2.0.0-rc.4**  
+Version: **1.2.0**  
+Compatible engine: **2.0.0-rc.5**  
 Last reviewed: **2026-07-20**
 
 ## Purpose
 
-This suite protects voice identity, lens transformation, mood dynamics, reader trust, and RCR depth.
+This suite protects voice identity, lens transformation, mood dynamics, reader trust, RCR depth, and dialogue prosody.
 
-The central multi-lens fixture uses one future-dream event with the same canon facts and four different focal configurations.
+## Multi-Lens Future-Dream Fixture
 
-## Shared Canon Facts
+All four versions preserve the same canon facts: impossible future city, transparent wall, marked doors, artificial light, perfect reflection, motionless stranger, zipper-like sound, mutual fright, apology, repairs, open-door confusion, and awakening before the exchange finishes.
 
-All four versions preserve:
-
-- an impossible future city;
-- a transparent wall;
-- two differently marked doors;
-- artificial light;
-- a perfect reflection;
-- a person standing motionless toward a wall;
-- a zipper-like sound;
-- mutual fright;
-- an apology;
-- building repairs;
-- confusion about knocking on an open door;
-- awakening before the exchange can finish.
-
-The test does **not** require identical information order, emphasis, metaphor, or emotional center.
-
-## Fixture A — Erlen
+### Fixture A — Erlen
 
 **Governing question:** What rule will make the impossible safe enough to approach?
 
-Required:
+Required: pattern testing, strategic timidity, private sarcasm, reflection as identity event, mutual impossibility, and a character-specific ending.
 
-- pattern testing;
-- strategic timidity;
-- private sarcasm;
-- reflection as an identity event;
-- the figure as a broken rule;
-- mutual impossibility;
-- an ending that changes Erlen’s relationship to strangeness.
+Forbidden: object translation only, default baseline order, generic wonder, and explicit future explanation.
 
-Hidden human truth:
-
-> Erlen enters believing he alone is witnessing the impossible and discovers that the future sees him the same way.
-
-Failure conditions:
-
-- object translation without character transformation;
-- baseline information order preserved by default;
-- generic wonder;
-- no private objective;
-- ending resolves only the plot event.
-
-## Fixture B — Katlas
+### Fixture B — Katlas
 
 **Governing question:** What can this do, and what must be managed?
 
-Required:
+Required: construction logic, survival questions, exit checking, concealed fear, weather metaphors, and intention inferred from tactical behavior.
 
-- construction and survival logic;
-- exits, weapons, footing, and preparation;
-- concealed rather than absent fear;
-- weather metaphor field;
-- stronger deadpan after danger recedes;
-- intention inferred from tactical behavior.
+Forbidden: fearlessness, constant jokes, and Erlen-style wonder.
 
-Failure conditions:
-
-- invulnerability;
-- constant jokes;
-- Katlas replacing the narrator;
-- Erlen-style wonder.
-
-## Fixture C — Muyu
+### Fixture C — Muyu
 
 **Governing question:** Who is hurt, frightened, or about to become dangerous?
 
-Required:
+Required: breath, balance, fall risk, injury checking, fear regulation, and care before explanation.
 
-- breath, balance, posture, pulse, and fall risk;
-- fear converted into stance and action;
-- concern for injury before social ease;
-- regulation of the stranger’s fear;
-- humor lower than Katlas’s version.
+Forbidden: clinical exposition, Katlas-style judgment, and generic compassion.
 
-Failure conditions:
-
-- clinical exposition;
-- generic compassion;
-- diagnostic certainty without evidence;
-- borrowed Katlas skepticism.
-
-## Fixture D — Luigi / John Doe Control
+### Fixture D — Luigi / John Doe Control
 
 **Governing question:** What is happening here?
 
-Required:
+Required: shared sensory evidence, provisional scene-state characterization only, narrator persistence, and mutual embarrassment.
 
-- narrator identity without developed character metadata;
-- shared human and sensory evidence;
-- only provisional scene-state characterization;
-- mutual embarrassment as a bridge;
-- warm neutral voice without generic prose.
-
-Failure conditions:
-
-- invented biography;
-- borrowed traits;
-- false metaphor field;
-- neutral report prose;
-- compensatory cleverness.
+Forbidden: invented backstory, borrowed traits, and generic report prose.
 
 ## Cross-Fixture Assertions
 
-The four versions must change:
+The versions must change perception order, governing question, private objective, metaphor availability, risk interpretation, humor amplitude, emotional center, dialogue purpose, and ending significance.
 
-- perception order;
-- governing question;
-- private objective;
-- metaphor availability;
-- risk interpretation;
-- humor amplitude;
-- emotional center;
-- dialogue purpose;
-- ending significance.
-
-They must preserve:
-
-- canon facts;
-- narrator ethics;
-- accessible language;
-- sensory causality;
-- evidence-first judgment;
-- omniscient restraint;
-- implicit curiosity;
-- reader trust.
+They must preserve canon facts, narrator ethics, accessible language, sensory causality, evidence-first judgment, omniscient restraint, implicit curiosity, and reader trust.
 
 ## Baseline-Adhesion Regression
-
-A lens pass fails when the baseline already resembles the focal character superficially and the engine therefore transforms it less deeply.
-
-Required check:
 
 ```text
 Did the character merely describe the same scene,
 or did the scene become a story only this character could have lived?
 ```
 
-## Next Stability Battery
+## Dialogue Prosody Regression
 
-After the multi-lens fixture, run:
+### Contrastive-focus fixture
+
+Use the unchanged wording:
+
+> I didn’t say she stole my money.
+
+The engine must be able to render seven distinct semantic readings by stressing:
+
+1. *I* — another speaker;
+2. *didn’t* — denial of the statement;
+3. *say* — implication without explicit speech;
+4. *she* — another possible actor;
+5. *stole* — another kind of transfer;
+6. *my* — disputed ownership;
+7. *money* — another possible object.
+
+### Pass conditions
+
+- emphasis changes the proposition or social pressure;
+- speaker objective and defense are established before typography;
+- listener interpretation may differ from speaker intention;
+- italics are used only for semantic contrast;
+- punctuation and pauses fit the character and mood;
+- parenthetical material carries secondary pressure;
+- subtext remains inferable without explanatory narration;
+- severe emotion may reduce verbal elegance;
+- silence may complete the line.
+
+### Failure conditions
+
+- italic inflation;
+- emotional underlining without semantic contrast;
+- transcript literalism;
+- parenthetical clutter;
+- punctuation acting;
+- universal dialogue rhythm;
+- perfect speeches under unprocessed shock or grief;
+- narration explaining subtext after dialogue already performed it.
+
+## Next Stability Battery
 
 1. ordinary communal warmth;
 2. multi-character comedy;
