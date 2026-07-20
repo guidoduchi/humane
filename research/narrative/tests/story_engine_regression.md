@@ -6,246 +6,164 @@ section: research
 
 # Story Engine Regression Suite
 
-Version: **1.0.0-draft**  
-Compatible engine: **2.0.0-rc.3**
+Version: **1.1.0**  
+Compatible engine: **2.0.0-rc.4**  
+Last reviewed: **2026-07-20**
 
-## Test Contract
+## Purpose
 
-Every fixture must declare locked facts, forbidden inventions, target tone, target mood trajectory, voice amplitude, expected discoveries, realization limits, pass conditions, and failure conditions.
+This suite protects voice identity, lens transformation, mood dynamics, reader trust, and RCR depth.
 
----
+The central multi-lens fixture uses one future-dream event with the same canon facts and four different focal configurations.
 
-## SE-V01 — Identity Persistence
+## Shared Canon Facts
 
-**Purpose:** Prove that one Voice Kernel survives comedy, ritual, danger, tenderness, grief, and wonder.
+All four versions preserve:
 
-**Input:** Same neutral beat sheet rendered under six situational filters.
+- an impossible future city;
+- a transparent wall;
+- two differently marked doors;
+- artificial light;
+- a perfect reflection;
+- a person standing motionless toward a wall;
+- a zipper-like sound;
+- mutual fright;
+- an apology;
+- building repairs;
+- confusion about knocking on an open door;
+- awakening before the exchange can finish.
 
-**Pass:** Each version differs in tone, cadence, distance, and mood while retaining the same reader relationship, ethical posture, intelligence style, and diction law.
+The test does **not** require identical information order, emphasis, metaphor, or emotional center.
 
-**Fail:** One version becomes generic, a different author, or a focal character’s internal voice.
+## Fixture A — Erlen
 
----
+**Governing question:** What rule will make the impossible safe enough to approach?
 
-## SE-V02 — Tone–Mood Inversion
+Required:
 
-**Locked voice:** Same profile.  
-**Tone:** Serious in all three runs.
+- pattern testing;
+- strategic timidity;
+- private sarcasm;
+- reflection as an identity event;
+- the figure as a broken rule;
+- mutual impossibility;
+- an ending that changes Erlen’s relationship to strangeness.
 
-Contexts:
+Hidden human truth:
 
-1. trivial object treated as legitimate threat;
-2. actual danger approaching;
-3. small act of hidden care.
+> Erlen enters believing he alone is witnessing the impossible and discovers that the future sees him the same way.
 
-Expected moods:
+Failure conditions:
 
-1. deadpan comedy;
-2. tension;
-3. tenderness.
+- object translation without character transformation;
+- baseline information order preserved by default;
+- generic wonder;
+- no private objective;
+- ending resolves only the plot event.
 
-**Pass:** Mood changes because context and execution change, not because the narrator adopts comic, frightening, or sentimental diction.
+## Fixture B — Katlas
 
----
+**Governing question:** What can this do, and what must be managed?
 
-## SE-V03 — Lens Permeability
+Required:
 
-Render one event through three character lenses.
+- construction and survival logic;
+- exits, weapons, footing, and preparation;
+- concealed rather than absent fear;
+- weather metaphor field;
+- stronger deadpan after danger recedes;
+- intention inferred from tactical behavior.
 
-**Pass:** Attention, sensory weighting, rhythm, and emotional defense change; the stable Voice Kernel remains recognizable.
+Failure conditions:
 
-**Fail:** Each lens reads like a different book, or all three read identically.
+- invulnerability;
+- constant jokes;
+- Katlas replacing the narrator;
+- Erlen-style wonder.
 
----
+## Fixture C — Muyu
 
-## SE-V04 — Voice Amplitude Curve
+**Governing question:** Who is hurt, frightened, or about to become dangerous?
 
-Render one scene with:
+Required:
+
+- breath, balance, posture, pulse, and fall risk;
+- fear converted into stance and action;
+- concern for injury before social ease;
+- regulation of the stranger’s fear;
+- humor lower than Katlas’s version.
+
+Failure conditions:
+
+- clinical exposition;
+- generic compassion;
+- diagnostic certainty without evidence;
+- borrowed Katlas skepticism.
+
+## Fixture D — Luigi / John Doe Control
+
+**Governing question:** What is happening here?
+
+Required:
+
+- narrator identity without developed character metadata;
+- shared human and sensory evidence;
+- only provisional scene-state characterization;
+- mutual embarrassment as a bridge;
+- warm neutral voice without generic prose.
+
+Failure conditions:
+
+- invented biography;
+- borrowed traits;
+- false metaphor field;
+- neutral report prose;
+- compensatory cleverness.
+
+## Cross-Fixture Assertions
+
+The four versions must change:
+
+- perception order;
+- governing question;
+- private objective;
+- metaphor availability;
+- risk interpretation;
+- humor amplitude;
+- emotional center;
+- dialogue purpose;
+- ending significance.
+
+They must preserve:
+
+- canon facts;
+- narrator ethics;
+- accessible language;
+- sensory causality;
+- evidence-first judgment;
+- omniscient restraint;
+- implicit curiosity;
+- reader trust.
+
+## Baseline-Adhesion Regression
+
+A lens pass fails when the baseline already resembles the focal character superficially and the engine therefore transforms it less deeply.
+
+Required check:
 
 ```text
-low pressure → irregularity → concern → immediate danger
+Did the character merely describe the same scene,
+or did the scene become a story only this character could have lived?
 ```
 
-Expected narrator amplitude:
+## Next Stability Battery
 
-```text
-medium-high → medium → low → very low
-```
+After the multi-lens fixture, run:
 
-**Pass:** Commentary withdraws while voice survives through selection, cadence, and omission.
+1. ordinary communal warmth;
+2. multi-character comedy;
+3. immediate violence;
+4. intimate grief;
+5. transcendent wonder.
 
-**Fail:** Voice disappears into generic prose or keeps joking through danger.
-
----
-
-## SE-R01 — Reverse Close Reading Fidelity
-
-Baseline:
-
-```text
-A supervisor is feeding animals.
-The animals return from the children’s shelters.
-The children should follow but do not.
-The supervisor finishes feeding and investigates.
-The shelters are empty.
-```
-
-Locked facts: all five statements.  
-Forbidden inventions: blood, fear in animals, damaged shelters, suspicious obedience, known attackers, confirmed catastrophe.
-
-Expected discoveries:
-
-- broken behavioral pattern;
-- concern revealed through waiting, listening, counting, or slowed action;
-- feeding as metronome;
-- empty shelters as state change;
-- optional emotional defense.
-
-Maximum directly realized discoveries: **4**.
-
-**Pass:** Facts survive; no pressure is fabricated; care is primarily implied.
-
----
-
-## SE-R02 — Pressure Fabrication Adversarial Test
-
-Seeded temptations:
-
-- trembling animal;
-- animal looking backward;
-- strange blood smell;
-- torn entrance;
-- instinct announcing disaster.
-
-**Pass:** Engine rejects all unsupported evidence or labels it as a non-canon proposal.
-
----
-
-## SE-R03 — Exhaustive Analysis / Selective Prose
-
-Require the compiler to identify at least ten valid possibilities.
-
-**Pass:** Final prose realizes no more than four, implies at least two, reserves at least one, and discards the rest with reasons.
-
-**Fail:** Final passage contains every clever observation.
-
----
-
-## SE-M01 — Mood Path Dependence
-
-Two passages end with the same discovery.
-
-Path A:
-
-```text
-comic ease → delay → missing sound → concern → discovery
-```
-
-Path B:
-
-```text
-alarm → running → discovery
-```
-
-**Pass:** End-state mood differs because the path differs.
-
----
-
-## SE-M02 — Inherited Mood
-
-Begin the same scene after:
-
-1. celebration;
-2. a prior attack;
-3. unresolved family conflict.
-
-**Pass:** Initial emotional residue changes interpretation without altering current facts.
-
----
-
-## HUM-V01 — Humane Deadpan Acceptance
-
-Profile: `story-profile.humane`.
-
-Baseline:
-
-```text
-Katlas evaluates a mushroom before eating it.
-```
-
-**Pass:** Serious tone and practical interpretation create humor. The narrator does not call the mushroom funny, ridiculous, or hilarious.
-
----
-
-## HUM-R01 — Katlas, Dogs, and Minwicks
-
-Baseline:
-
-```text
-Katlas calls the dogs.
-He feeds them deer meat.
-He expects the children behind them.
-One minwick, two minwicks, three minwicks pass.
-The last deer piece is distributed.
-Katlas investigates.
-The children’s velths are empty.
-```
-
-Locked facts: every line above.  
-Forbidden inventions: fear, blood, damaged velths, supernatural warning, known danger.  
-Target trajectory: routine warmth → comic familiarity → irregularity → concern → unease.  
-Amplitude: medium → medium → low → low.
-
-Expected discoveries:
-
-- children are recognized through expected noise and disorder;
-- Katlas’s care appears as practical attention;
-- feeding acts as metronome;
-- the third minwick changes absence into a problem;
-- the scene’s own full-to-empty contrast is stronger than an imported bear simile.
-
-**Pass:** The narrator remains Humane, humor withdraws naturally, and no explicit “Katlas cared” sentence is required.
-
----
-
-## HUM-R02 — Chapter 0 Opening RCR
-
-Baseline:
-
-```text
-Katlas planned everything for today since yesterday.
-He was stuck supervising children.
-Some people thought it was because he had lost a bet.
-He pretended to enjoy the duty in front of the children.
-```
-
-Expected discoveries:
-
-- planning becomes managed mistakes rather than impossible control;
-- rumor precedes explanation;
-- behavior replaces psychological labels;
-- care hides behind inconvenience and denial;
-- the opening raises a promise rather than completing a biography.
-
-**Pass:** The transformed opening remains factually faithful, causally promising, character-revealing, and selective.
-
----
-
-## SE-L01 — Legacy Migration
-
-Load legacy narrator data through a migration adapter.
-
-**Pass:** Stable identity fields map into the Voice Kernel; character-specific lenses are flagged for character modules; project canon is not copied into the generic engine.
-
----
-
-# Suite-Level Pass Conditions
-
-- JSON fixtures validate.
-- Generic engine tests contain no binding Humane canon.
-- Humane tests are clearly marked as project acceptance fixtures.
-- Seeded pressure fabrication is rejected.
-- Voice identity remains recognizable without constant performance.
-- Mood is produced through configuration and accumulation.
-- Reverse Close Reading preserves truth.
-- Selective Realization prevents analysis leakage.
+Stable canon requires the same narrator to survive all five without depending on one repeated rhetorical trick.
