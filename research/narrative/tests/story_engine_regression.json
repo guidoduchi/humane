@@ -1,243 +1,40 @@
 {
-  "metadata": {
-    "id": "STORY-ENGINE-REGRESSION-001",
-    "version": "1.0.0-draft",
-    "compatible_engine": "2.0.0-rc.3",
-    "date": "2026-07-17"
-  },
-  "fixture_contract": [
-    "test_id",
-    "profile",
-    "input_baseline",
-    "loaded_canon",
-    "scene_state",
-    "locked_facts",
-    "forbidden_inventions",
-    "target_tone_trajectory",
-    "target_mood_trajectory",
-    "voice_amplitude_curve",
-    "expected_discoveries",
-    "maximum_realized_discoveries",
-    "seeded_failures",
-    "pass_conditions",
-    "failure_conditions",
-    "golden_reference_behavior"
-  ],
-  "tests": [
+  "suite_id": "story-engine-regression",
+  "version": "1.1.0",
+  "compatible_engine": "2.0.0-rc.4",
+  "last_reviewed": "2026-07-20",
+  "fixtures": [
     {
-      "test_id": "SE-V01",
-      "name": "identity_persistence",
-      "purpose": "Same Voice Kernel across comedy, ritual, danger, tenderness, grief, and wonder.",
-      "pass_conditions": [
-        "stable_reader_relationship",
-        "stable_ethics",
-        "stable_intelligence_style",
-        "modulated_tone_cadence_distance"
-      ],
-      "failure_conditions": [
-        "generic_version",
-        "different_author",
-        "lens_replaces_voice"
-      ]
+      "id": "future-dream-erlen",
+      "purpose": "Detect baseline adhesion and verify a deeply transformed Erlen lens.",
+      "canon_facts": ["future_city", "transparent_wall", "two_marked_doors", "artificial_light", "perfect_reflection", "motionless_stranger", "zipper_sound", "mutual_fright", "apology", "repairs", "open_door_confusion", "awakening_before_reply"],
+      "governing_question": "What rule will make the impossible safe enough to approach?",
+      "required": ["pattern_testing", "strategic_timidity", "private_sarcasm", "reflection_as_identity_event", "mutual_impossibility", "character_specific_ending"],
+      "forbidden": ["object_translation_only", "baseline_information_order_by_default", "generic_wonder", "explicit_future_explanation"],
+      "hidden_human_truth": "Erlen discovers that strangeness can be mutual."
     },
     {
-      "test_id": "SE-V02",
-      "name": "tone_mood_inversion",
-      "tone": "serious",
-      "contexts": [
-        "absurd_trivial_problem",
-        "actual_danger",
-        "hidden_care"
-      ],
-      "expected_moods": [
-        "deadpan_comedy",
-        "tension",
-        "tenderness"
-      ]
+      "id": "future-dream-katlas",
+      "purpose": "Verify lens permeability, practical threat analysis, weather metaphor field, and controlled deadpan.",
+      "governing_question": "What can this do, and what must be managed?",
+      "required": ["construction_logic", "food_and_labor_questions", "exit_check", "concealed_fear", "weather_metaphors", "intention_from_tactical_evidence"],
+      "forbidden": ["fearlessness", "constant_jokes", "Erlen_style_wonder"]
     },
     {
-      "test_id": "SE-V03",
-      "name": "lens_permeability",
-      "pass_conditions": [
-        "attention_changes",
-        "sensory_weighting_changes",
-        "emotional_defense_changes",
-        "voice_survives"
-      ]
+      "id": "future-dream-muyu",
+      "purpose": "Verify bodily triage, care under pressure, and low humor amplitude.",
+      "governing_question": "Who is hurt, frightened, or about to become dangerous?",
+      "required": ["breath", "balance", "fall_risk", "injury_check", "fear_regulation", "care_before_explanation"],
+      "forbidden": ["medical_exposition", "Katlas_style_judgment", "generic_compassion"]
     },
     {
-      "test_id": "SE-V04",
-      "name": "voice_amplitude_curve",
-      "pressure": [
-        "low",
-        "irregularity",
-        "concern",
-        "danger"
-      ],
-      "expected_amplitude": [
-        "medium_high",
-        "medium",
-        "low",
-        "very_low"
-      ]
-    },
-    {
-      "test_id": "SE-R01",
-      "name": "rcr_fidelity",
-      "input_baseline": [
-        "A supervisor is feeding animals.",
-        "The animals return from the children's shelters.",
-        "The children should follow but do not.",
-        "The supervisor finishes feeding and investigates.",
-        "The shelters are empty."
-      ],
-      "forbidden_inventions": [
-        "blood",
-        "animal_fear",
-        "damage",
-        "suspicious_obedience",
-        "known_attacker",
-        "confirmed_catastrophe"
-      ],
-      "expected_discoveries": [
-        "broken_pattern",
-        "care_through_behavior",
-        "feeding_metronome",
-        "empty_shelters_state_change",
-        "optional_emotional_defense"
-      ],
-      "maximum_realized_discoveries": 4
-    },
-    {
-      "test_id": "SE-R02",
-      "name": "pressure_fabrication_adversarial",
-      "seeded_failures": [
-        "trembling_animal",
-        "looking_back",
-        "blood_smell",
-        "torn_entrance",
-        "instinct_announces_disaster"
-      ],
-      "pass_conditions": [
-        "reject_or_label_non_canon_proposal"
-      ]
-    },
-    {
-      "test_id": "SE-R03",
-      "name": "exhaustive_analysis_selective_prose",
-      "minimum_internal_discoveries": 10,
-      "maximum_realized_discoveries": 4,
-      "requirements": [
-        "imply_at_least_two",
-        "reserve_at_least_one",
-        "discard_with_reasons"
-      ]
-    },
-    {
-      "test_id": "SE-M01",
-      "name": "mood_path_dependence",
-      "paths": [
-        [
-          "comic_ease",
-          "delay",
-          "missing_sound",
-          "concern",
-          "discovery"
-        ],
-        [
-          "alarm",
-          "running",
-          "discovery"
-        ]
-      ],
-      "pass_conditions": [
-        "different_end_state_mood_despite_same_discovery"
-      ]
-    },
-    {
-      "test_id": "SE-M02",
-      "name": "inherited_mood",
-      "prior_states": [
-        "celebration",
-        "prior_attack",
-        "family_conflict"
-      ],
-      "pass_conditions": [
-        "different_interpretation_without_changed_current_facts"
-      ]
-    },
-    {
-      "test_id": "HUM-V01",
-      "name": "humane_deadpan_acceptance",
-      "profile": "story-profile.humane",
-      "baseline": "Katlas evaluates a mushroom before eating it.",
-      "pass_conditions": [
-        "serious_tone",
-        "comic_mood",
-        "no_explicit_funny_label"
-      ]
-    },
-    {
-      "test_id": "HUM-R01",
-      "name": "katlas_dogs_minwicks",
-      "profile": "story-profile.humane",
-      "locked_facts": [
-        "Katlas calls the dogs.",
-        "He feeds them deer meat.",
-        "He expects the children behind them.",
-        "Three minwicks pass.",
-        "The last deer piece is distributed.",
-        "Katlas investigates.",
-        "The velths are empty."
-      ],
-      "forbidden_inventions": [
-        "fear",
-        "blood",
-        "damage",
-        "supernatural_warning",
-        "known_danger"
-      ],
-      "target_mood_trajectory": [
-        "routine_warmth",
-        "comic_familiarity",
-        "irregularity",
-        "concern",
-        "unease"
-      ],
-      "expected_discoveries": [
-        "expected_child_noise",
-        "care_as_practical_attention",
-        "feeding_metronome",
-        "third_minwick_threshold",
-        "full_to_empty_contrast"
-      ]
-    },
-    {
-      "test_id": "HUM-R02",
-      "name": "chapter_zero_opening_rcr",
-      "profile": "story-profile.humane",
-      "baseline": [
-        "Katlas planned everything for today since yesterday.",
-        "He was stuck supervising children.",
-        "Some people thought it was because he had lost a bet.",
-        "He pretended to enjoy the duty in front of the children."
-      ],
-      "expected_discoveries": [
-        "managed_mistakes",
-        "rumor_before_explanation",
-        "behavior_not_label",
-        "care_hidden_as_inconvenience",
-        "opening_promise"
-      ]
-    },
-    {
-      "test_id": "SE-L01",
-      "name": "legacy_migration",
-      "pass_conditions": [
-        "stable_identity_maps_to_voice_kernel",
-        "character_lenses_flagged_for_character_modules",
-        "no_project_canon_in_generic_engine"
-      ]
+      "id": "future-dream-luigi-control",
+      "purpose": "Verify narrator identity when the character lens contains almost no prior information.",
+      "governing_question": "What is happening here?",
+      "required": ["shared_sensory_evidence", "provisional_scene_state_only", "narrator_voice_persistence", "mutual_embarrassment"],
+      "forbidden": ["invented_backstory", "borrowed_character_traits", "generic_report_prose"]
     }
-  ]
+  ],
+  "cross_fixture_assertions": ["same_canon_facts", "different_perception_order", "different_governing_question", "different_emotional_center", "different_metaphor_availability", "different_risk_interpretation", "same_narrator_ethics", "same_reader_trust", "same_omniscient_restraint", "same_accessible_language"],
+  "future_stability_battery": ["ordinary_communal_warmth", "multi_character_comedy", "immediate_violence", "intimate_grief", "transcendent_wonder"]
 }
