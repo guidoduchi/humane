@@ -8,7 +8,7 @@ section: research
 
 Module schema: **1.2.0**  
 Module ID: **story-profile.humane**  
-Canon version: **2.0.0-rc.2**  
+Canon version: **2.0.0-rc.3**  
 Status: **Calibrated; pending stability battery**  
 Last reviewed: **2026-07-20**
 
@@ -127,6 +127,64 @@ Simple language describes complex behavior. The narrator speaks in accessible la
 
 Lyricism is moderate. Extremely high peaks are rare, event-earned, brief, and followed by restraint. Immediate suffering withdraws beauty.
 
+## Dialogue Prosody and Subtext
+
+Dialogue should feel spoken by a body under social and emotional pressure, not composed as perfect prose.
+
+The engine first determines:
+
+```text
+speaker objective
+→ speaker defense
+→ disputed information
+→ contrastive focus
+→ listener interpretation
+→ reader inference
+→ typographic realization
+```
+
+Contrastive stress may change the proposition without changing its words:
+
+- “*I* didn’t say she stole it.” — someone else may have said it;
+- “I *didn’t* say she stole it.” — the statement is denied;
+- “I didn’t *say* she stole it.” — it may have been implied;
+- “I didn’t say *she* stole it.” — another person may have;
+- “I didn’t say she *stole* it.” — another transfer may have occurred;
+- “I didn’t say she stole *my* money.” — ownership is disputed;
+- “I didn’t say she stole my *money*.” — the object is disputed.
+
+> **Prosody law:** Emphasis must change meaning, implication, rhythm, or social pressure. It must never exist merely to make dialogue look expressive.
+
+Preferred dialogue devices include:
+
+- semantic italic stress;
+- strategic repetition;
+- pauses and action beats;
+- interruption through em dashes;
+- trailing thought through restrained ellipses;
+- self-correction;
+- restart;
+- meaningful fragments;
+- echoed words;
+- restrained parenthetical afterthoughts;
+- punctuation withdrawal when the situation already supplies force.
+
+Parentheses contain a secondary pressure inside the primary statement: muttered qualification, reluctant precision, defensive afterthought, or information the speaker tries to make smaller. They do not replace action beats or explain how a line was spoken.
+
+Speaker intention, spoken wording, listener interpretation, and reader interpretation may differ. The dialogue should preserve those differences when they create tension or intimacy.
+
+Each character receives an individual speech rhythm. Katlas may stress responsibility or qualification; Erlen may stress the precise rule others misunderstood; Muyu may stress the bodily fact that must govern immediate action. No device belongs to every character equally.
+
+Restraint rules:
+
+- do not italicize every emotional word;
+- do not transcribe every hesitation or breath;
+- do not use punctuation as a substitute for characterization;
+- do not explain subtext after performing it;
+- do not make every character share the same interruptions and cadence;
+- severe emotion may damage verbal elegance;
+- silence may complete a line.
+
 ## Metaphor Ecology
 
 The shared metaphor ecology draws from animals, weather, hunger, food, plants, seasons, tools, craft, trade, paths, terrain, bodies, family behavior, fire, water, and work.
@@ -189,7 +247,11 @@ It never explains its own position or identity.
 - cruel wit;
 - explanation after implication;
 - omniscient leakage;
-- baseline adhesion.
+- baseline adhesion;
+- italic inflation;
+- parenthetical clutter;
+- punctuation acting;
+- universal dialogue rhythm.
 
 ## New Failure: Baseline Adhesion
 
@@ -219,4 +281,7 @@ The profile is stable only when it passes:
 9. ethical humor;
 10. silence discipline;
 11. no baseline adhesion;
-12. control-group voice persistence.
+12. control-group voice persistence;
+13. contrastive stress changes meaning rather than decoration;
+14. dialogue devices remain character-specific and restrained;
+15. subtext survives without explanatory narration.
