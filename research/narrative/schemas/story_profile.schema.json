@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://humane.local/schemas/story_profile.schema.json",
+  "title": "Story Profile Module",
+  "description": "Defines a project-specific narrator identity compatible with Story Engine 2.x.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "module_schema",
+    "module_id",
+    "module_type",
+    "canon_version",
+    "status",
+    "voice_kernel"
+  ],
+  "properties": {
+    "module_schema": {"type": "string"},
+    "module_id": {"type": "string"},
+    "module_type": {"const": "story_profile"},
+    "canon_version": {"type": "string"},
+    "status": {"type": "string"},
+    "compatible_story_engine_schema": {"type": "string"},
+    "last_reviewed": {"type": "string", "format": "date"},
+    "scope_boundary": {"type": "string"},
+    "voice_kernel": {
+      "type": "object",
+      "required": ["identity", "affection_model", "judgment_model", "intelligence_order", "resting_voice"],
+      "additionalProperties": true
+    },
+    "humor_kernel": {
+      "type": "object",
+      "required": ["preferred_sources", "delivery_law", "target_ethics", "amplitude"],
+      "additionalProperties": true
+    },
+    "emotional_kernel": {
+      "type": "object",
+      "required": ["tenderness", "suffering_behavior", "development"],
+      "additionalProperties": true
+    },
+    "knowledge_kernel": {
+      "type": "object",
+      "required": ["ontological_capacity", "default_delivery", "foreshadowing"],
+      "additionalProperties": true
+    },
+    "reader_relationship": {
+      "type": "object",
+      "required": ["identity", "knowledge_mode", "direct_address", "metacommentary"],
+      "additionalProperties": true
+    },
+    "language_and_imagery": {"type": "object", "additionalProperties": true},
+    "narrator_silence": {
+      "type": "object",
+      "required": ["law", "precision_counterlaw"],
+      "additionalProperties": true
+    },
+    "lens_system": {
+      "type": "object",
+      "required": ["voice_kernel_supplies", "character_lens_supplies", "lens_transformation_requirements"],
+      "additionalProperties": true
+    },
+    "absolute_prohibitions": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "spoiler_safe_soul": {"type": "string"},
+    "acceptance_tests": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    }
+  }
+}

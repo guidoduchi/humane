@@ -1,0 +1,179 @@
+{
+  "metadata": {
+    "id": "STORY-ENGINE-CORE-002",
+    "name": "Story Engine",
+    "version": "2.0.0-rc.5",
+    "engine_schema": "2.0.0",
+    "canon_module_schema": "1.0.0",
+    "story_profile_schema": "1.2.0",
+    "status": "release_candidate_calibrated_voice_and_dialogue_runtime",
+    "date": "2026-07-20",
+    "separation_law": "Story Engine governs how; Canon Modules govern what is true; Story Profile governs who tells."
+  },
+  "pipeline": [
+    "story_profile",
+    "voice_kernel",
+    "reverse_close_reading",
+    "narrative_possibility_map",
+    "lens_and_situational_filter",
+    "tone_and_mood_trajectory",
+    "voice_amplitude",
+    "dialogue_prosody_and_subtext",
+    "selective_realization",
+    "render",
+    "verification"
+  ],
+  "reverse_close_reading": {
+    "law": "Do not decorate the baseline. Discover what the baseline has not yet learned to say.",
+    "stages": [
+      "truth_preservation",
+      "causal_skeleton",
+      "latent_contradiction",
+      "hidden_human_truth",
+      "expected_pattern",
+      "reader_question",
+      "information_order",
+      "behavioral_conversion",
+      "rhetorical_opportunity",
+      "material_grounding",
+      "mood_trajectory",
+      "risk_analysis"
+    ],
+    "lens_recompilation": {
+      "law": "A plot summary reports what happened; a character lens determines what the happening becomes.",
+      "required": [
+        "active_desire",
+        "governing_question",
+        "perception_priority",
+        "uncertainty_strategy",
+        "character_specific_human_truth",
+        "character_specific_emotional_center",
+        "ending_effect",
+        "information_order_reconsidered"
+      ]
+    }
+  },
+  "narrative_possibility_map": {
+    "statuses": ["realize_now", "imply_only", "reserve_for_later", "discard"],
+    "law": "Analysis may be exhaustive; prose must be selective."
+  },
+  "voice_runtime": {
+    "identity_source": "story_profile.voice_kernel",
+    "lens_role": "selective_pressure_not_voice_replacement",
+    "situation_role": "amplitude_and_permission",
+    "mood_role": "accumulated_reader_state",
+    "control_group_rule": "When lens data is sparse, preserve narrator identity and infer only scene-state traits."
+  },
+  "knowledge_and_curiosity": {
+    "knowledge_is_capability_not_permission": true,
+    "question_classes": ["promised", "deferred", "interpretive", "horizon"],
+    "question_law": "Every created question must know what kind of answer it is owed.",
+    "foreshadowing_law": "Create memory before meaning.",
+    "explicit_foreshadowing_forbidden": true
+  },
+  "humor_controller": {
+    "inputs": ["target_mood", "stakes", "ethical_target", "character_authenticity"],
+    "law": "Narratorial humor approaches zero before authentic character-defense humor does.",
+    "ethical_gate": "Never make vulnerability the comic target."
+  },
+  "dialogue_prosody_and_subtext": {
+    "purpose": "Render spoken meaning beyond literal wording while preserving character-specific rhythm and reader inference.",
+    "analysis_order": [
+      "speaker_objective",
+      "speaker_defense",
+      "disputed_information",
+      "contrastive_focus",
+      "listener_interpretation",
+      "reader_inference",
+      "typographic_realization"
+    ],
+    "core_law": "Emphasis must change meaning, implication, rhythm, or social pressure; it may not exist merely to make dialogue look expressive.",
+    "meaning_channels": [
+      "literal_words",
+      "prosodic_focus",
+      "speaker_intention",
+      "social_context",
+      "listener_interpretation",
+      "reader_interpretation"
+    ],
+    "devices": [
+      "semantic_italic_stress",
+      "strategic_repetition",
+      "pause",
+      "action_beat",
+      "em_dash_interruption",
+      "restrained_ellipsis",
+      "self_correction",
+      "restart",
+      "meaningful_fragment",
+      "echo",
+      "parenthetical_afterthought",
+      "punctuation_withdrawal"
+    ],
+    "parenthetical_law": "Parentheses contain a secondary pressure inside the primary statement and may not merely explain delivery.",
+    "character_specificity": "Speech rhythm, emphasis habits, interruption patterns, and verbal defenses belong to individual character profiles.",
+    "restraint": [
+      "no_italic_inflation",
+      "no_transcript_literalism",
+      "no_parenthetical_clutter",
+      "no_punctuation_as_characterization_substitute",
+      "no_subtext_explanation_after_performance",
+      "no_universal_dialogue_rhythm",
+      "severe_emotion_may_reduce_verbal_elegance",
+      "silence_may_complete_the_line"
+    ]
+  },
+  "silence_gate": {
+    "law": "Withdraw interpretation when it would steal ownership of an experience.",
+    "precision_counterlaw": "Increase exactness when silence would erase a person."
+  },
+  "metaphor_selector": {
+    "priority": ["world_ecology", "character_field", "situation", "target_mood", "sensory_relevance"],
+    "law": "A metaphor should reveal what the observing mind already knows how to notice."
+  },
+  "verification": {
+    "required_checks": [
+      "canon_truth",
+      "causal_integrity",
+      "voice_identity",
+      "lens_transformation",
+      "mood_path",
+      "humor_ethics",
+      "dialogue_semantic_focus",
+      "dialogue_character_specificity",
+      "typographic_restraint",
+      "subtext_preservation",
+      "silence_discipline",
+      "reader_trust",
+      "selective_realization",
+      "baseline_adhesion"
+    ],
+    "baseline_adhesion_test": [
+      "did_lens_change_what_matters",
+      "did_lens_change_first_notice",
+      "is_private_objective_present",
+      "is_hidden_truth_character_specific",
+      "does_ending_affect_character",
+      "could_prose_transfer_unchanged"
+    ]
+  },
+  "failure_taxonomy": {
+    "voice": ["voice_dropout", "voice_overamplitude", "voice_replacement", "lens_takeover", "wrong_book_beauty"],
+    "mood": ["tone_mood_confusion", "mood_command", "mood_discontinuity", "mood_saturation", "pressure_fabrication"],
+    "rcr": ["decoration", "under_extraction", "canon_drift", "analysis_leakage", "over_realization", "false_inference", "path_flattening", "baseline_adhesion"],
+    "dialogue": [
+      "italic_inflation",
+      "emotional_underlining",
+      "transcript_literalism",
+      "parenthetical_clutter",
+      "universal_dialogue_rhythm",
+      "subtext_explanation",
+      "punctuation_acting",
+      "perfect_emotion_eloquence",
+      "semantic_emphasis_without_contrast"
+    ],
+    "ethics": ["false_balance", "premature_judgment", "excessive_forgiveness", "cruel_wit", "punching_down", "consolation_theft", "beautiful_suffering"],
+    "reader": ["reader_instruction", "question_spam", "arbitrary_withholding", "trust_debt", "smug_omniscience"],
+    "style": ["detached", "overly_literary", "relentlessly_clever", "generic", "sensory_catalogue"]
+  }
+}

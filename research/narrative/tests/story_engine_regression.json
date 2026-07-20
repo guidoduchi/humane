@@ -1,0 +1,78 @@
+{
+  "suite_id": "story-engine-regression",
+  "version": "1.2.0",
+  "compatible_engine": "2.0.0-rc.5",
+  "last_reviewed": "2026-07-20",
+  "fixtures": [
+    {
+      "id": "future-dream-erlen",
+      "purpose": "Detect baseline adhesion and verify a deeply transformed Erlen lens.",
+      "canon_facts": ["future_city", "transparent_wall", "two_marked_doors", "artificial_light", "perfect_reflection", "motionless_stranger", "zipper_sound", "mutual_fright", "apology", "repairs", "open_door_confusion", "awakening_before_reply"],
+      "governing_question": "What rule will make the impossible safe enough to approach?",
+      "required": ["pattern_testing", "strategic_timidity", "private_sarcasm", "reflection_as_identity_event", "mutual_impossibility", "character_specific_ending"],
+      "forbidden": ["object_translation_only", "baseline_information_order_by_default", "generic_wonder", "explicit_future_explanation"],
+      "hidden_human_truth": "Erlen discovers that strangeness can be mutual."
+    },
+    {
+      "id": "future-dream-katlas",
+      "purpose": "Verify lens permeability, practical threat analysis, weather metaphor field, and controlled deadpan.",
+      "governing_question": "What can this do, and what must be managed?",
+      "required": ["construction_logic", "food_and_labor_questions", "exit_check", "concealed_fear", "weather_metaphors", "intention_from_tactical_evidence"],
+      "forbidden": ["fearlessness", "constant_jokes", "Erlen_style_wonder"]
+    },
+    {
+      "id": "future-dream-muyu",
+      "purpose": "Verify bodily triage, care under pressure, and low humor amplitude.",
+      "governing_question": "Who is hurt, frightened, or about to become dangerous?",
+      "required": ["breath", "balance", "fall_risk", "injury_check", "fear_regulation", "care_before_explanation"],
+      "forbidden": ["medical_exposition", "Katlas_style_judgment", "generic_compassion"]
+    },
+    {
+      "id": "future-dream-luigi-control",
+      "purpose": "Verify narrator identity when the character lens contains almost no prior information.",
+      "governing_question": "What is happening here?",
+      "required": ["shared_sensory_evidence", "provisional_scene_state_only", "narrator_voice_persistence", "mutual_embarrassment"],
+      "forbidden": ["invented_backstory", "borrowed_character_traits", "generic_report_prose"]
+    },
+    {
+      "id": "dialogue-contrastive-focus",
+      "purpose": "Verify that typographic emphasis changes semantic focus rather than merely adding emotional intensity.",
+      "baseline": "I didn't say she stole my money.",
+      "focus_readings": {
+        "I": "another_speaker",
+        "didn't": "statement_denied",
+        "say": "possibly_implied",
+        "she": "another_actor",
+        "stole": "another_transfer",
+        "my": "ownership_disputed",
+        "money": "another_object"
+      },
+      "required": [
+        "speaker_objective_before_typography",
+        "speaker_defense",
+        "listener_interpretation",
+        "semantic_italic_stress",
+        "character_specific_rhythm",
+        "subtext_without_explanation"
+      ],
+      "forbidden": [
+        "italic_inflation",
+        "emotional_underlining_without_contrast",
+        "transcript_literalism",
+        "parenthetical_clutter",
+        "punctuation_acting",
+        "universal_dialogue_rhythm",
+        "perfect_emotion_eloquence"
+      ]
+    }
+  ],
+  "cross_fixture_assertions": ["same_canon_facts", "different_perception_order", "different_governing_question", "different_emotional_center", "different_metaphor_availability", "different_risk_interpretation", "same_narrator_ethics", "same_reader_trust", "same_omniscient_restraint", "same_accessible_language"],
+  "dialogue_assertions": [
+    "emphasis_changes_meaning_or_social_pressure",
+    "parentheses_add_secondary_pressure",
+    "speaker_intention_may_differ_from_listener_interpretation",
+    "typography_follows_character_and_mood",
+    "silence_may_complete_dialogue"
+  ],
+  "future_stability_battery": ["ordinary_communal_warmth", "multi_character_comedy", "immediate_violence", "intimate_grief", "transcendent_wonder"]
+}
