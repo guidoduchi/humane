@@ -2,7 +2,7 @@
   "module_schema": "1.2.0",
   "module_id": "story-profile.humane",
   "module_type": "story_profile",
-  "canon_version": "2.0.0-rc.2",
+  "canon_version": "2.0.0-rc.3",
   "status": "calibrated_pending_stability_battery",
   "compatible_story_engine_schema": ">=2.0.0 <3.0.0",
   "last_reviewed": "2026-07-20",
@@ -129,22 +129,8 @@
     },
     "development": {
       "required_pressure": "meaningful_suffering",
-      "mechanism": [
-        "pressure",
-        "suffering",
-        "choice",
-        "consequence",
-        "transformation"
-      ],
-      "outcomes": [
-        "growth",
-        "damage",
-        "hardening",
-        "regression",
-        "corruption",
-        "adaptation",
-        "refusal"
-      ],
+      "mechanism": ["pressure", "suffering", "choice", "consequence", "transformation"],
+      "outcomes": ["growth", "damage", "hardening", "regression", "corruption", "adaptation", "refusal"],
       "law": "Suffering creates the necessity and possibility of development; choice determines its direction."
     }
   },
@@ -171,20 +157,8 @@
     "foreshadowing": {
       "mode": "implicit_only",
       "law": "Create memory before meaning.",
-      "methods": [
-        "sensory_trace",
-        "behavioral_pattern",
-        "missing_expectation",
-        "recurring_object",
-        "causal_seed",
-        "information_order"
-      ],
-      "forbidden": [
-        "explicit_future_warning",
-        "little_did_they_know",
-        "last_time_declaration",
-        "narrator_announcing_importance"
-      ]
+      "methods": ["sensory_trace", "behavioral_pattern", "missing_expectation", "recurring_object", "causal_seed", "information_order"],
+      "forbidden": ["explicit_future_warning", "little_did_they_know", "last_time_declaration", "narrator_announcing_importance"]
     }
   },
   "reader_relationship": {
@@ -194,21 +168,9 @@
     "direct_address": false,
     "metacommentary": false,
     "indirect_wink": "central",
-    "interaction_methods": [
-      "qualification",
-      "contradiction",
-      "information_order",
-      "behavioral_evidence",
-      "controlled_omission",
-      "shared_recognition"
-    ],
+    "interaction_methods": ["qualification", "contradiction", "information_order", "behavioral_evidence", "controlled_omission", "shared_recognition"],
     "assumes_reader_intelligence": true,
-    "question_classes": [
-      "promised",
-      "deferred",
-      "interpretive",
-      "horizon"
-    ],
+    "question_classes": ["promised", "deferred", "interpretive", "horizon"],
     "question_law": "Every created question must know what kind of answer it is owed."
   },
   "language_and_imagery": {
@@ -237,11 +199,63 @@
     "character_metaphor_fields": {
       "required": true,
       "rule": "A metaphor should reveal what the observing mind already knows how to notice.",
-      "example": {
-        "character": "Katlas",
-        "dominant_source": "weather"
-      }
+      "example": {"character": "Katlas", "dominant_source": "weather"}
     }
+  },
+  "dialogue_behavior": {
+    "naturalism": "selectively_heightened",
+    "prosody": "dynamic",
+    "subtext_priority": "high",
+    "reader_inference": "required",
+    "analysis_order": [
+      "speaker_objective",
+      "speaker_defense",
+      "disputed_information",
+      "contrastive_focus",
+      "listener_interpretation",
+      "reader_inference",
+      "typographic_realization"
+    ],
+    "law": "Dialogue should feel spoken by a body under social and emotional pressure, not composed as perfect prose.",
+    "prosody_law": "Emphasis must change meaning, implication, rhythm, or social pressure.",
+    "preferred_methods": [
+      "semantic_italic_stress",
+      "qualification",
+      "strategic_repetition",
+      "pause",
+      "action_beat",
+      "interruption",
+      "self_correction",
+      "restart",
+      "meaningful_fragment",
+      "echo",
+      "restrained_parenthetical_pressure",
+      "punctuation_withdrawal"
+    ],
+    "parenthetical_law": "Parentheses contain a secondary pressure inside the primary statement and may not merely explain delivery.",
+    "interpretation_split": [
+      "speaker_intention",
+      "spoken_wording",
+      "listener_interpretation",
+      "reader_interpretation"
+    ],
+    "character_specificity": {
+      "required": true,
+      "rule": "No emphasis habit, interruption pattern, or speech rhythm belongs equally to every character."
+    },
+    "restrictions": [
+      "italics_must_carry_semantic_contrast",
+      "no_italic_inflation",
+      "no_transcript_literalism",
+      "parentheses_must_add_secondary_pressure",
+      "no_parenthetical_clutter",
+      "punctuation_must_follow_character_and_mood",
+      "no_punctuation_acting",
+      "no_subtext_explanation_after_performance",
+      "no_universal_dialogue_rhythm",
+      "severe_emotion_may_reduce_verbal_elegance",
+      "silence_may_complete_the_line"
+    ]
   },
   "narrator_silence": {
     "law": "The narrator falls silent when interpretation would steal an experience from the person living it.",
@@ -282,7 +296,11 @@
     "reader_instruction",
     "explicit_foreshadowing",
     "manufactured_consolation",
-    "cruel_wit"
+    "cruel_wit",
+    "italic_inflation",
+    "parenthetical_clutter",
+    "punctuation_acting",
+    "universal_dialogue_rhythm"
   ],
   "spoiler_safe_soul": "The narrator feels intimately familiar with human suffering while remaining affectionately astonished by human behavior. It preserves people through gestures, choices, sensory presence, contradictions, relationships, and consequences. It never explains its own position or identity.",
   "acceptance_tests": [
@@ -297,6 +315,10 @@
     "ethical_humor",
     "silence_discipline",
     "no_baseline_adhesion",
-    "control_group_voice_persistence"
+    "control_group_voice_persistence",
+    "contrastive_stress_changes_meaning",
+    "dialogue_devices_are_character_specific",
+    "typography_remains_restrained",
+    "subtext_survives_without_explanation"
   ]
 }
